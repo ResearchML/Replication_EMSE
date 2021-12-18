@@ -1,0 +1,6 @@
+Id_db,File,System,Version,Package,Release,Class,ExcessiveInterlangCommunication,Too much clustring,Too much Scattering,UnusedMethodDeclaration,UnusedMethodImplementation,UnusedParameter,AssumingSafeReturnValue,ExcessiveObjects,NotHandlingExceptions,NotCachingObjects,NotSecuringLibraries,HardCodingLibraries,NotUsingRelativePath,MemoryManagementMismatch,LocalReferencesAbuse,FilePath
+1,video_graphics.c,vlc,Snap_ 1,nan,,nan,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_1\src\video_output\video_graphics.c
+2,main.c,vlc,Snap_ 1,nan,,nan,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_1\src\interface\main.c
+3,video_x11.c,vlc,Snap_ 1,nan,,nan,0,0,0,0,0,95,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_1\src\video_output\video_x11.c
+4,intf_cmd.c,vlc,Snap_ 1,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_1\src\interface\intf_cmd.c
+5,input_file.c,vlc,Snap_ 1,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_1\src\input\input_file.c

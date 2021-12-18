@@ -1,0 +1,26 @@
+Id_db,File,System,Version,Package,Release,Class,ExcessiveInterlangCommunication,Too much clustring,Too much Scattering,UnusedMethodDeclaration,UnusedMethodImplementation,UnusedParameter,AssumingSafeReturnValue,ExcessiveObjects,NotHandlingExceptions,NotCachingObjects,NotSecuringLibraries,HardCodingLibraries,NotUsingRelativePath,MemoryManagementMismatch,LocalReferencesAbuse,FilePath
+1,vpar_blocks.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,41,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\src\video_parser\vpar_blocks.c
+2,vdec_motion.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\src\video_decoder\vdec_motion.c
+3,ac3_bit_allocate.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\src\ac3_decoder\ac3_bit_allocate.c
+4,ac3_imdct.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\src\ac3_decoder\ac3_imdct.c
+5,intf_fb.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\plugins\fb\intf_fb.c
+6,main.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\src\interface\main.c
+7,video_text.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\src\video_output\video_text.c
+8,ac3_exponent.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\src\ac3_decoder\ac3_exponent.c
+9,vout_glide.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\plugins\glide\vout_glide.c
+10,video_output.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\src\video_output\video_output.c
+11,video_decoder.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\src\video_decoder\video_decoder.c
+12,vpar_synchro.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\src\video_parser\vpar_synchro.c
+13,vout_gnome.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\plugins\gnome\vout_gnome.c
+14,vout_mga.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\plugins\mga\vout_mga.c
+15,vout_fb.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\plugins\fb\vout_fb.c
+16,vout_beos.cpp,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\plugins\beos\vout_beos.cpp
+17,aout_dummy.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\plugins\dummy\aout_dummy.c
+18,intf_cmd.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\src\interface\intf_cmd.c
+19,video_yuv.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\plugins\yuvmmx\video_yuv.c
+20,vout_x11.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\plugins\x11\vout_x11.c
+21,vout_dummy.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\plugins\dummy\vout_dummy.c
+22,plugins.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\src\misc\plugins.c
+23,vout_ggi.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\plugins\ggi\vout_ggi.c
+24,vdec_idct.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\src\video_decoder\vdec_idct.c
+25,input_file.c,vlc,Snap_ 4,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_4\src\input\input_file.c

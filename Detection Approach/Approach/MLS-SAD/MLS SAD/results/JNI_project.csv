@@ -1,0 +1,3 @@
+ID,Name,Variable,Method,Class,Package,File,File Name
+CS1,NotUsingRelativePath,"C:\\JNI_project\\mynativelib.dll",,JNITest,,C:/JNI_project\JNITest.java,JNITest.java
+CS2,NotSecuringLibraries,"C:\\JNI_project\\mynativelib.dll",,JNITest,,C:/JNI_project\JNITest.java,JNITest.java

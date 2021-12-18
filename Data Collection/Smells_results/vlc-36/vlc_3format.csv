@@ -1,0 +1,15 @@
+Id_db,File,System,Version,Package,Release,Class,ExcessiveInterlangCommunication,Too much clustring,Too much Scattering,UnusedMethodDeclaration,UnusedMethodImplementation,UnusedParameter,AssumingSafeReturnValue,ExcessiveObjects,NotHandlingExceptions,NotCachingObjects,NotSecuringLibraries,HardCodingLibraries,NotUsingRelativePath,MemoryManagementMismatch,LocalReferencesAbuse,FilePath
+1,video_yuv.c,vlc,Snap_ 3,nan,,nan,0,0,0,0,0,81,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_3\src\video_output\video_yuv.c
+2,vpar_blocks.c,vlc,Snap_ 3,nan,,nan,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_3\src\video_parser\vpar_blocks.c
+3,vdec_motion.c,vlc,Snap_ 3,nan,,nan,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_3\src\video_decoder\vdec_motion.c
+4,ac3_bit_allocate.c,vlc,Snap_ 3,nan,,nan,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_3\src\ac3_decoder\ac3_bit_allocate.c
+5,ac3_imdct.c,vlc,Snap_ 3,nan,,nan,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_3\src\ac3_decoder\ac3_imdct.c
+6,main.c,vlc,Snap_ 3,nan,,nan,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_3\src\interface\main.c
+7,video_text.c,vlc,Snap_ 3,nan,,nan,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_3\src\video_output\video_text.c
+8,ac3_exponent.c,vlc,Snap_ 3,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_3\src\ac3_decoder\ac3_exponent.c
+9,video_output.c,vlc,Snap_ 3,nan,,nan,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_3\src\video_output\video_output.c
+10,video_decoder.c,vlc,Snap_ 3,nan,,nan,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_3\src\video_decoder\video_decoder.c
+11,vpar_synchro.c,vlc,Snap_ 3,nan,,nan,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_3\src\video_parser\vpar_synchro.c
+12,intf_cmd.c,vlc,Snap_ 3,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_3\src\interface\intf_cmd.c
+13,vdec_idct.c,vlc,Snap_ 3,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_3\src\video_decoder\vdec_idct.c
+14,input_file.c,vlc,Snap_ 3,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/vlc_snapshots/vlc_3\src\input\input_file.c

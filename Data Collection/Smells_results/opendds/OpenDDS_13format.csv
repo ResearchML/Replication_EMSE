@@ -1,0 +1,23 @@
+Id_db,File,System,Version,Package,Release,Class,ExcessiveInterlangCommunication,Too much clustring,Too much Scattering,UnusedMethodDeclaration,UnusedMethodImplementation,UnusedParameter,AssumingSafeReturnValue,ExcessiveObjects,NotHandlingExceptions,NotCachingObjects,NotSecuringLibraries,HardCodingLibraries,NotUsingRelativePath,MemoryManagementMismatch,LocalReferencesAbuse,FilePath
+1,i2jrt_ORB.cpp,OpenDDS,Snap_ 13,nan,,nan,0,0,0,0,0,0,5,0,5,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\idl2jni\runtime\i2jrt_ORB.cpp
+2,TheParticipantFactory.java,OpenDDS,Snap_ 13,OpenDDS.DCPS,,TheParticipantFactory,0,0,1,0,0,0,0,0,0,0,2,0,4,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\dds\OpenDDS\DCPS\TheParticipantFactory.java
+3,TAOObject.java,OpenDDS,Snap_ 13,i2jrt,,TAOObject,0,1,0,6,0,10,0,0,0,0,1,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\idl2jni\runtime\i2jrt\TAOObject.java
+4,ORB.java,OpenDDS,Snap_ 13,i2jrt,,ORB,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\idl2jni\runtime\i2jrt\ORB.java
+5,TheServiceParticipant.java,OpenDDS,Snap_ 13,OpenDDS.DCPS,,TheServiceParticipant,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\dds\OpenDDS\DCPS\TheServiceParticipant.java
+6,TheTransportFactory.java,OpenDDS,Snap_ 13,OpenDDS.DCPS.transport,,TheTransportFactory,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\dds\OpenDDS\DCPS\transport\TheTransportFactory.java
+7,TransportImpl.java,OpenDDS,Snap_ 13,OpenDDS.DCPS.transport,,TransportImpl,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\dds\OpenDDS\DCPS\transport\TransportImpl.java
+8,WaitSet.java,OpenDDS,Snap_ 13,DDS,,WaitSet,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\dds\DDS\WaitSet.java
+9,DataReaderListenerImpl.java,OpenDDS,Snap_ 13,nan,,DataReaderListenerImpl,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\tests\messenger\subscriber\DataReaderListenerImpl.java
+10,Writer.cpp,OpenDDS,Snap_ 13,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\performance-tests\DCPS\UDPNoKeyTest\Writer.cpp
+11,idl2jni_runtime.cpp,OpenDDS,Snap_ 13,nan,,nan,0,0,0,0,0,0,9,0,9,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\idl2jni\runtime\idl2jni_runtime.cpp
+12,OpenDDS_DCPS_jni.cpp,OpenDDS,Snap_ 13,nan,,nan,0,0,0,0,0,0,7,0,7,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\dds\OpenDDS_DCPS_jni.cpp
+13,i2jrt_TAOObject.cpp,OpenDDS,Snap_ 13,nan,,nan,0,0,0,0,0,0,5,0,5,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\idl2jni\runtime\i2jrt_TAOObject.cpp
+14,DATAWRITER_QOS_DEFAULT.java,OpenDDS,Snap_ 13,DDS,,DATAWRITER_QOS_DEFAULT,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\dds\DDS\DATAWRITER_QOS_DEFAULT.java
+15,PARTICIPANT_QOS_DEFAULT.java,OpenDDS,Snap_ 13,DDS,,PARTICIPANT_QOS_DEFAULT,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\dds\DDS\PARTICIPANT_QOS_DEFAULT.java
+16,PUBLISHER_QOS_DEFAULT.java,OpenDDS,Snap_ 13,DDS,,PUBLISHER_QOS_DEFAULT,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\dds\DDS\PUBLISHER_QOS_DEFAULT.java
+17,GuardCondition.java,OpenDDS,Snap_ 13,DDS,,GuardCondition,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\dds\DDS\GuardCondition.java
+18,SUBSCRIBER_QOS_DEFAULT.java,OpenDDS,Snap_ 13,DDS,,SUBSCRIBER_QOS_DEFAULT,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\dds\DDS\SUBSCRIBER_QOS_DEFAULT.java
+19,DATAREADER_QOS_DEFAULT.java,OpenDDS,Snap_ 13,DDS,,DATAREADER_QOS_DEFAULT,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\dds\DDS\DATAREADER_QOS_DEFAULT.java
+20,DATAWRITER_QOS_USE_TOPIC_QOS.java,OpenDDS,Snap_ 13,DDS,,DATAWRITER_QOS_USE_TOPIC_QOS,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\dds\DDS\DATAWRITER_QOS_USE_TOPIC_QOS.java
+21,TOPIC_QOS_DEFAULT.java,OpenDDS,Snap_ 13,DDS,,TOPIC_QOS_DEFAULT,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\dds\DDS\TOPIC_QOS_DEFAULT.java
+22,DATAREADER_QOS_USE_TOPIC_QOS.java,OpenDDS,Snap_ 13,DDS,,DATAREADER_QOS_USE_TOPIC_QOS,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/OpenDDS_snapshots/OpenDDS_13\java\dds\DDS\DATAREADER_QOS_USE_TOPIC_QOS.java

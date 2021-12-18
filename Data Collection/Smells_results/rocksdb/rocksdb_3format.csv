@@ -1,0 +1,5 @@
+Id_db,File,System,Version,Package,Release,Class,ExcessiveInterlangCommunication,Too much clustring,Too much Scattering,UnusedMethodDeclaration,UnusedMethodImplementation,UnusedParameter,AssumingSafeReturnValue,ExcessiveObjects,NotHandlingExceptions,NotCachingObjects,NotSecuringLibraries,HardCodingLibraries,NotUsingRelativePath,MemoryManagementMismatch,LocalReferencesAbuse,FilePath
+1,db_test.cc,rocksdb,Snap_3,leveldb,,ModelDB,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_3\db\db_test.cc
+2,port_android.h,rocksdb,Snap_3,,,,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_3\port\port_android.h
+3,db_bench_tree_db.cc,rocksdb,Snap_3,leveldb,,Benchmark,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_3\doc\bench\db_bench_tree_db.cc
+4,log_test.cc,rocksdb,Snap_3,leveldb,,LogTest,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_3\db\log_test.cc

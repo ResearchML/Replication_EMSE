@@ -1,0 +1,12 @@
+Id_db,File,System,Version,Package,Release,Class,ExcessiveInterlangCommunication,Too much clustring,Too much Scattering,UnusedMethodDeclaration,UnusedMethodImplementation,UnusedParameter,AssumingSafeReturnValue,ExcessiveObjects,NotHandlingExceptions,NotCachingObjects,NotSecuringLibraries,HardCodingLibraries,NotUsingRelativePath,MemoryManagementMismatch,LocalReferencesAbuse,FilePath
+1,db_test.cc,rocksdb,Snap_5,leveldb,,ModelDB,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_5\db\db_test.cc
+2,ThreadManager.h,rocksdb,Snap_5,,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_5\thrift\lib\cpp\concurrency\ThreadManager.h
+3,port_android.h,rocksdb,Snap_5,,,,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_5\port\port_android.h
+4,assoc.h,rocksdb,Snap_5,,,,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_5\thrift\assoc.h
+5,EventHandlerBase.h,rocksdb,Snap_5,,,,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_5\thrift\lib\cpp\EventHandlerBase.h
+6,db_bench_tree_db.cc,rocksdb,Snap_5,leveldb,,Benchmark,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_5\doc\bench\db_bench_tree_db.cc
+7,c_test.c,rocksdb,Snap_5,,,,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_5\db\c_test.c
+8,server_utils.cpp,rocksdb,Snap_5,,,DBHandler,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_5\thrift\server_utils.cpp
+9,log_test.cc,rocksdb,Snap_5,leveldb,,LogTest,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_5\db\log_test.cc
+10,snappy.cc,rocksdb,Snap_5,snappy,,SnappyDecompressionValidator,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_5\snappy\snappy-1.0.5\snappy.cc
+11,env_posix.cc,rocksdb,Snap_5,leveldb,,PosixMmapReadableFile,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_5\util\env_posix.cc

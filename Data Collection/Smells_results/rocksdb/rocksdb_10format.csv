@@ -1,0 +1,16 @@
+Id_db,File,System,Version,Package,Release,Class,ExcessiveInterlangCommunication,Too much clustring,Too much Scattering,UnusedMethodDeclaration,UnusedMethodImplementation,UnusedParameter,AssumingSafeReturnValue,ExcessiveObjects,NotHandlingExceptions,NotCachingObjects,NotSecuringLibraries,HardCodingLibraries,NotUsingRelativePath,MemoryManagementMismatch,LocalReferencesAbuse,FilePath
+1,table_reader_bench.cc,rocksdb,Snap_10,rocksdb,,,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_10\table\table_reader_bench.cc
+2,stringappend2.cc,rocksdb,Snap_10,rocksdb,,,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_10\utilities\merge_operators\string_append\stringappend2.cc
+3,env_hdfs.cc,rocksdb,Snap_10,rocksdb,,,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_10\util\env_hdfs.cc
+4,db_test.cc,rocksdb,Snap_10,rocksdb,,KeepFilter,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_10\db\db_test.cc
+5,put.cc,rocksdb,Snap_10,rocksdb,,PutOperator,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_10\utilities\merge_operators\put.cc
+6,block_based_table_reader.cc,rocksdb,Snap_10,rocksdb,,,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_10\table\block_based_table_reader.cc
+7,memenv.cc,rocksdb,Snap_10,rocksdb,,InMemoryEnv,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_10\helpers\memenv\memenv.cc
+8,snappy.cc,rocksdb,Snap_10,snappy,,SnappyDecompressionValidator,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_10\snappy\snappy-1.0.5\snappy.cc
+9,db_ttl.cc,rocksdb,Snap_10,rocksdb,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_10\utilities\ttl\db_ttl.cc
+10,stringappend.cc,rocksdb,Snap_10,rocksdb,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_10\utilities\merge_operators\string_append\stringappend.cc
+11,c_test.c,rocksdb,Snap_10,,,,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_10\db\c_test.c
+12,env_posix.cc,rocksdb,Snap_10,rocksdb,,PosixMmapReadableFile,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_10\util\env_posix.cc
+13,log_test.cc,rocksdb,Snap_10,rocksdb,,LogTest,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_10\db\log_test.cc
+14,ttl_test.cc,rocksdb,Snap_10,rocksdb,,TtlTest,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_10\utilities\ttl\ttl_test.cc
+15,builder.cc,rocksdb,Snap_10,rocksdb,,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,D:/Mona/new-downloads/rocksdb_snapshots/rocksdb_10\db\builder.cc

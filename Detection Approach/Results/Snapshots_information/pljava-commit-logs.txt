@@ -1,0 +1,1356 @@
+c39b7fa88ac6cca4a652a409fba38ab5f5cb8dcb|2020-02-09|Chapman Flack|Merge pull request #253 from refactor/master/createfunc
+e48492853c16bd479891abf820755c0b7eb9e2ac|2020-02-09|Chapman Flack|Fix javadoc comments overlooked in 97010eb
+e8a57dcd38e70abc11e8fc0cabffff8203d0001a|2020-02-09|Chapman Flack|No-longer-needed import was overlooked
+a92b513724601037f478e8a3891adbe77491b6f6|2020-02-08|Chapman Flack|Allow rare reentrant invocation activity
+fe656c54eeabaee29270986b9fe55dc267d99cfc|2020-02-07|Chapman Flack|Not to forget the javadoc
+a3cb91c3e8f1cd3464a92be320b41d7a70a99981|2020-02-07|Chapman Flack|Zero the static parameter slots after use
+1116f4b846c71e42510bfb421d419a0f7a995757|2020-02-06|Chapman Flack|Rototill the affected type implementations again
+97010eb7b9b675e2f8d1b1e2ece67a8b609aaf0e|2020-02-05|Chapman Flack|Make parameter passing areas ... static!
+91ac9c23b7cc52d48fa27c66c894a1ea809a2bd3|2020-02-02|Chapman Flack|Dedicate an EntryPoints class
+cdea77fcbbf0ef3a94ac94300bdcab695ec57bc4|2020-01-29|Chapman Flack|Bring UDT methods into the new arrangement
+819fa362d6d609ed47fe1fbbba6445a87e288f98|2020-01-26|Chapman Flack|Retire the C buildSignature / getMethodID code
+5fdf1af79095268fd652c6788e51c1c721cbb206|2020-01-25|Chapman Flack|Clear the loader cache if deployment fails
+d7c277f3934638d08c2029611474527396a7270b|2020-01-25|Chapman Flack|Type_isPrimitive isn't quite what you'd think
+473711f786786405cac1f69925c6fc7543043d11|2020-01-25|Chapman Flack|Must use publicLookup().in(...)
+7c00e4111e84639a8aa37fdeec3d6a86c0180d12|2020-01-25|Chapman Flack|Rototill the affected type implementations
+df122549b5b9baa31170fcc53275e721a9bdcf24|2020-01-24|Chapman Flack|Start on invokability
+f06f522f422235b6bbb2458b34f269180ddc3782|2020-01-24|Chapman Flack|Embrace the intra-module lookup limitations
+56eed76123b73de18ea48e1f73430e07688ffc7f|2020-01-25|Chapman Flack|Adapt the method handle to invoke from JNI
+58823c2b72ca17d5ef932e8be2efec3b51892cd5|2020-01-23|Chapman Flack|But must use publicLookup outside own module
+ced43abc83f7a9682abc1b4f522e520d043eb605|2020-01-23|Chapman Flack|Can't use publicLookup() intra-module
+a327473752100ad21b8d1b7237aa4733044389ec|2020-01-23|Chapman Flack|Now with getMethodHandle
+3bd02ce521d983e183b50aba269298bb9a8b74cf|2020-01-15|Chapman Flack|Begin moving more of method lookup to Java.
+9e84d5ee48f759d004cb719402b6b9892f44dab9|2020-01-15|Chapman Flack|Rebased, which brought issue #192 back, re-fixed.
+fee095051c912dc86072d04aa7e020b5bbdf81f9|2016-04-21|Chapman Flack|Retire the C function parsing code.
+77ef0c22c5c3fe7b7bf31c3ec7f168c5154cafbd|2016-04-20|Chapman Flack|An interim, working state.
+aefefae32f80d775933b34e88e8c99a5ff662278|2016-04-20|Chapman Flack|Complete the Javafication of setupFunctionParams.
+ffe41c830c72e1869c599afeeb540c32fea1ede2|2020-01-15|Chapman Flack|Add parseParameters return-type adaptation.
+7916a73e1045520de52088b78f927e1d0f987352|2020-01-15|Chapman Flack|Most of Function_create/init now in Java.
+ea0ebb7523c55c352460d92fe5e7cecc0c2e22cf|2016-04-16|Chapman Flack|Document parseParameters.
+619bd3c9adb9d1ce894698ce818620e798e5c6d1|2016-04-16|Chapman Flack|Is loading classes from Java.
+3c21996cd159a975325398f1512b55a5b55e0427|2016-04-15|Chapman Flack|Does use schema name and CALLED_AS_TRIGGER.
+25618287dae5702d30984124aa9143b140dbcba1|2016-04-15|Chapman Flack|Confirm setupFunctionParams doesn't use fcinfo.
+2cf212dfdf189d7eaa215b01e803ad8bd1da7cb2|2016-04-15|Chapman Flack|Parse the function spec.
+26fadd555e8a04960ea8e5f39cc597b1a4cc24c5|2019-03-20|Chapman Flack|Prepare to do more of Function_create in Java.
+b67034592ddfb9399d964031b009f00abe36cd99|2015-12-05|Chapman Flack|Give Function_getFunction a simpler contract.
+19c7e8e475de2d2eeeaa63716ecf94822b06bc37|2020-02-02|Chapman Flack|Merge pull request #250 from feature/master/morelexicals
+5384a63c9091dcbcf30b3dfb1c5035abe12ccc85|2020-02-02|Chapman Flack|Add Qualified nameFromJava/operatorFromJava
+0a03b6abefc39a971d8c0cf53af6566fb8a6c606|2020-02-02|Chapman Flack|Merge pull request #249 from chore/master/java9ify
+5ee9b6bb3ab93ed83e11478ace90bcdda2b99836|2020-02-01|Chapman Flack|Javadoc generation also java9ified
+723b391ccd0977c7049526585462b09bca6356d1|2020-02-01|Chapman Flack|Update the hello, world example
+78fbd4cdd9c06560ab6720e640810aa58131d508|2020-01-31|Chapman Flack|Make empty classpath mean no classpath
+fcc16a35dad54832080024ef8beffcce63ef4d0e|2020-01-26|Chapman Flack|pljava.classpath => pljava.module_path
+b62b9528935bcb3b4bd570debfa67f1f7018eb71|2020-01-11|Chapman Flack|Make Lexicals.Identifier serializable
+ec0bbac8d092ff6dfa9bc36335dd68f2adade769|2020-01-11|Chapman Flack|Systematize Identifier's deparse() and toString()
+45140c33e563f458eb9aedf06ebe2855109b90be|2019-09-18|Chapman Flack|Identifier.Operator
+a8cce0a52b9ebec08976dc4b5018650d8183b8c2|2019-09-01|Chapman Flack|Identifier.Qualified.fromSimplePair()
+27d87fde49f98c19a6ab70f1edbb1ec1bc809e75|2019-06-15|Chapman Flack|Identifier.Simple.fromJava()
+12b7dd34a52cd4d81de8ab9882791c2cbaf24f6d|2019-03-24|Chapman Flack|More Identifier stuff
+64b82bfdc75eebeadccb9c0c693c56507d79dc43|2019-03-24|Chapman Flack|Lexicals now with SEPARATOR handling.
+2c6d5a8f9780ad8bdd7bd7c8fbc9324eb72e6b24|2019-03-24|Chapman Flack|Divide Identifier into Simple and Qualified.
+6f3d7a7b5b7bcb9ec3fb0647577e8a89ef93343f|2020-01-17|Chapman Flack|Java 9 introduces Class.getPackageName()
+b6a0ce8c90a34077e5db6745e56bd2cdb3754952|2020-01-17|Chapman Flack|Not to forget the versions doc
+4d8f5903ba750fefbd2c8d35422e23c6399457d0|2020-01-17|Chapman Flack|Adopt VarHandle in SQLXMLImpl
+5f7c2f10a8c17f0bc447a26f672c626530572606|2020-01-17|Chapman Flack|Dedicate a non-exported package to the Processor
+3dfbc77e06aa0bc9bae4419e099e8b8939e2badd|2020-01-14|Chapman Flack|Replace Method with MethodHandle in class loader
+c319044465065df5c404abcc0c0ccb8b5cee6d75|2020-01-13|Chapman Flack|Adopt VarHandle in DualState
+a2de7b4592d257c9cb32090a843c7ebd47861e4b|2020-01-12|Chapman Flack|Replace the ersatz reachabilityFence in DualState
+9fe3c503ec80816c84d0692df590952afa9c59b9|2020-01-12|Chapman Flack|Dedicate an exported package to mbeans
+f31d134e1637c5b708af3dc9399b8f57f4cfea73|2020-01-12|Chapman Flack|Dedicate an exported package to elog
+928fab0ca0f46074047657985f30dd28a1339ea9|2020-01-12|Chapman Flack|Named-module version info isn't found in package
+403d8aa2289668449290e3db5b363072ef0daee3|2020-01-17|Chapman Flack|That got closer for a first try than I expected
+0772030732815785b971c0ff420bca0503444cab|2020-01-12|Chapman Flack|Chase some compiler warnings
+f34f4977078512ece036f62e394cd8ce9a8a656e|2020-01-12|Chapman Flack|Packaging looks ok.
+c763cee32f2da55e3dc0a924c4973d7f30cdc56e|2020-01-12|Chapman Flack|The cause: javac 10 and 11 are broken
+2c0f2a6fd76b214c1bfe6c22f7c0165f0440274d|2020-01-11|Chapman Flack|This runs the DDRProcessor, but
+dd91fca7b92b9f4a541f4ce3b7e8d531b6ed79ef|2020-01-11|Chapman Flack|POM release specs and module-info files
+61e6098b3f0cad4a76b33b99dd500ccf5de2f8b1|2020-01-19|Chapman Flack|Merge pull request #248 from chore/master/java8ify
+3437efd671b18468aadf576b74268b3e790341eb|2020-01-19|Chapman Flack|Complete Checked's set of of() methods
+6c674c0605b6aa6f837aee62d90a78a4cf0946be|2020-01-17|Chapman Flack|Not to forget the versions doc
+9951c7d7baabd69f1c446d698dde12bea89fe16b|2020-01-11|Chapman Flack|Bump DDRProcessor's SourceVersion to 8
+ece079f342e7f88f509223082c9e97b23cbe916f|2020-01-17|Chapman Flack|Add 'throw' to pljava.java_thread_pg_entry enum
+1fb52dd5a1e9e0d939652ba5738f8e8e00cf90d3|2020-01-11|Chapman Flack|Use Java 8 LongAdder for DualState stats
+f9f795f8ee5671bbeb0574d69f29527bc6e0004d|2019-10-04|Chapman Flack|Disheartening to watch javac 8 get this wrong.
+c3f833b4fd2484249a6e8ba2cfdc9b034560f368|2019-06-05|Chapman Flack|Convert the remaining sites that are obvious ...
+71f9254608dfd5312728cb76ddbe71f5950c230a|2019-10-05|Chapman Flack|Begin to centralize syncs-on-backend.
+2851fc80df577eb6e1eed11da401710ddb69ec9b|2020-01-17|Chapman Flack|Functional interfaces handling checked exceptions.
+85480fca98692163f90737ecc92ab33073f7e48a|2020-01-16|Chapman Flack|The various examples and DDR conditionals
+f4d352bc840372fd6dad1f0a4e500b11609b2f3b|2019-03-10|Chapman Flack|Low-hanging fruit.
+813eac3bd657f3c0d6112935a04bf7126283bac3|2020-01-17|Chapman Flack|Correct OpenJ9 workaround for pre-Java-9
+a6a57081706791ff7ce148a4b86ea2772c365ab8|2020-01-16|Chapman Flack|OpenJ9 calls Reference.clear() from enqueue()?!
+69f5c305821f7e8559337d4eb474bfcc943c8543|2020-01-16|Chapman Flack|Unreported bugs in DDRProcessor
+485cb54fc9e09a76f8a82c7cca1b0df757692ed1|2020-01-11|Chapman Flack|More java7ify: multi-catch and SourceVersion
+73cc77206484b5b056ec45b21c77d5c501469b61|2019-11-04|Chapman Flack|Merge branch 'REL1_5_STABLE'
+e4042d50b2c663a67bcb5f7088ad5dcf41afd78b|2019-11-04|Chapman Flack|Add control file in preparation for next release
+e0c9cd998d9aa9cfa8686b817570d44363002c61|2019-11-04|Chapman Flack|Poke migration-management versions for 1.5.5.
+137180395b451cee141fc383bac5cf1a3d17673b|2019-11-04|Chapman Flack|Release notes
+e2390ad1ac8b1e6515b27ec6f5851da4cafce908|2019-11-04|Chapman Flack|Merge pull request #247 from bug/REL1_5_STABLE/issue246
+f331da5124e8e34010b486463cad99b7bf2cc66e|2019-11-03|Chapman Flack|Beware long vararg params without jlong casts
+3c51fe4b39e5fff00b55fb076af7233f7a78502b|2019-11-01|Chapman Flack|Swat JNI reference-management bugs
+d6cf14faedea6c18c6d11778703fbd90a037153e|2019-10-29|Chapman Flack|Re-java7ify after REL1_5_STABLE merge
+a2103685f6e4f2573cd047964493f4369c5d149b|2019-10-29|Chapman Flack|Merge branch 'REL1_5_STABLE'
+74ef97f08c04137630f81c8ffddc3d1056f8eab5|2019-10-29|Chapman Flack|Add control file in preparation for next release
+415594cf6f6a609564f29ac012a8d7ad4278ae45|2019-10-29|Chapman Flack|Poke migration-management versions for 1.5.4.
+8d8d090dcbf0a011f0e888d221d6b5d70c6c9d5a|2019-10-21|Chapman Flack|Release notes and other doc updates
+09193c8682473eaa4cccc6034f3b25c1668a496d|2019-10-21|Chapman Flack|Merge pull request #245 from feature/REL1_5_STABLE/xmlview
+49ad5c2c30a0eeb5d0188cea7ffc2ca64ee08203|2019-10-20|Chapman Flack|Merge pull request #244 from bug/REL1_5_STABLE/issue228
+b7c2e711697d0b636efdd1b47efcc2e00158984b|2019-10-19|Chapman Flack|Remain "the PG thread" to call Invocation_onExit
+9d873ae12d0224293463f4a8a2defbeee37cee67|2019-10-20|Chapman Flack|Begin to document synthetic XML views
+7037f04cd79ea9cf16b212f76e42d4e0032ef114|2019-10-19|Chapman Flack|An XML rendering of a pg_node_tree
+a63cc2ca50cf4eb19c167817f55de92c9f0e7ff6|2019-09-23|Chapman Flack|Now with pg_node_tree's low-level tokenizer
+d8a1597319dd8254623ac5b38128ecdd0c9a20e2|2019-06-05|Chapman Flack|Now can produce SQLXMLImpl.Readable.Synthetic
+c18ef4a43e706ba401a9d188c2616966c52d4d2b|2019-09-22|Chapman Flack|PgNodeTreeAsXML
+2269d288815dda57731e366d19a5ad458f1710bb|2019-10-19|Chapman Flack|Add VarlenaXMLRenderer
+60d9a39199a6dd68115d1e84e75574d68e4b32bf|2019-10-20|Chapman Flack|Introduce ByteBufferXMLReader
+487d21259b4836e7d6e2f84f9a22351299be7df5|2019-09-22|Chapman Flack|Factor a PgXML subclass out of SQLXMLImpl.Readable
+734104695418df61e5336351b7fda2003647b00e|2019-09-22|Chapman Flack|Whitespace only: reindent for previous commit
+c9f6a201f84bd6662bde55e07484884582af50fc|2019-10-19|Chapman Flack|Factor out VarlenaWrapper.Input
+b65c6e24c973ebfa16c047ded54d208011081dbe|2019-05-13|Chapman Flack|Add XMLRenderedTypes example
+ded3fd509ef43a6d81e9dc50bb354444f8aead4a|2019-10-19|Chapman Flack|Merge pull request #243 from cleanup/REL1_5_STABLE/DualState
+d0a117f53ee6d7d4345e963938ea971e2bb143e2|2019-10-19|Chapman Flack|Some better provision for release with pins
+eda2a9891869a2f48cca31ccfd661023803df624|2019-10-06|Chapman Flack|Verify nobody's using get() in a conflicting way
+2264228ae3fe201bf0d00aaa2046edfb8f64f6d6|2019-10-18|Chapman Flack|DualState.pinUnlessReleased needs no throws
+44954b2f3a58279ebd3adec9f8a12af3820662a0|2019-10-18|Chapman Flack|Merge pull request #242 from bug/REL1_5_STABLE/issue241
+26b4c5681f473e85cd0cd1e69f86ce3b4a986533|2019-10-17|Chapman Flack|Allow Javadoc to build with Java 13
+8f38fce675023866c1f7d6eb90608ae8d452312f|2019-10-15|Chapman Flack|Merge pull request #240 from bug/REL1_5_STABLE/issue239
+a28db9f37dfd62eac7214e0281d02e9664ad51e2|2019-10-15|Chapman Flack|Fix a Javadoc build issue with Java 11+
+1f520582132965799887c29a22d1f95858e90a21|2019-10-14|Chapman Flack|Merge pull request #238 from bug/REL1_5_STABLE/issue236
+6aef971f2eef4d1040dcd00f5da6cf38816a00d3|2019-10-14|Chapman Flack|Merge pull request #237 from bug/REL1_5_STABLE/issue235
+b7ed9ed82e801b246246503485b3f36f61d1d337|2019-10-14|Chapman Flack|Fix array-index exception in Java 13 build
+c3abdb78d463aba903c1c3f7fae8765c5a5800a5|2019-10-14|Chapman Flack|Sop for javac's --release 6 check
+a2d112ad623daae90816f7bc60d3987918b7f809|2019-10-04|Chapman Flack|Re-java7ify after REL1_5_STABLE merge.
+2abb2362d390b4dd7660417eb9e8724b993cf0fb|2019-10-04|Chapman Flack|Merge branch 'REL1_5_STABLE'
+e2d0514f94334ba44b29186dc966265060fe0a2d|2019-10-03|Chapman Flack|Add control file in preparation for next release.
+07eee5a1fc9ad812ad60c94eea0fdfdd16f12c2f|2019-09-28|Chapman Flack|Poke migration-management versions for 1.5.3.
+7c6afaabe9f6d56e8fe552bafc26920dec260b5c|2019-10-03|Chapman Flack|Fix more references to building with Java 8
+e09a77ef63904f015dca1336166a49c2fadab049|2019-10-03|Chapman Flack|Preserve javadoc buildability with JDK 7
+4764a91ca48636db8113100d21ee8274bf9b117d|2019-09-28|Chapman Flack|All right, who left out XMLEXISTS?
+9d44af0c019ae487a9b5d20c1ecf9dec449534f6|2019-09-24|Chapman Flack|Whitespace / tidying in SQLXMLImpl
+26e9eb53bc6ad44cdd0776ac13499680dac32fc2|2019-09-21|Chapman Flack|Update release notes
+e4ed141977f881689dc28e20dce38a2f0c1cb90b|2019-09-21|Chapman Flack|Merge pull request #234 from bug/REL1_5_STABLE/153nits
+3cb3b8bde5ba2174d3d96d6548b3486ab9567e18|2019-09-20|Chapman Flack|Revise context, SPI, Invocation handling for SRFs
+9adbc9473208b7dcbd01d66461c53f76e962cfd9|2019-08-29|Chapman Flack|Unregister DualState callback before destroyJavaVM
+37af582385dcfda76ab9c10e11816b2bf73f1776|2019-09-20|Chapman Flack|Merge pull request #233 from feature/REL1_5_STABLE/moreS9
+34b6dd1b0b1c706ed4133f03e471fdbd10b66bd4|2019-09-05|Chapman Flack|Document XMLCAST; round out the docs
+5e8d19fee1f21549747df450e697a7f28084719f|2019-09-05|Chapman Flack|Fix unreported cast errors, XMLCAST nit
+2a154898a20ccf14bf9e922ca80621da08180d0e|2019-09-04|Chapman Flack|Document the XQuery regex functions
+820ba24dacad1a84723d1b8af090f2a177fdb020|2019-09-03|Chapman Flack|Use Configuration.compileRegularExpression method
+d2940ef099f50581fec9e58ab988c2309f28eab5|2019-09-04|Chapman Flack|Now with XQuery regular expression functions
+76504e7ea231ccb115969babb98893b223d99912|2019-09-04|Chapman Flack|Add javadocs for the XQuery regex functions
+2b8939b25a4d4b455f4e808a32ef815805639b05|2019-08-25|Chapman Flack|More on the XQuery regular expression functions
+27211f3d2e64647410c1122efc5d66b59edb3649|2019-08-05|Chapman Flack|Ok, about that hex/base64 business
+f1b70fcfcff3dedc89a841437b9e697e01b6f3d7|2019-08-04|Chapman Flack|Now with XMLCAST of XML to non-XML
+0d54124670f104518e0b204d882fdf03627c8384|2019-09-04|Chapman Flack|Now with XMLCAST of non-XML to XML
+d3a3ff56168c285e64b1fd669ff32824b507cb51|2019-08-03|Chapman Flack|The easy cases of XMLCAST
+bb3d7ec7a7555e895490ac477fafb5f4e92daf5c|2019-08-03|Chapman Flack|As PostgreSQL lacks XMLTEXT function, build it
+31675c2c4941a3c8c656f4bc2640e87bcf77b8e7|2019-07-19|Chapman Flack|Document saxon examples if profile enabled
+cf997753d38ec825c13d2cd3c01cd82bc8a8901c|2019-08-23|Chapman Flack|Support column values that aren't atomic types
+3b5376dbbf4cd903dc9b196384ab3895d8c8552c|2019-07-16|Chapman Flack|Last two straggling XMLCAST/timezone rules
+226ef77f920df387f66d58ab8188435eab92a1c6|2019-08-25|Chapman Flack|Implement the missing casting of atomic outputs
+83504b26dc7dc50ab8d653090e3fa823ad5e490b|2019-07-12|Chapman Flack|JDBC SQLType FLOAT aliases DOUBLE, not REAL
+2951e8adca1792fc7af18f24246aadd30c257b37|2019-07-13|Chapman Flack|Stub in the 9075-2:2006 XQuery *_regex functions
+96d49b41e1c0f022f42c157f2b48bd8ca436db2e|2019-07-21|Chapman Flack|Accomodate Saxon 9.8 to 9.9 API changes
+c7d31ea7883fecaea401e43c1ea6f9e5d8402820|2019-08-25|Chapman Flack|Preserve example loadability pre-PG-8.4.
+de7558efa30a8e639ec20bf75e9993379a1bd1bf|2019-08-25|Chapman Flack|Preserve buildability pre-PG-9.3.
+4882c818c596196cbc7bd4034950e3241cc38fc0|2019-08-23|Chapman Flack|Merge pull request #227 from bug/REL1_5_STABLE/issue225
+39b374c12b67a5b1890662c9b68e09d41ea7fc8e|2019-08-23|Chapman Flack|Merge pull request #231 from trackjdk/REL1_5_STABLE/java9
+64c0e3fd62867ebe1279a81add38b162f85716c0|2019-08-23|Chapman Flack|Let StAX copies preserve empty-element-ness
+dc0f51d6280daec465a44f36b48643ae958a9fa1|2019-08-23|Chapman Flack|Work around Java 9+ XMLEventReader regression
+af743b4d6d1dd7546b9e01d8976d6199281fed85|2019-03-18|Chapman Flack|Disheartening to watch javac 8 get this wrong.
+c3b47c936235533f248265a731c497cf071c9b0e|2019-08-22|Chapman Flack|--release. It's not just a good idea.
+e4cccd246bcabccbc31ac4e55403665bd406dcd2|2019-08-20|Chapman Flack|StAX does have an expandEntityReferences knob
+570a459da0b7b2d1fa2ef19822f5e86542241f0d|2019-08-19|Chapman Flack|Testing ...
+303ad1cf22670818ce77b810276ec3bc2da525d8|2019-08-18|Chapman Flack|Extend the markdown docs
+a03cbbf1486b088c53ef0a77935b65099eef5203|2019-08-18|Chapman Flack|Accept adjustments in PassXML
+8862669c6052f7f96ee984563a6491b357bdae07|2019-08-18|Chapman Flack|Expose the magic via Adjusting.XML.SourceResult
+a47baed4baf45deb6d366184a3c67a02ebb6f553|2019-08-15|Chapman Flack|Handle foreign StreamSource with 'wrong' encoding
+28ee34e15a1bfc048bb5fe545d30940e693ec053|2019-08-16|Chapman Flack|Going to need a MarkableSequenceReader also
+9fb0147f1ad6f518b367ec3b59bd19e5ec2a5f18|2019-08-15|Chapman Flack|Prepare DeclProbe to also work with char input
+ff83b190507af18a2506387bfb6b4522481d58ab|2019-08-18|Chapman Flack|More on PassXML example
+ff11aca33d82a146a9e44051a2bad802a2a6a92b|2019-08-11|Chapman Flack|Spread awareness in comments in PassXML example
+a9a79b75dc7b31ede55cf49f3d47a98bf90219ea|2019-08-11|Chapman Flack|Merge branch 'REL1_5_STABLE' into bug/REL1_5_STABLE/issue225
+c9e48ed341f538378e29bde76c54b59a3140dc0b|2019-08-11|Chapman Flack|Merge pull request #230 from feature/REL1_5_STABLE/adjustingAPI
+10129bd0e1c834ccb58bb033c1a6928e2a788e68|2019-08-11|Chapman Flack|Merge pull request #229 from bug/REL1_5_STABLE/issue228
+8d6a07dfbe3a7d2528861fd66711c0e754a1701b|2019-08-11|Chapman Flack|Add to the markdown doc for SQLXML
+26b53914776868ae58b7b1e6bee9e51452e63daf|2019-08-11|Chapman Flack|Now with Stream and SAX Results also
+572f91a2a87a585058c588093f14c6c9c4d96c81|2019-07-31|Chapman Flack|Initial implementation for SAX, StAX, DOM Sources
+546c3010628de40cb0de48c65ed9b737935865f1|2019-07-30|Chapman Flack|Add API to adjust OWASP-suggested parser settings
+eea1c5e49863594e23839aa3650039150ba6f52d|2019-08-11|Chapman Flack|Merge pull request #226 from feature/REL1_5_STABLE/paramnames
+fbfec54405a1d4e039e6e197fd0b6b0619862e02|2019-08-11|Chapman Flack|Add a test for proper Savepoint reusability
+441f3ea6ccced7efe10096e8411ed546ce55dd85|2019-08-11|Chapman Flack|Migrate SPIActions example to annotations
+53aaa42f401e17f0533d2faca9bb5d16f64af9d8|2019-08-10|Chapman Flack|A Savepoint is not "used up" by rollback
+793d426656a401b87de59f8b4954de3ca6f337ca|2019-07-31|Chapman Flack|SQLXMLProxy class for testing
+38856645e23b09673a7dfe5d7fb63d2980e08480|2019-07-29|Chapman Flack|Allow return/set/update w/ a non-pljava SQLXML
+65bef285fe7450f802f9bb78df1837a3ae8f04d3|2019-08-06|Chapman Flack|Add DualState.pinUnlessReleased()
+d76750ddf17d928b755a0c6541c03e5d343397d4|2019-07-13|Chapman Flack|Allow a parameter's SQL name to be explicit.
+9ed8e335e2c233a75668a7ecd7c65a74e42d52c7|2019-06-28|Chapman Flack|Merge pull request #223 from bug/REL1_5_STABLE/issue221
+3d7abe79c689cb4d6f2f48f31fc8b9aaa1296cd3|2019-06-27|Chapman Flack|Merge pull request #222 from trackjdk/REL1_5_STABLE/java9
+b850a5ded43650ebe97897534d236587cc5cd7fa|2019-06-27|Chapman Flack|Not to forget the docs.
+536fc7b8583612fd702273747dac65046ef77e2f|2019-06-27|Chapman Flack|One line missed in finalizers refactoring
+4307da96e0f9e23d1076e6b5d14c6f1373c349e6|2019-06-24|Chapman Flack|Explicitly require Java's include path in 10+
+af0557a162fd57cf4aed8896037ba29a0383c369|2019-06-13|Chapman Flack|Build on Java versions with and without javah
+6cd539b27cbb4b6a2b4a6db0d6a05abccd94487d|2019-06-13|Chapman Flack|Keep the JavaScript build steps working in 9+
+6b14f19042fb0fb7f09faeb5f599fec3e2b08d73|2019-06-13|Chapman Flack|Handle loss of 1.6 compatibility in JDK 12+
+6887e339489267313069692486c6a4099c82589b|2019-06-13|Chapman Flack|Remove the mystery bootclasspath in pom.xml
+c0c14d9948a2e561a541d19d2d0065897589b94d|2019-03-19|Chapman Flack|java7ify more lookups of standard charsets.
+003f75de47e62d8faf789d0b7c4d08dab29ad275|2019-06-10|Chapman Flack|Re-java7ify after REL1_5_STABLE merge.
+614f417f459c4dcf06d25f9fa34d7f6d928107fa|2019-06-10|Chapman Flack|Merge branch 'REL1_5_STABLE'
+edb6aaa8ae617314e7bdb0b3d138617c46a23d9a|2019-06-04|Chapman Flack|Merge chore/REL1_5_STABLE/genericize
+a79958a226d9bd523d9cd8a2f905d5d9200b3264|2019-04-13|Chapman Flack|Adopt generics in more places where applicable.
+222664605dafee144f9dc5d7512357dbe313c32b|2019-06-04|Chapman Flack|Merge refactor/REL1_5_STABLE/nativeconstants
+77ea9d377a98de9632eefeb58c20b851f84e6c68|2019-03-15|Chapman Flack|Use JNI header constant field values.
+912d00abf49f35a13a3c180f315cc5d560add9df|2019-06-04|Chapman Flack|Merge refactor/REL1_5_STABLE/specialization
+fb9d5820719b017e250c7780ddb7a47f7c7434a1|2019-03-12|Chapman Flack|Factor out 'specialization' check in SQL generator.
+f2ceec61335f3a78bbe7cfc9c3eb2591ee01e1f4|2019-06-04|Chapman Flack|Merge pull request #206 from refactor/REL1_5_STABLE/finalizers
+3e688489f8b7a6d05fc90ec7b14869a92f924108|2019-06-04|Chapman Flack|Merge pull request #215 from trackpg/REL1_5_STABLE/pg12
+88d24ae5d59589848bf711afa7492729d80ef96e|2019-06-04|Chapman Flack|Missed detail in 'simplify SubXactListener'
+9bb3f0ce1746aacc0756c609f841af69a48bbcc2|2019-04-13|Chapman Flack|Iterate on a copy of Xact/SubXact handler list
+ea9c7dc0f8652eb5b88e1594dc770c4941a830cc|2019-04-12|Chapman Flack|Simplify SubXactListener the same way.
+81deb0f507602793e76d4022adebdad007160e35|2019-04-12|Chapman Flack|Simplify XactListener.
+221f83dc1c21f7c14b59b10e2bfd60bbd24add8c|2019-04-12|Chapman Flack|Guarantee threadMayEnterPG for subxact callbacks.
+0c21b4bcccb615139de2d16677acc5941a97e37c|2019-04-11|Chapman Flack|Simplify PgSavepoint.
+e4332ccdb33e5cfc64869ddef871e53641aebf73|2019-04-07|Chapman Flack|Allow pin waits to be interruptible.
+561c276186fa15b5783b621e6721a49bd3eafa89|2019-03-18|Chapman Flack|Test holdability of ResultSet from PreparedStatement.
+f0082163890cd9299486c114d074c839159f1761|2019-04-07|Chapman Flack|DualState-ify Portal
+9ea077a83ce0b64a874c8c5f453866a283953964|2019-04-07|Chapman Flack|DualState-ify ExecutionPlan.
+82f8e7ba04a047c05388a84c2c2d72896fa87843|2019-04-07|Chapman Flack|Adapt already-DualStated classes to use pin/unpin.
+d5e3d45dfdb8b1414b3d51ef401ecdc37c727d32|2019-04-07|Chapman Flack|Add unidirectional SQLXML test examples.
+a15892109ea7ebe54e19ce49faf404a97888d9aa|2019-04-07|Chapman Flack|New approach to concurrency for DualState.
+3310c1443da01f2fa08c79c09f628b871540ff09|2019-04-07|Chapman Flack|I've had it with these typos.
+cfb9e7fd2de271a4210c45ab11b3a8d6123271a8|2019-03-08|Chapman Flack|Simplify "thread ID" tracking.
+66c24104af4ac1a8938678f8067a2d56b7200adb|2019-03-08|Chapman Flack|Minor cleanup.
+79803e0eb2ec39dcb0f27c13b98b5b9679a2446d|2019-03-01|Chapman Flack|Add pljava.java_thread_pg_entry GUC.
+cce44685ff5591f0869ff12aacac4177b8bf09ea|2019-03-01|Chapman Flack|An optimization for non-transient native scopes.
+77680ba69299340e1238f377e911af8fd83eb6c3|2019-02-25|Chapman Flack|Expose some DualState statistics as an MBean.
+d5da82fe3964228331798da23f62cc4990be8205|2019-02-24|Chapman Flack|Axe JavaWrapper, Invocation CallLocals, finalizers
+0e48fa23810923425be9281f33dbbe5ef35478a9|2019-02-24|Chapman Flack|DualState-ify ErrorData.
+7dfb064ec9111a25044d340faa547e7e93c94b1a|2019-02-24|Chapman Flack|DualState-ify TriggerData.
+d60d2bc1aa30e4b1522ca00be61fa003655b40a0|2019-02-24|Chapman Flack|DualState-ify Relation.
+7f8ebd6eb28203f0ee4e7cb30f00d0cdd57345bf|2019-02-24|Chapman Flack|DualState-ify Tuple.
+d69dbeb7c0090e5f9dd7e2681aa841a7ebc1d49c|2019-02-24|Chapman Flack|JavaWrapper concealed additional magic.
+53f86100e56e7fe1fb782f17ff6984528c30db4e|2019-02-24|Chapman Flack|DualState-ify TupleDesc.
+fdc0cd7d1de44ed26090d5541a3d8204f64e2889|2019-02-24|Chapman Flack|HeapTupleHeader -> SingleRowReader
+7e22c0b34c2f988aaa61512abdb9edac25806a41|2019-02-24|Chapman Flack|Prepare to migrate to DualState from other idioms.
+7d57ffb02e0e6a3201379af1fe386cd79b9de44c|2019-02-19|Chapman Flack|Merge pull request #205 from tada/bug/REL1_5_STABLE/SQLXMLnonUTF8
+b9e18b8edf1669b595275f345f521d17526756a5|2019-02-17|Chapman Flack|The allow-java-encodings feature doesn't work.
+d2700dc1a51d6ea1765e9af99d32ebd085431564|2019-02-17|Chapman Flack|SQLXML nits when server encoding != UTF-8
+9d033d53465c866f389d2d5cc7789f16de79b6bd|2019-02-17|Chapman Flack|Corrections to user and packaging instructions.
+ba7a7b75cec0bb44714bc800adcefacc594415b8|2019-02-17|Chapman Flack|Handle variable-length function-call info.
+ca2ec4406b50f3a39ea8aafc8486fbf08b6ffc92|2019-02-17|Chapman Flack|Fix wrong #include
+587e97ff951fc7900d5f63b9bffd54b2d41359e8|2019-02-03|Chapman Flack|Merge branch 'REL1_5_STABLE'
+6f8f7151ec801105499eca64e7b7e9646015d4fc|2019-02-03|Chapman Flack|Reunite a comment with the code it refers to.
+0a6bd68ed7b01866ce21f2f36d065d0edb81f084|2019-01-26|Chapman Flack|Handle retirement of pg_attrdef.adsrc.
+900eca681ed5c6c928ff52dca5b27ed46700b2e4|2019-01-26|Chapman Flack|Handle extensibility of TupleTableSlots.
+a29e0024e4d50ac073039b0430785593f45f87f7|2019-01-26|Chapman Flack|Handle the retirement of nabstime.
+42dbcea30ea10f1dbb7d0554b889c342e555e37a|2019-01-26|Chapman Flack|Handle the retirement of magical oids.
+f424406496f7b5388ca9d4420e71cc1a729bb88e|2019-01-26|Chapman Flack|Handle the retirement of dynloader.h.
+f44c1a40a8049022cc1cd16daaa3f73ef756e126|2018-11-05|Chapman Flack|Merge branch 'REL1_5_STABLE'
+78ef01b6e0b4b4d6811f955e2673bd20c9298dfb|2018-11-05|Chapman Flack|Add control file in preparation for next release.
+d106e3996a48bcdd99cd54322c6e67435ca70a60|2018-11-05|Chapman Flack|Poke migration-management versions for 1.5.2.
+d05378a50c2b0273436d85e26d440c34b4924866|2018-11-05|Chapman Flack|Merge pull request #201 from bug/REL1_5_STABLE/issue199
+64e62ef0cb6e68548ee5755258e3507c4857d4a6|2018-10-31|Chapman Flack|Regression test and documentation for issue #199.
+b0dd2211a3f63062e559cf3cd156e9a3e3a04024|2018-10-30|Chapman Flack|Repair java.sql.Date breakage from 72cbb15.
+b05ad097c069235167fc6d30c544896a89abcead|2018-10-29|Chapman Flack|Java7ify: full citizenship for JDBC 4.1 methods.
+7873122e684996083ef6b4864f7f2f10d4e62fa8|2018-10-29|Chapman Flack|Merge branch 'REL1_5_STABLE'
+ec18090d29744b8388f09283baf5d47435ea313f|2018-10-29|Chapman Flack|Reorder methods in AbstractResultSet for clarity.
+500fc9f38f11d290f2864cd87ddf214513dd1022|2018-10-29|Chapman Flack|Java7ify: diamond operator in merged classes.
+af6c201601d596d42643312adb9b72ad795a73f4|2018-10-29|Chapman Flack|Merge branch 'REL1_5_STABLE'
+a74aa71831a55a4c64830130fa055f3ce84d4c0d|2018-10-17|Chapman Flack|(Belatedly) advance version to 1.5.2-SNAPSHOT.
+9d61e9d38578b1ab96b9b31a398a6d10aa2b198f|2018-10-17|Chapman Flack|Add control file in preparation for next release.
+69c8a5ee9918b8499e4acf16fdcb45e27aacfbc1|2018-10-17|Chapman Flack|Poke migration-management versions for 1.5.1.
+b69aaf52a1208d4d021f579578a863f41103955a|2018-10-17|Chapman Flack|Add AOL properties for ppc64le.Linux.gpp.
+0a1163588ca0d25c6fb0647c11b81563ea96e84c|2018-10-16|Chapman Flack|Release notes and documentation update.
+455f60d3cf4968feac3b4702fb9ade94c86965a0|2018-10-15|Chapman Flack|Catch up build-version claims to PG 11.
+98a29ad9e8d1ebdea208eb067953c7f1b1040c53|2018-10-07|Chapman Flack|Add control file in preparation for next release.
+cd183f2dd92bdc2cbec0d8c8cbadd68def924091|2018-10-07|Chapman Flack|Poke migration-management versions for 1.5.1-BETA3.
+0fb319cd1ace6500017d98873c1d54588b28b6c5|2018-10-07|Chapman Flack|Preserve Java 6 buildability
+bf6a5ee4c003d176bbaca8037e675842e651bc6f|2018-10-07|Chapman Flack|Release notes and documentation update
+37e23a8aec4db13810c410507d6d3b9db38b20ab|2018-10-07|Chapman Flack|Merge pull request #196 from bug/REL1_5_STABLE/issue195
+c808b192c39faa28392ed25e5b3db6d6f653263d|2018-10-07|Chapman Flack|Merge pull request #193 from bug/REL1_5_STABLE/issue192
+0bd9f61c737971536f1aa9162a0e06d55e073f63|2018-10-07|Chapman Flack|Merge pull request #194 from bug/REL1_5_STABLE/issue189
+c676735abedd609cab3d2b9d175e32e60b4bb00d|2018-10-06|Chapman Flack|Release notes and documentation polishing
+3a9dbbbf1d0b371fb92f9eca2dbf3a4a5a01a01b|2018-10-06|Chapman Flack|Avoid timestamp in SetOfRecordTest.
+bc81bf5d778edc1a01064d9f9b65b3c8c5592321|2018-10-06|Chapman Flack|Use schema class loader in Oid.getJavaClass
+4247447f86f239dc4db8bc8ce9845895377bbfa0|2018-10-06|Chapman Flack|Add a test for issue #192.
+7c82063bcb88131d18e82ff505071b3dd27f94ef|2018-10-06|Chapman Flack|Merge pull request #191 from bug/REL1_5_STABLE/issue177
+a173f37f5c69d561e0cae2dfd4c1e18327a4a228|2018-10-05|Chapman Flack|Merge branch 'JarXinPLJava' into bug/REL1_5_STABLE/issue189
+fdb7ee33ddb491ed6620ac88ee4fd07fcbb60c16|2018-10-05|Chapman Flack|Merge branch 'JarXscripted' into JarXinPLJava
+c771c664650d439d00968e4ef3c241c1bbe6cba6|2018-10-05|Chapman Flack|Merge branch 'JarXmodernize' into JarXscripted
+be8b43c938a51c4f22bf9db28e7e17654b249824|2018-10-05|Chapman Flack|Detect failure to rename over existing file.
+08245a49ffa6216cd8933029482ce2a8bdd50d2f|2018-10-03|Chapman Flack|Catch up release notes and versions.md.
+e019799690bdfab3be22784cf5c5bdcf5eda4031|2018-10-01|Chapman Flack|Explicitly pass parked and actual as jlong.
+b5479999fdecc1e160b149dfc471b834e19d7232|2018-10-01|Chapman Flack|Merge pull request #188 from bug/REL1_5_STABLE/issue185
+4960f81e90341cca292fe60554b31b1a0467b33d|2018-10-01|Chapman Flack|Merge pull request #187 from bug/REL1_5_STABLE/issue182
+dc45b700cdeb042cc165cbe8c4ab89ea081a6f54|2018-10-01|Chapman Flack|Merge pull request #186 from feature/REL1_5_STABLE/issue181
+542576eb88b20214d2eaa75dbd7a8194c8b94d7f|2018-09-28|Chapman Flack|Exclude Saxon 9.9 for now.
+3b135090ffea4eab21894386d94cb29539ddb822|2018-09-28|Chapman Flack|No really, avoid #if among macro arguments.
+146e2f38c096e3f6e704a2c88f55d5ceebf146f2|2018-09-28|Chapman Flack|Merge pull request #184 from bug/REL1_5_STABLE/issue178
+08e0c93eaa7bb6b5f24d06496e81b217d4ac1edd|2018-09-28|Chapman Flack|Merge pull request #183 from bug/REL1_5_STABLE/issue176
+c0f71d021a3f326468d07f7b30085d7f291ffe92|2018-09-24|Chapman Flack|Remove workarounds that were formerly needed.
+163505c0393280fc7ed2fb03b4d6869a41362238|2018-09-24|Chapman Flack|Have Loader force SPI read_only false as needed.
+9ff8655fd5608327cdc2df7685e935a26b042b06|2018-09-23|Chapman Flack|Give Statement an SPIReadOnlyControl interface.
+4af7781b4bec3a07889cc0ec55d8962464a40584|2018-09-23|Chapman Flack|Let ExecutionPlan methods override read_only.
+b72bd199f6e0a3fbfef15fbb67a3f3baecdb22ec|2018-09-23|Chapman Flack|Add a ddr.reproducible option to SQL generator.
+75f1b7cf5b69bf593ed16384f4bb98c052c2bd66|2018-09-21|Chapman Flack|Elaborate on comment while I'm thinking of it.
+d4735cb934f91acc5deb1be3add7781a0d3c0df0|2018-09-21|Chapman Flack|Must also work when option is not given...
+92b15e4a3642d98c61f71bc23919507f84727b7f|2018-09-21|Chapman Flack|Use script task to quote libjvmdefault as C string
+fc04b525c4c6cb9247ef5daaf326e5b469f2f6c5|2018-09-19|Chapman Flack|Merge pull request #180 from bug/REL1_5_STABLE/issue179
+499bd212cf431b3449e7eab852944cd3fd754a44|2018-09-17|Chapman Flack|Sop for certain Rhino-based JavaScript engines.
+47b9cdc6d86a92553187e99505e541ea3ecf4bc2|2018-09-15|Chapman Flack|Bring hello, world example up to date.
+9e9b63289c4d76eac7a81c93487e50aab8a33aa5|2018-09-15|Chapman Flack|Missed in an earlier doc edit.
+9857152d0fe5fbfd2a8b3c6d42ffe5816e5f00b2|2018-09-10|Chapman Flack|Add control file in preparation for next release.
+445ae939cc4769a732e02ef8008d38acb6389247|2018-09-10|Chapman Flack|Poke migration-management versions for 1.5.1-BETA2.
+8ab1149d308618aa408a1d462935183cc7a8aef6|2018-09-10|Chapman Flack|Fix javadoc nits in examples.
+0d174347b463bd7f12505c2336362583009b83bf|2018-09-10|Chapman Flack|Add to developer docs on type mappings.
+8bc481eaf48f6359d4957e10fb154cc925eced86|2018-09-09|Chapman Flack|Preserve Java 6 buildability.
+3a77b0fbc0dbaac7f05d761fa68d0d12b3afa77e|2018-09-09|Chapman Flack|Future-proof the TypeRoundTripper.
+294fce997f265a682ae2a745c891bab4ce5d0d90|2018-09-08|Chapman Flack|Avoid trying to use type names in Type.c messages.
+a7452ef5ae1736d5140d95158df5a49fe98537b5|2018-09-07|Chapman Flack|Tired of ugly double-outline .source divs.
+dc7fd37f742107028015a8a8db974a7e94530db7|2018-09-10|Chapman Flack|Merge pull request #174 from explorative/REL1_5_STABLE/s9api
+7b757d8d05292445de3a911da9da30603e7431d6|2018-09-07|Chapman Flack|Add advice about uppercasing parameter names.
+79b19ece4efa523bd90e66d73655206ee0bf2011|2018-09-07|Chapman Flack|Send reader to tuning page for AppCDS setup details.
+6d3b222629a88395159b972bdd9c6efaa586a6cd|2018-09-07|Chapman Flack|Document the optionally-built Saxon example code.
+bec61306b24a95826b1cf0f2e476f579f9e412fa|2018-09-04|Chapman Flack|Include Saxon example, but not built by default.
+a5d4e5dd11c1e482f106477a38d932acf266d73b|2018-09-03|Chapman Flack|Simplify by using JSR 310 date/time classes.
+8ae24193869b6d408ae3629e5e5def69a6ae8e27|2018-09-05|Chapman Flack|Merge branch 'REL1_5_STABLE'
+c6474ebf8641912d80f1c9b1129c641e2450d655|2018-09-05|Chapman Flack|Merge pull request #173 from feature/REL1_5_STABLE/j9sharing
+f76ae5ff9782c17b58bf3e3029a079f64fad0f05|2018-09-05|Chapman Flack|Add links to a performance-tuning wiki page.
+d4c94b5ec7007d515e9e47f19d30a5c7f5d6faba|2018-09-05|Chapman Flack|Document side-effect of 5433cd5.
+5433cd5582adf4e808a57f64392675bbfd61ffa3|2018-09-04|Chapman Flack|Avoid unnecessary jar_entry lookups.
+900906d52be2dd75286d9e1d4f39b5b7403deeae|2018-09-04|Chapman Flack|Give a nod to the caching of JIT hints.
+1afe5adb415caa88389bc556a33eb4c0a778d48c|2018-09-03|Chapman Flack|Document application-class sharing in OpenJ9.
+bb3ecf19a78f8053160997bfda95b0f5c878fb10|2018-09-03|Chapman Flack|Derive a cache token from the entryId.
+4758f8905441af76a2909c0bc5662df7db644217|2018-09-03|Chapman Flack|Share PL/Java and application classes in OpenJ9.
+e68f59276c5a5427695f88f68424e8e017e1d59a|2018-09-03|Chapman Flack|Merge pull request #172 from chore/REL1_5_STABLE/schemaqual
+ce8c0d866a4cf174d79b5bc81ef3e91b9ee0d1d6|2018-09-03|Chapman Flack|One last type you mightn't think to schema-qualify
+97627352a743f0d21d9367cce54a3d287b4dad52|2018-09-02|Chapman Flack|Cover schema-qualification in release notes.
+2f592b1faa0c6a23981b7065a4853b02d9fb7785|2018-09-02|Chapman Flack|Axe NOSCHEMAS clauses and a bubble sort.
+a7ce56fa82afbde6f2ecbf3b063863919e58f2d6|2018-09-02|Chapman Flack|Schema-qualifications in DatabaseMetaData
+64a28051e1bae6b79efea52310b3d410a55443d4|2018-09-02|Chapman Flack|Schema-qualify internally-generated names
+ad17cef3ba0a1b75f604416ad016dbcdda68b72f|2018-09-01|Chapman Flack|Document JSR 310 date/time API, and SQLXML.
+5e1a27c9172d5f5f8a19427ef546af55bc46a256|2018-08-28|Chapman Flack|General updates in existing docs.
+561a34987c3a8d2be8e548536ffc276501a2cb92|2018-08-28|Chapman Flack|A first go at release notes.
+4f891a8320effa6d97060de765c8769b941136af|2018-08-27|Chapman Flack|Merge pull request #171 from trackjdbc/REL1_5_STABLE/SQLXML
+021f81bcd765e3c12ff6bd2f59d0b3782cbccd10|2018-08-26|Chapman Flack|Make installing the unsandboxed example opt-in.
+50d817a9083bb154bf5f964dfe129ecf1dc6622e|2018-08-26|Chapman Flack|Merge branch 'REL1_5_STABLE' into trackjdbc/REL1_5_STABLE/SQLXML
+f3bbb79e599ae609943fd0a1240f8025257f53a2|2018-08-26|Chapman Flack|Merge pull request #170 from feature/REL1_5_STABLE/issue137
+72cbb15cd878264bce4c1829ec33bace357b0800|2018-08-26|Chapman Flack|Let timestamp values roundtrip even when infinite.
+ac64ef673f0f9edb81ba8d4c0dfcf65acd6e7ba6|2018-08-25|Chapman Flack|Have StAXResultAdapter implement XMLStreamWriter.
+de248df6cfb1e9517bd59bc340c8cf79254baf9c|2018-08-25|Chapman Flack|Fix old timestamp coercion for !integer_datetimes.
+155f772e33db7e67f06c12e114192164def9e635|2018-08-23|Chapman Flack|Selectively expose new Types.* for 1.5.1.
+4494845dddee7d72f967bac3e3401ab0481138f4|2018-08-22|Chapman Flack|Add test of java.time class as PreparedStmt param.
+645cf8e650a81d45fc3cd911f48067ebf1a834dc|2018-08-23|Chapman Flack|Put TypeBridge in play for SPIPreparedStatement.
+e1614d468f23d8eb5f7a389024dd689afbf330b6|2018-08-22|Chapman Flack|Add example exercising the java.time types.
+65eb163c4a9a320e796181412209ff907c29cbf6|2018-08-22|Chapman Flack|Put TypeBridge in play.
+b844cae474acafc4226264446d12b31680ade1e2|2018-08-22|Chapman Flack|Introduce TypeBridge.
+64ebb93e3a130e6663f7022d42f835d0b72ce0a1|2018-08-23|Chapman Flack|Object getters by Class must survive null values.
+38a25b4f4f0bec0b152dc6a4c460c39ec8d622a0|2018-08-20|Chapman Flack|Include return types in most DDR method signatures
+b43d1f67e3d77369d4a8c34a96f2f2a582335841|2018-08-20|Chapman Flack|Recognize JDBC 4.2/JSR 310 types in DDR generator.
+45ae03b7cebc3ed7ab4499430d7bf3ff11efaca0|2018-08-20|Chapman Flack|Let ResultSetMetaData return JDBC4.2 Types.*ZONE.
+daf4ac3e8514dc2b43f0843d44adce8fcbe1a5a2|2018-08-20|Chapman Flack|Fix very outdated field name.
+2809a7daf5cbe76cf244732f3d02c947026b63d9|2018-08-19|Chapman Flack|Likewise for java.time.OffsetDateTime.
+4b48ef5a584d9980d77910d1c01201a58eaf9733|2018-08-20|Chapman Flack|Likewise for java.time.LocalDateTime.
+649739a8b7d3eb0b9a65a8971841c87a4e010aa9|2018-08-19|Chapman Flack|Likewise for java.time.OffsetTime
+3256ac055f1565adbec2dc2929c87e4a1d7569b7|2018-08-20|Chapman Flack|Likewise for java.time.LocalTime
+c85a2d95af8b9437e1349bd4f5bcc5e69afed7a4|2018-08-19|Chapman Flack|Implement date -> java.time.LocalDate
+2d51cd84cae7ba17385d5b331a30338f83ecd0d0|2018-08-19|Chapman Flack|Implement JDBC 4.2 SQLInput.getObject.
+ee754148b90283a4c3c20786964f990f395bcb9f|2018-08-20|Chapman Flack|Allow TypeRoundTripper to test JDBC 4.1 getObject.
+6ff7c37d14347649656a861c4171d0b468d012c4|2018-08-18|Chapman Flack|Implement JDBC 4.1 ResultSet.getObject.
+79b86c25c43b90ac27034caef42d78c171580563|2018-08-14|Chapman Flack|Javadoc, Overrides, SingleRowResultSet/subclasses.
+25811f7b37727a18c578a8909ed246e9767b9a72|2018-08-19|Chapman Flack|Javadoc, Override, ResultSetBase/subclasses.
+1ebd53666e2f868fe29b5efd98c16fd408377bed|2018-08-19|Chapman Flack|Javadoc, Override, ReadOnlyResultSet
+a2d7cc28f044c1f63bb36e21f827734608c8544c|2018-08-19|Chapman Flack|Javadoc, Overrides in ObjectResultSet.
+0707b899b0d1b97606bbfa113877fa92192f3ed4|2018-08-12|Chapman Flack|Override annotations in AbstractResultSet.
+0b3ee8f6ffb7709dc6e6d1b8dd7eb8748597d672|2018-08-19|Chapman Flack|Merge pull request #169 from bug/REL1_5_STABLE/issue168
+be5e9db556790cefb57d4b76de90a8a8ebe3524c|2018-08-18|Chapman Flack|Ensure SPI is connected to use Portal SPI methods.
+1a23379c3db6c4958cfe28f9afad71928bf1c049|2018-08-18|Chapman Flack|Test for when cursor/portal gets closed.
+ec721fff9b124eeef2fe92337bc9e206b100521a|2018-08-12|Chapman Flack|PassXML example with Java param/return type String.
+cfe42fc52cc31f8e230276e9535589299a44b376|2018-08-11|Chapman Flack|Lazy detoast for 9.5 ... 8.2.
+1a5caf1ced2ac53da7117292b5971c115b2e0264|2018-08-12|Chapman Flack|Lazy detoast, working in PG 11beta3, 10, 9.6.
+e7f4dcaea536bf7b0cdc17c2afd7705338ba9047|2018-08-08|Chapman Flack|Belonged with commit fcde4f4.
+6851f98146342323812519cca42556bcc9f619e4|2018-08-08|Chapman Flack|Changes belonging with issue #157 fix.
+925cec2d812c26ef9e0e0da2208457b5f2f182ed|2018-08-07|Chapman Flack|Avoid 'bouncing' SQLXML unchecked between types.
+5716b0a0209cb2f698cda97fa39aa8a340ac80da|2018-08-06|Chapman Flack|Two more methods in the PassXML example.
+c0fe9f7e11927fbc0ecdf02669b478833262823b|2018-08-06|Chapman Flack|Add a Verifier for SQLXMLImpl.Writable.
+f4b87bede67f63602ea666763deeb840c7a11154|2018-08-06|Chapman Flack|Add VarlenaWrapper.Verifier.
+8e79cc3e55d1755dde20589243e38df25b2dfe5d|2018-08-06|Chapman Flack|Re{factor|package} M.S.I.Stream and VarlenaWrapper
+3377c2dd544e942e50d64588590b5a217aa761f5|2018-08-06|Chapman Flack|Let MarkableSequenceInputStream draw from a queue.
+7d152374cf27f85bb0437d41b33f5e66193a4588|2018-08-01|Chapman Flack|Plant a DualState_cleanEnqueuedInstances call.
+af22f60ef6f7b8b40a85d597cbe078d0b1369942|2018-07-29|Chapman Flack|Javadoc 8 nits, and other tidying.
+3632b76457659dd8bdb7ca8d70d7b7132e8a63da|2018-07-30|Chapman Flack|Include return types in most DDR method signatures
+f1526584c5fd8a7d74917995024263b7084e23a7|2018-07-26|Chapman Flack|Let PL/Java build where PG lacks XML type.
+2e11fc415ea8a17a008bddd4161d61fedeade140|2018-07-24|Chapman Flack|Back-compat: let tweaks for old PG versions begin.
+792e509eda75c257fbc86433816b0ed557ef0477|2018-07-30|Chapman Flack|Merge REL1_5_STABLE into trackjdbc/REL1_5_STABLE/SQLXML
+e23b98b63d2d4a09a51afee6cdf424f192937436|2018-07-30|Chapman Flack|Merge pull request #167 from bug/REL1_5_STABLE/issue166
+cf82c7dad2ac4d7a2bb6183e36fde952483b01aa|2018-07-29|Chapman Flack|Merge pull request #165 from chore/REL1_5_STABLE/pgversupport
+28174fa76f7b63420b0cc1fbfd59677033e8bcb3|2018-07-29|Chapman Flack|Merge pull request #164 from bug/REL1_5_STABLE/issue163
+13a6f387f559edd52a42dc9c69cab57e9ed7fc78|2018-07-29|Chapman Flack|Tighten some conditional-DDR documentation.
+55ae99b2b16e4ca32e63aba383c145a05d172f5a|2018-07-29|Chapman Flack|Do not clobber timeouts when loaded (#166).
+bd08bd31a62162a13e4d199113998b8dc9ec0c2c|2018-07-29|Chapman Flack|Add PostgreSQL versions to greeting on load.
+b1b19c1778cede4c969d0978ee4ac1be912285de|2018-07-29|Chapman Flack|Emit REMOVE section of DDR in right order (#163).
+2ee21e77d25668c8662bfc028fba9a8f808b67b1|2018-07-28|Chapman Flack|Conditionalize examples that depend on PG version.
+36b628dc3d13bc051bf7008aa83293657977d685|2018-07-26|Chapman Flack|Preserve LOAD usability over supported PG versions
+7b3f8746aa21355f2144f9511239ccc92ef3beec|2018-07-25|Chapman Flack|Make sure InstallHelper_groundwork has a snapshot.
+c58975fc98fbffc8d67db9d8cbc1ebbfa48a9e85|2018-07-25|Chapman Flack|Back-compat: fix Backend.c for PG < 8.4.
+769bb19c174fa998bb73eba5d51bba3f3483d53a|2018-07-28|Chapman Flack|Merge pull request #161 from trackpg/REL1_5_STABLE/pg11
+fdd2cdd285ff5417b730ef734330990bfc10c48e|2018-07-23|Chapman Flack|Drop GUC_LIST_QUOTE flag on pljava.implementors.
+3b67999e1b152132f725f9a3f33c88b237fc3d1a|2018-07-23|Chapman Flack|Use ALLOCSET_*_SIZES macros to create contexts.
+0510ef536c697abcc89f038828344971bdbfecbe|2018-07-21|Chapman Flack|Merge pull request feature/REL1_5_STABLE/udtmap
+50e2e95a936f551067770c79ecec600c727f95aa|2018-07-20|Chapman Flack|Don't repeat yourself with UDT mappings.
+f3f7544bf442c9c5e14d138d45fc4912750094f5|2018-07-19|Chapman Flack|Restore javadoc buildability with Java 8+
+a156eda5d0d80f447b8ecc99bca8ea2f68481d10|2018-07-19|Chapman Flack|Merge pull request bug/REL1_5_STABLE/issue157
+269437b15c358cd9b021439f420d5742f5a6376b|2018-07-17|Chapman Flack|Remove a vestige of GCJ support.
+12ec013be94c3b256f2d2d184b3a2979932f83b7|2018-07-16|Chapman Flack|Types.getArrayType() does the trick.
+8adc01b8293b88d30d48666690ecf2e2d9a38519|2018-07-16|Chapman Flack|This fixes a problem but not the problem.
+af28366a81d1f1733745e301040c361212cc8ad9|2018-07-17|Chapman Flack|Adapt the Parameters example to annotation style.
+3447d0e05f1e6e911df934fc72a9d1f43955c7c7|2018-06-30|Chapman Flack|Merge pull request bug/REL1_5_STABLE/issue155
+c4e4c54754f4f7aea5703aaad6bce67e8b2b0758|2018-06-25|Chapman Flack|Timestamp (w/wo tz) good with + and - values.
+9626c246b127e8d9333bf4470bba4003799158eb|2018-06-26|Chapman Flack|Merge branch bug/REL1_5_STABLE/issue155 into HEAD
+e1fcce8f7836ecd1c4907ee429e23ad643c6240b|2018-06-26|Chapman Flack|Improve comments.
+c4e162a7f956413e5e2729c9e307570b32319b13|2018-06-26|Chapman Flack|Correct errors in Timestamp (issue #155).
+5d9374b731ddde98c3d6a2edcb0aee102988b01e|2018-06-25|Chapman Flack|Add TypeRoundTripper example class.
+522053898ea085e71a99c0beb49f4ada43158196|2018-06-18|Chapman Flack|Get negative intervals working.
+8064557349d62be64733f226bfe11904dfed0ecb|2018-06-18|Chapman Flack|A first cut at XMLTABLE.
+82eb4954e4e2e070540e1c268119ac3f2876e94d|2018-06-16|Chapman Flack|Support namespace declarations.
+d97261f20979fbee6c26a2cbe4ad34394fad2667|2018-06-16|Chapman Flack|Tidy, improve internal interfaces.
+f4f9c28257a70b0ff2264f50e645f6f8a3527319|2018-06-10|Chapman Flack|A largely-working XMLQUERY using s9api.
+2d850c64d1285f161643e57543820ee1f8d143d7|2018-06-16|Chapman Flack|Enter type into yet one more mapping.
+b795a760aab046fe5e805398af7ea28569c6fc4b|2018-05-14|Chapman Flack|Complete the mapped composite example.
+964aba2dfaffcfe0bdbef902caa259540694b555|2018-05-14|Chapman Flack|Take off the training wheels.
+f8b39a6333a82ea87c0497b94332eb5dc1c65d15|2018-05-14|Chapman Flack|Confirm SQLXML can be read from a mapped composite.
+aa46edb392a2bfa254a071b11baf9d336cf2bd72|2018-05-29|Chapman Flack|SQLXML in/out of PreparedStatements / ResultSets.
+a73abee1385c22861f8b8357d28360c073bad916|2018-05-13|Chapman Flack|Allow returning/storing a 'readable' SQLXML.
+fce40fe43255b79213a7fd509a2dbd8ec385769b|2018-05-11|Chapman Flack|Add an example doing "XML echo" at a lower level.
+27b80ca98b3ee706d9e672a00a60a52b70db3e8b|2018-05-11|Chapman Flack|Unwrappage for DOM.
+395512d829f4b6751b97de94813e0b4ab8521c0b|2018-05-09|Chapman Flack|Unwrappage for StAX.
+b3281090d7a2e16e9dcd45833149d3bbabba6f73|2018-05-08|Chapman Flack|Unwrappage for SAX.
+064f7cbed968426c6673cd4eb04c5ef3c2feb79a|2018-05-12|Chapman Flack|Don't let stream get closed in useWrappingElement.
+b9910f30d61c42e9d17326c9bc95c885a6033b87|2018-05-09|Chapman Flack|Test imperfectly for DOCUMENT/CONTENT in Readable.
+542ac0cd1938358cce0e8f39f29ec7dab5c079c8|2018-05-03|Chapman Flack|Support mark/reset in VarlenaWrapper.Input.
+fd8ab228f1c2548e58302cc81f3624eb6c5d3533|2018-05-02|Chapman Flack|Choose the Source/Result types to be default.
+1d023b8343f1dc3426520baea276cbcd234adc7a|2018-05-01|Chapman Flack|Work around JRE bug in reporting entity boundaries.
+0bb474d20c67faa7ed17a4b777db04aedd5b8ea5|2018-05-11|Chapman Flack|Implement SQLXML.setResult(DOMResult.class)
+c9cf11cbf6a1722a7ef72dd30647d4a324001728|2018-04-29|Chapman Flack|Use SQLXML for transformXML's result.
+b5ed64501c45efdb330040cdcda43f9664319643|2018-04-29|Chapman Flack|Illustrate the must-close requirements.
+8247c3adee3953d491ce12d3e30cac198344405f|2018-04-29|Chapman Flack|Close StAXResult upon endDocument.
+7d9718e49f5e3cc5538c8c374a2b101ca897e82d|2018-04-28|Chapman Flack|Close SAXResult upon endDocument().
+f9f7b53d0da9b84aa94573f9e636c00fc45bbfa7|2018-04-28|Chapman Flack|Extend example to echo via writable SQLXML.
+4c738695e8098dc0f5f227ae0c37c6ff53114584|2018-04-28|Chapman Flack|Implement Connection.createSQLXML()
+dedd2c7ccc4ab9ac08093cbc4505ba155a8fe2d2|2018-05-11|Chapman Flack|Implement adopt() for Writable.
+ad1ebc8dc0a10ae7258a924d4dd09339169339a7|2018-04-28|Chapman Flack|Add SQLXMLImpl.Writable.
+3a7a0145da0550dc11f762b92ae979403e06b471|2018-04-28|Chapman Flack|Add VarlenaWrapper.Output.
+c5992c2bc63dd6571722b9ced5a8e2c0376b1b15|2018-04-21|Chapman Flack|Add DualState.SingleMemContextDelete.
+93fb395cc39f3b31c49118f63c8f022a1ef8104e|2018-04-28|Chapman Flack|Make toString more useful for DualState.
+3ce8cbdf7c76d2f1b9c4439b24d2f025bd4816a7|2018-04-28|Chapman Flack|Add an example that applies a transform.
+c03b4e6203a6ca0888f4c8068b266e31c530a72e|2018-04-28|Chapman Flack|Ensure declaration, if any, is accurate.
+593e30d1aac9016ecea2bd81cdeaf814eef56892|2018-04-28|Chapman Flack|Honor API spec for namespaces with getSource().
+2950d96cfa4b5f2de2402cae37924270317dafaa|2018-05-12|Chapman Flack|Add a rudimentary example.
+ae412dbd7c00a88f3b09a309852d378a36b6083a|2018-04-28|Chapman Flack|Recognize type SQLXML in the annotation processor.
+f0bb8b5c86bbe4b1f20591caa9645c5b692c2a9a|2018-04-28|Chapman Flack|Add SQLXMLImpl.Readable.
+2f9844c0ab4d18fcf397178c2ec7acc72a5e9899|2018-04-28|Chapman Flack|Add VarlenaWrapper.
+498f5dff57f2818c3e3063a2516db8918a982e82|2018-04-09|Chapman Flack|Add a SinglePfree subclass of DualState.
+6df786639138a572232ecaf0ef4bfbb254fdb2a3|2018-05-11|Chapman Flack|Introduce DualState class.
+5efb2b57e1aae6a96c50dabe66de4e04dc6dccfd|2018-05-11|Chapman Flack|Add SQLXMLImpl abstract class.
+a096f917ca6094d7bf7be60c8211a70ac789933c|2018-06-18|Chapman Flack|Merge pull request #153 from feature/REL1_5_STABLE/rowparamdefaults
+9da65f8b7e4f1e73d3a1643d3497f74b7e491dc2|2018-06-16|Chapman Flack|Remove an overlooked copy/paste artifact.
+5e4bf0be03a1203ce7df880e2f4e937741f5d6ed|2018-06-16|Chapman Flack|Let annotations give row-type parameters defaults.
+d5172c688ee45fffd93f8850ec35f4487b15efed|2018-06-10|Chapman Flack|Merge pull request #150 from trackjdbc/REL1_5_STABLE/udttypename
+27916e15603be5a482dce739bc3d9256fce9758f|2018-06-01|Chapman Flack|Fix omitted link in install docs.
+141efe2264553a2300af425a7f3d4b5a76d02924|2018-06-01|Chapman Flack|Use getSQLTypeName, and add a test.
+9eb363f9b766562be954bcf914a5c750b2442e27|2018-04-28|Chapman Flack|Sort implemented from unimplemented JDBC4 methods.
+f3b6577a2f2878d7ea902a184ea731a90c1c7a20|2018-04-23|Chapman Flack|Annotate Connection methods and add more comments.
+1c76bab23c01afe61a3d2d514917b4bf8c126fec|2018-04-21|Chapman Flack|Mention JDBC 4.0 to 4.2 types in Oid.c.
+61cc0a9c5f02f81bf0a7fd6286ac834c2698efcf|2018-04-16|Chapman Flack|Fix dangling pointer left as GUC boot value.
+eccfadecea65e3d23345073437440b443f185b22|2018-04-17|Chapman Flack|Merge branch 'bug/REL1_5_STABLE/issue146'.
+2e9db0a8a824d6da3a7c5342e52627f70046ef5b|2018-04-08|Chapman Flack|Remove some dead declarations.
+847375d73c21f3fb386f25b74f0e0fd5e0977561|2018-03-22|Chapman Flack|Document SETOF RECORD in ResultSet{Provider|Handle}
+6db6d070197a8f445c6c1c06f0f5b34a98b06147|2018-03-22|Chapman Flack|Do casts in ResultSetHandle by column definition list
+8c15d04e01f87d675da44b0c9c7f331851117f74|2018-03-18|Chapman Flack|Update release notes for 1.5.1-BETA2.
+e2b5e5eacb9efe53a7956bb39823b380aba47310|2018-01-31|Chapman Flack|Really: Apache Ant 1.10.0 needs Java 8. Avoid it.
+20bacb2e612205a9b0f5eb445cc562c59d0578f2|2018-01-31|Chapman Flack|Add mvn knobs for debug or optimize of native code.
+5c52e3ff7a00622ca9fee867652c9c673b936585|2018-03-18|Chapman Flack|Merge pull request #145 from feature/REL1_5_STABLE/constrainttrigger
+5347925908398a5af1a6985304ca327dedbaf6d5|2018-03-18|Chapman Flack|Merge pull request #142 from tada/bug/REL1_5_STABLE/issue142
+ed0e4382a837e11ccf57be0cfa613f72b48c63f8|2018-03-18|Chapman Flack|Merge pull request #141 from pmichalek/bug/REL1_5_STABLE/issue136
+b40aa730e24950b4e438d65cfc762eab6203d512|2018-03-14|Chapman Flack|Add a constraint-trigger example.
+2aaef63903cf0abff9ae362f345a3065e60f9749|2018-03-13|Chapman Flack|Enable row triggers to suppress operations.
+4cda8c0743f8d853b09d09f07928970caa3a2db4|2018-03-12|Chapman Flack|Adjust per earlier discussion.
+98990e444cd08f2aaa22052f264d1be4803309db|2018-03-14|Chapman Flack|Merge to catch up to last published REL1_5_STABLE.
+1a58efbcb5d6cea8716922305ff7bd0be4562d40|2018-03-13|Petr Michálek|Fix #136 SPIConnection prepareStatement doesn't recognize all parameters when SQL combines single and double quotes
+aa5419e852e29444ae7a8300ec4513e6dc252b12|2018-03-12|Petr Michálek|Annotations doesn't support CREATE CONSTRAINT TRIGGER and clause FROM schema.table #138
+05463dd2baa4f78c651f7c4b45533c8b27b80c2a|2018-01-31|Chapman Flack|Merge pull request #135 from tada/bug/REL1_5_STABLE/issue134
+7a8897a282eccea36a096342e8074ca74186fd35|2018-01-29|Chapman Flack|Document (lack of) issue #134 regression test.
+73175b14bd66b64122145c6035f6a6af28644ca4|2018-01-27|Chapman Flack|Use SPI_result_code_string more.
+37d15d9c180017358ca8c7149e320ef168531224|2018-01-27|Chapman Flack|Adapt to PG 10 changes to SPI_push et al. (#134)
+ed3e142bb7a0f29569c1786271e52720cebe5f1a|2017-06-20|Chapman Flack|Add control file in preparation for next release.
+efd6af52dc1353fe4e9ef485703132f5543186f3|2017-06-19|Chapman Flack|Poke migration-management versions for 1.5.1-BETA1.
+f7d97de53c576335268a7dcae161e7fad6343cf1|2017-06-19|Chapman Flack|Merge pull request #126 from tada/bug/REL1_5_STABLE/issue125
+0d80a3ee9860ac561ae231cd7d16dee43a48172e|2017-06-19|Chapman Flack|Honor client_min_messages too at PL/Java startup.
+3c2de251c250048f3d99a374c181e2c0e1eaca80|2017-06-19|Chapman Flack|Apache Ant 1.10.0 needs Java 8; avoid it.
+1f2dd7f7b4224994954aafc8d8af0eb9b707f40e|2017-06-19|Chapman Flack|Draft release notes for 1.5.1-BETA1.
+a9e68d53fa4e27cbb5f3ceb5773765490c9fffcc|2017-06-18|Chapman Flack|Document Oid_forSqlType in coercion.md.
+6c1d355b62b4036c97ddedddb3070ebf190ec92f|2017-06-19|Chapman Flack|Merge pull request #124 from tada/feature/REL1_5_STABLE/packagingsupport
+44a65ed351a8984e3ed33a26b7f1e75875659582|2017-06-18|Chapman Flack|Add a note about patching.
+950f70fbfe81ce898843cc6bafc988674906a958|2017-06-18|Chapman Flack|Add a Packaging PL/Java page.
+adda57a062c8d533bbe0c4434317e0db13272a3e|2017-05-13|Chapman Flack|Select PG version to build for on mvn command line.
+a6fe9b9abefc76b595b334563ed720e1c957160b|2017-06-03|Chapman Flack|Fulfill old todo for setting a libjvm default.
+6255e91e9e8111e88035c18f88132d6295759f44|2017-06-13|Chapman Flack|Merge pull request #123 from tada/bug/REL1_5_STABLE/loapi
+d77d8b21f28289de6c6fc7ef56faef0b26d1349f|2017-06-12|Chapman Flack|Do away with never-documented LargeObject code.
+6707aa458ab2ae91d016280786bf9680e6ce277e|2017-06-05|Chapman Flack|Merge pull request #121 from tada/chore/REL1_5_STABLE/debuglevels
+114a5bda113effa6ebed1ba7f0546d52fee1cbbc|2017-06-03|Chapman Flack|Keep making DEBUG1 quieter.
+70d4c39b1af61be318d72c662c0984b13616cd78|2017-06-04|Chapman Flack|Merge pull request #120 from tada/trackpg/REL1_5_STABLE/pg10
+6c8ecbaee5900866e76bf54e1810feddbbdba015|2017-06-02|Chapman Flack|Add example for trigger transition tables.
+adf15afd407cafbe7f0ea6d2a5da48913a1d6221|2017-06-03|Chapman Flack|Register a trigger's transition tables.
+e9f1de099b4c962875f86b44e26f6cf66b1e128c|2017-06-03|Chapman Flack|Generate SQL for trigger transition tables.
+e0928d7f76ff419768bd5d40e0415a73bb95956c|2017-06-03|Chapman Flack|Accommodate PG10 demise of float datetimes.
+c4347480aabb841c945f283c8edc6275cf00dd66|2017-06-01|Chapman Flack|Accommodate new version numbering in pg 10.
+21c80ca1311e756dd3465d4bbc5e67722211b9e6|2017-05-15|Chapman Flack|Merge pull request #119 from tada/bug/REL1_5_STABLE/pg_upgrade
+e6e1be219ef5aadcba233ccfa8586bab1f8b3c1f|2017-05-13|Chapman Flack|Document PL/Java and pg_upgrade interactions.
+e05905560f9b738fec934d19ece960a0e22dc4e3|2017-04-20|Chapman Flack|Suppress eager initialization during pg_upgrade.
+4b053839cdacfbfed5f58e132529af9ad3ef6f5e|2017-04-19|Chapman Flack|Clarify currentRow in ResultSetProvider.
+27bfdd9213029e8d4276f6c60e87bd727f92a4bf|2016-10-31|Chapman Flack|Merge pull request #109 from tada/trackpg/REL1_5_STABLE/pg96
+97ddb5efe7e75840dbee7606e13dfa1faf455bbc|2016-10-30|Chapman Flack|Appease vengeful gods of back compatibility.
+2fb5a24b2d8aba0a13a5818867143bb03eceaad8|2016-10-29|Chapman Flack|Out with my pessimism; PARALLEL SAFE works fine.
+e5ae7fd0ac2692974f5831458b971b95c0d7f0b0|2016-10-27|Chapman Flack|Initialize more lazily in background workers.
+c8a91f78f8ef228791aa180e6c0fc2c2d49e2e72|2016-10-25|Chapman Flack|Teach SQL generator about PARALLEL declaration.
+5270b7bb680af94cd9aa68438650f5384dae2ab7|2016-10-25|Chapman Flack|Copyright notice in files just touched.
+0c38d9ab111716b18eeec2e044b2a08e02639ca3|2016-10-25|Chapman Flack|Merge branch 'REL1_5_STABLE'
+0dc6c81a17833d09b0511513371353b37cb644b3|2016-10-24|Chapman Flack|Handle widening of SPITupleTable .alloced and .free.
+d3113da8338b131fe06ca142bbe2becf0de67445|2016-10-24|Chapman Flack|Handle the widening of FuncCallContext's call_cntr.
+4024bac74507ebb08b2825b24c9923a7b2b1480e|2016-10-24|Chapman Flack|Handle widening of portalPos and demise of posOverflow.
+c32911532cdb9243e15c61d36fc81da95d264fea|2016-10-24|Chapman Flack|Handle the PG 9.6 widening of SPI_processed.
+2493fc532a3b7e832b2e837f317998d8111483bc|2016-10-24|Chapman Flack|Use heap_form_tuple, not heap_formtuple.
+f087234608bbb2dd2f7de8bd0ca958f36c24072a|2016-10-25|Chapman Flack|Advance version to 1.5.1-SNAPSHOT.
+eb3ebe10dfaa29fdd39cfedd72b47a70830b2ba2|2016-04-10|Chapman Flack|Merge branch 'trackjdbc/master/svcload'
+6123936d05202dcf4b4296d77b57464749d672a5|2016-04-10|Chapman Flack|Adopt JDBC4+ ServiceLoader conventions.
+03278f646ed79b419348b33b39a6b9f90fddfdaa|2016-04-10|Chapman Flack|Merge branch 'feature/master/getlistguc'
+b5915630819b2e7ebbb6778b01bc4e971e306cbd|2016-04-10|Chapman Flack|Add Backend.getListConfigOption.
+c6b2072d44984b8332170fec34d6d7b17452d2b3|2016-04-10|Chapman Flack|Add an Identifier class.
+a4c29cf1efd87cf780c13df961cb095e8e8f795b|2016-04-10|Chapman Flack|Lexicals.identifierFrom.
+461fff29a2df03e8b721a667e9b01efec73b2666|2016-03-31|Chapman Flack|Merge branch 'chore/master/java7ify'
+6604a7f2a7ac870ea3bd076ea43618841c481880|2016-03-31|Chapman Flack|Adopt the diamond operator.
+21b380ed0eaa1cd3ca9ff1c3720a07b8791f043b|2016-03-31|Chapman Flack|Prefer try-with-resources in some easy places.
+9d250c41e1b70f1072a95f76947514bb03fa5b42|2016-03-31|Chapman Flack|No more standard charset lookups by name.
+389d6b36be229c90786309954810224101f6e714|2016-03-31|Chapman Flack|Make more quantifiers possessive.
+ebd314bb244ceba042859a4575536603b593f743|2016-03-31|Chapman Flack|More regexps for common lexicals, a la jdk7.
+b30d21802f8912378a90f5faa4c1da613e6bda7e|2016-03-30|Chapman Flack|Move Java minimum version to 7.
+b62fb57f592993b49c8232861623e124d587937c|2016-03-31|Chapman Flack|Post-1.5.0-vacuuming oversight.
+63b2e83e1cf0ccb35939b268159ad1d46762b300|2016-03-29|Chapman Flack|Merge branch 'chore/master/post150vacuum'
+8bd216e4dbf4192265983981a27afb46d7ea4edb|2016-03-29|Chapman Flack|Bit of vacuuming after release 1.5.0.
+9f3394fe7d6317780a05dfe4a3f9e266717081aa|2016-03-29|Chapman Flack|Merge branch 'REL1_5_STABLE'
+5d1dec24d3857f092029806906ff7544687e6918|2016-03-29|Chapman Flack|Poke migration-management versions for 1.5.0.
+6d48a86f4f371561ac9909f86889b84d149ed61d|2016-03-29|Chapman Flack|Add note re: openssl headers in EDB builds.
+4f5bd0a7dc65df94acf75411404c7fcdc921d53f|2016-03-28|Chapman Flack|Expand build troubleshooting tips.
+11b6157c6ccbd743c76c0bad5df92315d2195f9f|2016-03-28|Chapman Flack|Update release notes.
+f997fdfa221ccad5e739e88b0c974a1960548ffb|2016-03-29|Chapman Flack|Merge branch 'doc/REL1_5_STABLE/examples' into REL1_5_STABLE
+4b34e10a7e7ee36ff7c194c04601065caa3c372e|2016-03-29|Chapman Flack|Merge branch 'doc/REL1_5_STABLE/clarify' into REL1_5_STABLE
+a9c6117611c8b8f5b6270d549ebe8f101c33be13|2016-03-27|Chapman Flack|At least class javadoc for pre-anno examples.
+795dfaf2e0ae16d6b980c2dcc4255f21d8f1953d|2016-03-27|Chapman Flack|At least class javadoc for each anno example.
+20428f31c1697764db361402fc63b915b6baeeca|2016-03-27|Chapman Flack|Up-front reminder of privs needed for install.
+3d4fd37ede3a0b6032231e7fe94b536c227f6087|2016-03-27|Chapman Flack|Make create-extension-didn't message clearer.
+790a068769b98409b2a84eb1e4f8b3ea29553edf|2016-03-27|Chapman Flack|Merge branch 'compat/REL1_5_STABLE/runpath' into REL1_5_STABLE
+9bfbcd5939a35a3b0d83584bae1f59c6b6d28b27|2016-03-27|Chapman Flack|Allow a link RUNPATH on mvn command line.
+0a09a8ca5811923ba9d958a49c77aab7e49d49c9|2016-03-27|Chapman Flack|Merge branch 'build/REL1_5_STABLE/solaris10' into REL1_5_STABLE
+9a76b4a14415317b959d6258275ffc4427bf9a51|2016-03-27|Chapman Flack|Add notes for building on Solaris.
+13cdc0803b240a002ab6e7924d04791a9108b4cb|2016-03-26|Chapman Flack|Edit Solaris/g++ AOL properties slightly.
+eabfb459d24c2c94127956675d3692c62c6de2dd|2016-03-26|Chapman Flack|NAR AOL properties for Solaris/g++.
+4dbabf0149fb2e6026b50f5a897f6f7aa0b9d4da|2016-03-27|Chapman Flack|Merge branch 'bug/REL1_5_STABLE/rxbacktrack' into REL1_5_STABLE
+fcde4f401a7e6445238ef7d6fe5eceaf02f4fc94|2016-03-27|Chapman Flack|Limit stack depth for syntax-check regexes.
+f85dc8a737578e9f6e8d75f127eb3793b73c188a|2016-03-27|Chapman Flack|Merge branch 'build/REL1_5_STABLE/relaxver' into REL1_5_STABLE
+bf59577b6c2b1e0f8068c4859581aab1c15f5e67|2016-03-26|Chapman Flack|Relax the pattern matched against PGSQL_VER.
+0615408b21ad57025d70f66fadc6aeb43d2e3d95|2016-03-20|Chapman Flack|Merge branch 'REL1_5_STABLE'
+9bd31791943c0fc2f54a829533db626808ec8741|2016-03-20|Chapman Flack|Poke migration-management versions for 150b3.
+7ae05a0c204102f615ba440576da1ae11f571984|2016-03-19|Chapman Flack|Update release notes.
+d5058f5015edc998024a1b24d252387a35c962fd|2016-03-19|Chapman Flack|Link from the versioned docs to wiki pages.
+adcc10f295a71fb325630c2163708c3010cddc7f|2016-03-19|Chapman Flack|Remove build.sh before 1.5.0.
+5c285557873e559423bea536e4525a8afead60a8|2016-03-19|Chapman Flack|Merge branch 'bug/REL1_5_STABLE/tupdescleak' into REL1_5_STABLE
+1d76bdea4fe70aff13559172510f81bd5575e6ff|2016-03-19|Chapman Flack|Add Johann Oskarsson's TupleDesc leak test.
+99f9a580594e7c7a1b6ff0577ae1a588bbfd3aac|2016-03-19|Chapman Flack|Plug composite UDT TupleDesc leak.
+f0a41359ede67335c5ef3fe73a9f10da96d71760|2016-03-19|Chapman Flack|Merge branch 'bug/REL1_5_STABLE/typmapchk' into REL1_5_STABLE
+a27f51704c019880178af9776e76810cf9d82b5c|2016-03-09|Chapman Flack|General vacuuming of Commands.java javadoc.
+3e8f1b7833cec474d9e20f3a4748d96e65c20a56|2016-03-09|Chapman Flack|Limit add/drop of type mappings.
+ad4e051a548a1874e2a469a6078ef7dbb18828ec|2016-03-19|Chapman Flack|Merge pull request #97 from TwentyOneSolutions/REL1_5_STABLE
+37fbcf2268ef26042e64d853aae0fc103351e212|2016-03-19|Chapman Flack|Merge branch 'bug/REL1_5_STABLE/aseert' into REL1_5_STABLE
+1df4d8a5d768b8b8466383bf789d98078f5115dc|2016-03-19|Chapman Flack|Fix pre-9.3 bug introduced with MinGW fixes.
+4d73ae8cd3062fe45b99f3c05720ad51fa077b29|2016-03-18|Chapman Flack|Merge branch 'feature/REL1_5_STABLE/typmodprep' into REL1_5_STABLE
+21e3d749b1239ca6a801e9bee293a2facf1eae8b|2016-03-18|Chapman Flack|Merge branch 'doc/REL1_5_STABLE/vmoptions' into REL1_5_STABLE
+3a0796b83da4a7722eb57633eabfffeb81acf8f6|2016-03-16|Chapman Flack|Add overview of AppCDS.
+ade8c885a4a8992dd96bd8a8dfc78075d8a32d53|2016-03-18|Chapman Flack|Document particularly interesting VM options.
+449a0c0923e9e7c2fbe1f5b6317b481dce29fe3f|2016-03-18|Chapman Flack|Merge branch 'bug/REL1_5_STABLE/udtarch' into REL1_5_STABLE
+a33184076c95524369a5144ea3c4aea39edfd8d8|2016-03-10|Chapman Flack|Check for base UDT if no other type mapping found.
+460b25dea6aa753a9b00a01f3f38ad2a41f5a7e6|2016-03-18|Chapman Flack|Clunky but serviceable way to set byte order.
+699da71c901f582aa4f7b65a09b474d85a3644c7|2016-03-18|Chapman Flack|Lay groundwork for typmod support.
+ba09721cbdad08b59345791cb12e050328b42fbc|2016-03-16|Chapman Flack|Merge branch 'chore/REL1_5_STABLE/pre-rc1' into REL1_5_STABLE
+da80844fc51cc74ab62d0171fdda2a58fdcfe8a2|2016-03-05|Chapman Flack|Rework SQLOutputToChunk using direct bytebuffers.
+45c9a113cfc055ee71754bae25a388dce2e4e0cf|2016-03-05|Chapman Flack|Rework SQLInputFromChunk using direct bytebuffers.
+aa625a1cc8f56e243aea9d0d1580357bb8d3ae15|2016-03-08|Chapman Flack|Add tests for UDTs and SQLInput/SQLOutput.
+56a7e63ad33103de54fc1af1ddce5387471ab907|2016-03-02|Chapman Flack|Defensive coding against Rhino string bug.
+1eea12f4e2033b290c599b97f07b885c0f4a31dc|2016-02-26|Chapman Flack|Get rid of Makefile before 1.5.0 release.
+c99838cbd621efd92613745153ca40765cf2d94c|2016-02-26|Chapman Flack|I've been cargo-culting needless extra /-es.
+c7dec9dbbf25f4da27eebf82b847a913ca3c58db|2016-02-26|Chapman Flack|Missed this file when adding -api to package.
+2353235f4cb11594d52d3c08e4dbd1d57cb1dba5|2016-03-13|Chapman Flack|Revert version string to 1.5.0-SNAPSHOT.
+1cf82fb64b39259a4af23958e6a3a0a87ccd059f|2016-03-05|Igal Sapir|updated message to reflect correct filename in Windows
+9855f7a78129f9bf29d800323e612afba3061b54|2016-02-22|Chapman Flack|Merge branch 'chore/REL1_5_STABLE-BASE/schemaver'
+0acd065197fd33144adb8478b3d0d372ae5ddbee|2016-02-22|Chapman Flack|Merge branch 'doc/REL1_5_STABLE-BASE/pre-b2'
+63b8b4b8fa3ca4b4bcba97fa9509bee299ae192b|2016-02-22|Chapman Flack|Merge branch 'port/REL1_5_STABLE-BASE/mingw64'
+2cc22fec1bddf6350996d7767fac94317995c814|2016-02-22|Chapman Flack|Merge branch 'feature/REL1_5_STABLE-BASE/extupgrade'
+d5b69ef534cbaebfb7bc21e44b30b65089d77e0e|2016-02-22|Chapman Flack|Update versions 1.5.0-BETA2.
+243c33620c60407a2248e7f8125af507c54995a4|2016-02-22|Chapman Flack|Merge branch 'chore/REL1_5_STABLE-BASE/schemaver' into REL1_5_STABLE
+823b6f498126d4c99f6b2404d6d2bfe109a32f09|2016-02-22|Chapman Flack|Sync schema-version detection.
+b985a4db61423789aefd8ca2d5af64f8ab4c97f4|2016-02-22|Chapman Flack|Merge branch 'doc/REL1_5_STABLE-BASE/pre-b2' into REL1_5_STABLE
+56858e7b19081dd83a4179f959ea25f827fde91e|2016-02-22|Chapman Flack|Merge branch 'port/REL1_5_STABLE-BASE/mingw64' into REL1_5_STABLE
+6f951ca74eafb26f7bbffe0390be956e612a5b8c|2016-02-22|Chapman Flack|Merge branch 'feature/REL1_5_STABLE-BASE/extupgrade' into REL1_5_STABLE
+808c3d7cf89e846faccdcdd1f74172de64700dd3|2016-02-22|Chapman Flack|Minor mingw build page copyediting.
+3490b97415f48446c2719bcb799c82a11683d113|2016-02-22|Chapman Flack|Further document upgrade procedures.
+3a6b4275050f6663e441a0aa3bbe7d4318679b6e|2016-02-21|Chapman Flack|Shim for extension updates.
+324b00e0db6d732117d2c0220d57e79aa56163f2|2016-02-21|Chapman Flack|Give up on MODULE_PATHNAME.
+a5c58591d9f208c67dbc9bc815e1784e590283a7|2016-02-21|Chapman Flack|Update release notes.
+71a3bcc24becdc9d99257c8c38944c336c044dcb|2016-02-21|Chapman Flack|Friendlier API and examples summary pages.
+656514220ce80331cc15889aaacda16dfec5a015|2016-02-21|Chapman Flack|Replicate 'build' edits in 'buildmsvc'.
+405c3345238911963360af768d49904d0ae12c84|2016-02-21|Chapman Flack|Document that Windows libjvm is just jvm.
+443b3a015fcb908129097990e72e2ae808586c65|2016-02-21|Chapman Flack|Document building with MinGW-w64.
+4ede5fe3ffd123ced5453d730ceb33c8b0a042ca|2016-02-19|Chapman Flack|Skip signal handler fwd decls on Windows.
+124655b5c6e30efc98624c7ebda14750cf9315af|2016-02-19|Chapman Flack|Accommodate Windowsish printf format differences.
+4c0f79f0af09a34118dbf8f91fa41819b542d496|2016-02-19|Chapman Flack|The link option did the trick; now explain it.
+719d329cd5fe5968b822e8682c145ae5622e0c6e|2016-02-19|Chapman Flack|Try --export-all-symbols.
+ecf50ad3c4151d321d986b0f05d900abc33c962a|2016-02-18|Chapman Flack|A first attempt at enabling mingw64 builds.
+754762e9af51ebad24ec751bec65190b6fe18d1a|2016-02-15|Chapman Flack|Rework extension wrappers slightly.
+79c37fd59edc403e090cfc0beab9623d3419032c|2016-02-13|Chapman Flack|Merge branch 'packaging/REL1_5_STABLE-BASE/apijar'
+c16a1bfaf1b642eaf1e81f40ea8bb5b0b085fe5b|2016-02-13|Chapman Flack|Merge branch 'packaging/REL1_5_STABLE-BASE/apijar' into REL1_5_STABLE
+de42f82908fe047356acdbaf51b49f34ed6e00b2|2016-02-13|Chapman Flack|Include pljava-api*.jar when packaging.
+62e8f98e79cc036c7bc286f97802ce630bcf8e2c|2016-02-12|Chapman Flack|Merge branch 'workaround/REL1_5_STABLE-BASE/issue96'
+f92e47b150cef32cec82f4e6d037de4fd87fef5a|2016-02-12|Chapman Flack|Merge branch 'workaround/REL1_5_STABLE-BASE/issue96' into REL1_5_STABLE
+62a87824156e4de15d78ef755f23fd340d82f874|2016-02-12|Chapman Flack|Document OS X "Java 6" dialog workaround, #96.
+00bc81d92be6bcfef5b4028e72b52d1e8d8e3c1b|2016-02-08|Chapman Flack|Merge issue #95 fix.
+f95900fd856a1183e0989483e4d644ee53f96f8a|2016-02-08|Chapman Flack|Merge issue #95 fix.
+da56d6df409aded3b30295ce2a1f54da1668943c|2016-02-08|Chapman Flack|Catch compiler-caused classcast confusion.
+c7e758234095fcaa7bb64fc4c19019f3bceadeb7|2016-02-08|Chapman Flack|Call getSQLType earlier for errors' sake.
+63ccd3831f85833e3aa155456551613daef29082|2016-02-08|Chapman Flack|Invoke characterize methods earlier.
+51b3ace68bf454cb5cc53ca7b081fae6b78826f7|2016-02-08|Chapman Flack|Merge branch 'bugdoc/REL1_5_STABLE-BASE/osxopenssl'
+ff7ded776df0668e65a6ef70624802f34dabdbcd|2016-02-08|Chapman Flack|Merge branch 'bugdoc/REL1_5_STABLE-BASE/osxopenssl' into REL1_5_STABLE
+c255f7d2a6145965bfc222f3010cf39c325766c8|2016-02-08|Chapman Flack|Document workaround for issue 94.
+8711d2a393fdbc52b6267ad537a00b89e91a28c5|2016-02-07|Chapman Flack|Merge branch 'bug/REL1_5_STABLE-BASE/issue92' into REL1_5_STABLE
+84050829751715bae1d5b34044fcfecc891fcfb2|2016-02-07|Chapman Flack|Merge branch 'bug/REL1_5_STABLE-BASE/issue92'
+dbee67e3f8242f0aafdeb80688cdfaeddd738a44|2016-02-07|Chapman Flack|Now passes issue 92 test.
+22f6c7df98b704c62cf2d3cde6a82122aa77ac32|2016-02-07|Chapman Flack|Add test detecting issue 92.
+0a072dd07b29b1bf4a894deec68633f6c429d049|2016-02-01|Chapman Flack|Advance version to 1.6.0-SNAPSHOT.
+77197157029fa8e46193a696cec1c2f79470ea48|2016-01-31|Chapman Flack|Track sqlj schema by release.
+adaed749866f19d3fdb539fe6d00e64085fbb57c|2016-01-31|Chapman Flack|Update versions 1.5.0-BETA1.
+b08187345293f8e876a81bde4be8ced44edfaa51|2016-01-31|Chapman Flack|Merge pull request #91 from tada/trackpg/master/lotrunc64
+675254b0f17b76f05e72cba2e3b8d3e548ae7a43|2016-01-23|Chapman Flack|Change default USAGE grant for 'java'.
+d2f6ef84e46765822f92cd8f403a7e4c1f8bb198|2016-01-23|Chapman Flack|Add large object truncate and 64-bit offsets.
+a4056ee2ef4e75a22bca1d4e6b3ad87453545a4c|2016-01-31|Chapman Flack|Adapt docs to apply to a formal release.
+ed62413954bb82f06c89094073047c9a75fe955a|2016-01-30|Chapman Flack|Document repeated-CREATE-EXTENSION errors.
+d40fa6b76b17226de0f0bbce5ebf49e5e950a94d|2016-01-29|Chapman Flack|Acknowledge Bear Giles' doc contributions.
+89072d494f08393b50a514dd106ae084f407b513|2016-01-27|Chapman Flack|Pure addition to release notes.
+439f6947a62a6149cfe9813ca7424b72838d76cd|2016-01-26|Chapman Flack|Merge pull request #90 from tada/feature/master/ddrcomment
+d3b77a98fcd05094aa8b13939b83830cfca81a7e|2016-01-26|Chapman Flack|One more javadoc straggler.
+83e9cda11af23505e0d794de62d623750fab9969|2016-01-26|Chapman Flack|Fix two javadoc links.
+3031b776f626b13e6513fb7eaa557137bc2b9654|2016-01-26|Chapman Flack|Merge pull request #89 from tada/chore/master/debuglevels
+741940e0015402da1a0499b9f33e84e8b73f6902|2016-01-25|Chapman Flack|Merge pull request #88 from tada/feature/master/props+jmx
+114c866fd567ba6c859a7aaa11b392ddb689a861|2016-01-25|Chapman Flack|Don't leak a local ref.
+2ca9e58fba448021bfff146aaa7d6f108c1894a3|2016-01-25|Chapman Flack|Two additions to release notes.
+144a826e8d016b20a8b79c39f6a072135b4a1df8|2016-01-24|Chapman Flack|Let pre-existing call-handler comments be.
+cd8b61b108e3673b3aa9fb26b70d8be8128392ad|2016-01-24|Chapman Flack|Comments for the objects InstallHelper makes.
+7baa6d76732fa821faba9eaade7b8721f9d4bb79|2016-01-24|Chapman Flack|Add comments on sqlj.* tables.
+b8d0c7de2982d1f3034324e80c783f378b8bf112|2016-01-24|Chapman Flack|Reformat Commands.java javadocs.
+aa95cc3ccf0f1696303ce61ddc5a06a6f217ea6c|2016-01-24|Chapman Flack|Comments on SQL-generated objects.
+1eb3bd8d74b827f92b3e2cad06f8e010751446a0|2016-01-24|Chapman Flack|Make DEBUG1 quieter.
+e8e2c714078c55de9dfdfdb44ca487d264f0df39|2016-01-24|Chapman Flack|Cluster name as property and in jps title.
+4c3d3608d590b66fc34ca19cec1529d879b8bd87|2016-01-24|Chapman Flack|Merge pull request #87 from tada/chore/master/releasenotesrb1
+2512d2f745ca8953559a244071c889294710e53a|2016-01-24|Chapman Flack|Note for building on 32-bit JDK.
+f8828703ef659266fedace4f9486d54f2e85c5ef|2016-01-16|Chapman Flack|Add draft release notes for 1.5.0.
+41009664e116064c893f2f53835c5808ac0975c6|2016-01-15|Chapman Flack|Reconstructed through PL/Java 1.4.3.
+de20fbc6f8d247c98c28f0d22b6f7a1adc27049e|2016-01-14|Chapman Flack|Reconstruct old release notes through 1.3.0.
+cee53881d01ac9ed02581b8d4f3098e669be71c2|2016-01-23|Chapman Flack|Merge pull request #86 from tada/workaround/master/modelerrors
+083742658cc92366a7cc5520943ab5878bd08e41|2016-01-23|Chapman Flack|Cover other possible javac-error case.
+da13b65ebe931ac45f60e059840ab77a993fe84d|2016-01-15|Chapman Flack|Run unicode roundtrip test only on UTF8 server.
+82ad1da608df5af9c708ff7015f4c4a13d8c977d|2016-01-14|Chapman Flack|Improve message in strange javac error case.
+75927466668d4b386c711a89c27b35c6ff7e0a76|2016-01-11|Chapman Flack|Merge pull request #85 from tada/api/master/annokwds
+93f8027d7d9d1431d0eabf08ebf7fd6278a7550b|2016-01-05|Chapman Flack|Catch up documentation.
+c6805e532ed2853a5c329803aae79b86375b4dca|2016-01-04|Chapman Flack|Change annotation keywords discussed on -dev.
+03c8365a26287c389c454708c4574823a2e8450c|2016-01-10|Chapman Flack|Merge pull request #82 from tada/feature/master/extension
+29829e1c7ab7fa94570d1567f8400dc04de5f8b0|2016-01-07|Chapman Flack|Merge pull request #83 from tada/trackpg/master/pgattribute
+a57ff5d1be7ed2a5bf45b842d925e8b6b30d3b9c|2016-01-07|Chapman Flack|Merge pull request #81 from tada/trackpg/master/uidsecctx
+893b5ce5e0b3362b81eb69e74b76df46fd7fe19c|2016-01-07|Chapman Flack|Fail CREATE EXTENSION on nonempty schema.
+6e3deec8c8eb4ba2895f230ceb3b371bf5844678|2016-01-06|Chapman Flack|Shortcircuit assign hooks during abort.
+f80ae9b57948a72c7a2dd21c0cabab61d8f329b8|2016-01-05|Chapman Flack|Windows file.separator, take 2.
+9190cb2cbaf942b638044f221051efa1d1fdfbb5|2016-01-04|Chapman Flack|Track PG9.5 change re compiler attributes.
+18edd7c918ad2664cf48b9cf869ba6bb605f4f43|2016-01-04|Chapman Flack|Add file.separator conversion for Windows.
+0ae2fe230d787b20918391873f4c805e01f3cb38|2016-01-04|Chapman Flack|Add missing steps in --unpackaged script.
+bf86f306b0683fc20c4ed0a14f5fccb44cecf518|2016-01-03|Chapman Flack|Update install docs for EXTENSION changes.
+b955ab5ec10af82b154e7a7f818d0a07ea1f2d5a|2016-01-03|Chapman Flack|Switch install.md to use Velocity.
+74cc1dab78fec84160eb7c6622ecb53cd8c880a9|2016-01-03|Chapman Flack|Workaround Windows creating_extension visibility.
+34773e81c5bb2add2ec273582549c0c10d20e5f3|2016-01-03|Chapman Flack|Package as a self-extracting jar.
+c3748d432ad10b0e63654a58d79f655482f8721c|2016-01-03|Chapman Flack|Merge in a self-extracting jar tool.
+94b8653a87b386d94bb34b0c54e5e1444c867dd7|2015-12-29|Chapman Flack|Make CRLF consistent for text files in zip.
+e59506a139e1e7abd772dd71edb69a766a166ceb|2015-12-29|Chapman Flack|Drop Deployer and (un)install.sql from zip.
+1037682f7dcf9ccf1ae08df7c3b62e208bb148f3|2015-12-29|Chapman Flack|Simplify to one package type.
+4989916c37d60f3eb108f212adb71115e4c90446|2015-12-24|Chapman Flack|PL/Java as a PostgreSQL 9.1+ extension.
+6b4331aab884e521c264c3ade98dc2b9cb036e8b|2016-01-03|Chapman Flack|Relocate file for use in PL/Java.
+290732e136d468307448fc9249af8cb3be89ed95|2016-01-03|Chapman Flack|Loosen access mods for easier embedding.
+71b4a1b281ce56204573065225410d04dbba87c7|2016-01-02|Chapman Flack|Track newer PG get/set user API.
+d1f50eec8665fc334c1d280e9b96305869fccc50|2016-01-02|Chapman Flack|Merge pull request #80 from tada/chore/master/pgversionnum
+3d6e0dfbc3a06046b7dfe3d9f81eb381f6e9367b|2016-01-02|Chapman Flack|Correct two converted conditions.
+59d9937b89ff83d8888ae1d6cb6e7eeca1930bb2|2016-01-02|Chapman Flack|Now can include a path-resolver script.
+71f35a81fe2a1d4b1c24654ec785d74fe5c5ded3|2016-01-02|Chapman Flack|Javadoc polishing.
+7c58ef2fd10353ad82904122a0e9a34d05408596|2016-01-01|Chapman Flack|Now can set permissions.
+c38deefb9e99f95a3be3582cac587297d50641bb|2016-01-01|Chapman Flack|Update to use Manifest/Attributes, new keys.
+7ab83e431c364487bc30046090af62b3702f8eef|2015-12-31|Chapman Flack|Update to Collections and Generics.
+5b1120f942293267e3a07dab9d35212c1aa0cfab|2015-12-31|Chapman Flack|Compiles, with nio Charset coders.
+9f97947f3ef296a6d39979302e34e7c2cd2a47cc|2015-12-23|Chapman Flack|Vacuum HAS_2PC.
+73a703a15fb87863cf63f8743b52b153cd62c774|2015-12-23|Chapman Flack|Vacuum backports.{c,h}.
+e0ef2e3a13f3bf24f7b7b2b16b8c9ada1d5476bb|2015-12-23|Chapman Flack|Remove one stray source file.
+f7c5d64a6ffc96d57325c1f8b1e9b8862baf9b2b|2015-12-23|Chapman Flack|Rototill C source for PG_VERSION_NUM.
+4094e15fc826b67f5120d7087d722bb011ecc844|2015-12-22|Chapman Flack|Merge pull request #79 from tada/trackpg/master/issue65
+755edb0e584a87fd56da87993620cb7c1c39fe5e|2015-12-22|Chapman Flack|Merge pull request #78 from tada/chore/master/pre150
+c07f366ae50045f70704377a4afb5fedaafe89cc|2015-12-21|Chapman Flack|Note historical nature of files in docs/.
+0d58ecacac2c82c50d2a12e328c5f33421034964|2015-12-20|Chapman Flack|Add notes of Deployer/install.sql obsolescence.
+edcdb510c6a6420d291cd05949ff69df5f19713d|2015-12-20|Chapman Flack|Remove msvc-build-notes.txt.
+9c00a396adfdde990d76e63d11f7e07f86c9cb44|2015-12-20|Chapman Flack|Rename the packaging subproject.
+59688ecca4103cc904a5d5c9801467ed3f1900f3|2015-12-20|Chapman Flack|Declare maven-jar-plugin version in pom.
+46ee44b019616afa229a0267bb7ccc01c02ec729|2015-12-20|Chapman Flack|Use PG 8.3 find_coercion_pathway API.
+d0fdb5d4967f8a85c9ba6339c6afb51bcdfd2db3|2015-12-19|Chapman Flack|Bit of refactoring.
+2a5909a021608f0a83cb124f78e92bb39170dd03|2015-12-19|Chapman Flack|Merge pull request #77 from tada/chore/master/matchversion
+ee2b0622fa273422c8ddb85bb3a6cd63f6ee9cf0|2015-12-18|Chapman Flack|Docu fix: missed 'shared'->'plugin' on one line.
+a4072afc24747e64b79c6c4a5c2b836b05b43b23|2015-12-18|Chapman Flack|Alter project version to 1.5.0-SNAPSHOT.
+7b3ff7a7bc19505fefe7e48e0633bf1dea59cfef|2015-12-18|Chapman Flack|Merge pull request #76 from tada/feature/master/installhelprb2
+ea8223e54a3ec0c3e1d01acd45f72bc23d915952|2015-12-16|Chapman Flack|TWO more omissions caught late.
+a0f17a59b1709b4510ba84de9e86bb04ab52fa93|2015-12-15|Chapman Flack|One cut/paste error caught late.
+569a70b25aa6831d3840e3cbc637d422339ad294|2015-12-15|Chapman Flack|More documentation mavening.
+c572b1f318aa7a687eab723246830ff0612352b7|2015-12-15|Chapman Flack|Last-minute documentation tweaks.
+aca77cb11e88e92becdba35b1f3e997a53347073|2015-12-13|Chapman Flack|Quiet gcc warnings remaining in Backend.c.
+b17aa8cae8d493a94262a373a117496a05737310|2015-12-13|Chapman Flack|Proclaim a default for pljava.classpath.
+388bbb9ec716b230d3115dfd2eb438a7b9233a87|2015-12-13|Chapman Flack|Add some JMX awareness.
+c8c4be9c6fb97e7b3b3c5d2cfe404ba7dcfa6776|2015-12-11|Chapman Flack|More documentation refinement.
+9be1a92645bf00ddaa78b76fdd334f5d0b58e828|2015-12-11|Chapman Flack|Add buildmsvc.md courtesy of Ken Olson.
+ffc9c01cf2e27432a06ce27c7c94897c54b7e757|2015-12-11|Chapman Flack|Ken Olson's buildmsvc was derived from build.md.
+0993bd069d81877f1940e4cad2413b48718c9620|2015-11-29|Chapman Flack|More MSVC strictness.
+1f1e8fed84f7841755278146e755e5af68b8d311|2015-11-26|Chapman Flack|Work around symbols MSVC can't link to.
+c9f96eeee3b30b53c586d1892aaec9a152ab58f7|2015-11-23|Chapman Flack|Work around PG's missing dynloader.h for MSVC.
+33da444db1034459beb2d6d5c81911c9db84d10e|2015-11-21|Chapman Flack|Don't fail in remove_jar if schema dropped.
+373a80d7ef1d4c84f2efc927baa194390a162bd0|2015-11-21|Chapman Flack|Handle PostgreSQL 8.1+ roles correctly.
+10ea1e50ab26d8e5d36abbf569471a8775a627c1|2015-11-21|Chapman Flack|Don't leave SET ROLE broken after DDR execution.
+f11bbf039467fa518be9500ade53d503b675270b|2015-12-14|Chapman Flack|Begin new build and installation instructions.
+f05c3d7d24c1f449a3fb69edf9901098ba8eff73|2015-11-19|Chapman Flack|Part of issue #12, schema migration.
+6498b9e9b5b55bae412eaadd4f63446d65d172be|2015-12-14|Chapman Flack|Thanks to Ken Olson reporting MSVC2010 complaints.
+5f250066a839dad68e8d30d3138607f07907dc75|2015-11-13|Chapman Flack|Work around Windows symbol visibility.
+ac425e085bf91c2488706ef8a3d8e4a1b77791ab|2015-12-14|Chapman Flack|InstallHelper groundwork() ensures good schema.
+228e40765b5726ac4de7f662512c361fa1afcfc5|2015-12-14|Chapman Flack|Add to functions of InstallHelper.
+1f25073ab2380f51ed95be495eff2d6fe3dbf00a|2015-12-14|Chapman Flack|Add InstallHelper to keep hairy code from Backend.
+a97f6e317a21a9f8239dbf2dc72ef2888fa344a5|2015-12-14|Chapman Flack|Begin improving message helpfulness.
+af4f906660fb9b296b79c7b766d216db91969197|2015-12-14|Chapman Flack|Factor init sequence into a restartable routine.
+398f3b876ed402bdaec8bc804f29e2be95c75139|2015-07-16|Chapman Flack|Add a GUC option for libjvm location.
+f3583fc788efd288b060c3683017a8c989d558b2|2015-12-15|Chapman Flack|Merge pull request #75 from tada/chore/master/javadoc8
+257f9e6c0563b161f995980187fcc1399b68b60f|2015-12-15|Chapman Flack|Merge pull request #74 from tada/bug/master/issue61
+8e89344600d0c57381562b98710197ceb8b6e50c|2015-11-29|Chapman Flack|More groveling before JDK 8's javadoc strictness.
+f25b6eba75184903dd3c563ceb3adafd9def2a1b|2015-11-01|Chapman Flack|Avoid crash on exception before String_init.
+02e34df12f7ce3ebc00e22b488a888a8de649fb7|2015-12-13|Chapman Flack|Merge pull request #73 from jcflack/trackpg/master/getuser95
+583ce6a18382f5fd04a4e391430293c41b97a354|2015-12-11|Chapman Flack|Use 2-arg GetUserNameFromId on PG 9.5+.
+583b0579ed46b860d07f81512f891d753ed50ec7|2015-12-11|Chapman Flack|Fix overlooked consequence of pull req 68.
+f0c07c6766bfc03b402869d4c25ea22c20da7379|2015-12-09|Chapman Flack|Merge pull request #72 from tada/bug/master/issue63rb1
+27aff9b7f92579491c4c513a73f0c9a150112f2f|2015-11-07|Chapman Flack|Resolve OS X build problems (issue 63).
+28eadbb36fc838beaf809073cf98a5c3c3d4c85a|2015-12-09|Chapman Flack|Merge pull request #70 from tada/tracktools/master/siteplugin34
+fc8ccc8a134c3d93ae3599f4ae2d3e31b69288bd|2015-12-09|Chapman Flack|Merge pull request #68 from jcflack/simplify/master/libdirmacro
+200173ac3fdf5591fee7a0c345fe6dbf2a35db32|2015-12-09|Chapman Flack|Merge pull request #67 from jcflack/trackpg/master/stackbase
+68d6459aca76b63804f2f62715dfcfcce411cc06|2015-11-25|Chapman Flack|Only fix javadoc nits that JDK 8 calls errors.
+a3baf6f7cb836beb1c0209e70a8eaf335a4b6053|2015-11-18|Chapman Flack|Track upstream maven-site-plugin.
+a0ffcd271c0c0b38f00d4086c38bc84ea6ea60b0|2015-11-13|Chapman Flack|Unbreak packaging subproject.
+9cacf4952debc5ebb62148bda7707dd915a375bd|2015-11-13|Chapman Flack|Work around Windows symbol visibility.
+4d67605d2a83da99b20d2539422de2bf474225c8|2015-11-12|Chapman Flack|Move pgsql.properties to target directory.
+9c2d931af0d94bdf9d5d47c169049c7c8d96cfdf|2015-11-07|Chapman Flack|Ok, simplify PGSQL_*_VER too.
+f97825bf174a266621cd0c741b7d3f97b3cc9829|2015-11-02|Chapman Flack|Expand $libdir a simpler way.
+36cbd476a39681e5d7227f3d54e6a8fb1c36b652|2015-11-08|Chapman Flack|Track PostgreSQL's changes to stack base access.
+11fd938bd01f963acaa624e776d96a5b602eace0|2015-11-12|Chapman Flack|Merge pull request #66 from tada/bug/master/coerceout
+340b56bd551eb985e0dedf1e6084a036c224602c|2015-11-12|Chapman Flack|Type_getCoerceOut correct statement order.
+152c48ed1180923d4a7e0b04fc92262c059aaa9d|2015-11-12|Chapman Flack|Observe C90 decls-before-stmts rule.
+3f0ea1a0f4504b415029afb789ba74ee22149316|2015-10-27|Chapman Flack|Merge pull request #60 from jcflack/cleanup/master/tadanexus
+dbc24832f2785f90db6df1d159a5f0118799ca00|2015-10-20|Chapman Flack|While tweaking POM, add inception year.
+8968b8d29d8881da19aae2510ec097e2748eaae5|2015-10-20|Chapman Flack|Remove nexus.tada.se distributionManagement refs.
+0de8b77e50aaf54a24bd1c95aa86ba1bd73bf972|2015-10-20|Thomas Hallgren|Merge pull request #59 from jcflack/feature/master/udtsqlgen
+5ce2ccaa147fbc311fbcc36a3436089e4ca21b21|2015-10-19|Chapman Flack|Late minor corrections.
+ae1d347149518c89ca17067a313f26cf67c53c22|2015-10-19|Chapman Flack|Remove nexus.tada.se references from POM.
+99b8cc8eda0e3dfeace5f722aa720c9cabedc155|2015-10-19|Chapman Flack|ComplexTuple.logAndReturn needs IMMUTABLE.
+ef8bd76073ccb50dcbb6b2d396edbd6b0116396b|2015-10-18|Chapman Flack|Conform to Point/ComplexTuple renames.
+21d8b59b881fbcd971a9349b65a18f59f2ab6824|2015-10-18|Chapman Flack|Conform to BaseUDT rename, add MappedUDT.
+b9a9d6debb08b96985517db722e5403ff0b320f5|2015-10-18|Chapman Flack|Rename UDT to BaseUDT (breaking change).
+fe2297e7f46e23f4f64363c8e16d6be0d809f86b|2015-10-18|Chapman Flack|Get that issue 52 test into the tree.
+43072b64ee1dff88d3c6bcff205cff522528ee78|2015-10-18|Chapman Flack|(Unbreaking) complete the ComplexScalar rename.
+1af100588b70badc4b10327d0904f7faff5bb061|2015-10-08|Chapman Flack|Add a class annotation to make a base/scalar UDT.
+7c1c2bfbdc9e982ac887100ed4bef5c33bd8d838|2015-10-09|Chapman Flack|Make sure README mentions the gh-pages site.
+ca7fea76bb1ee91375f66d2d2604a897a64e6017|2015-10-09|Chapman Flack|Run UnicodeRoundTripTest only on 9.0+.
+1b503ee1f5fb153e54c43b1015aec331efd8c434|2015-10-09|Chapman Flack|Whitespace policing only.
+837b03bc2397606d1a21c07bec487c7f9e9eb1f8|2015-10-09|Thomas Hallgren|Merge pull request #58 from jcflack/bug/master/issue4
+8e5af450556bf7056862ef94d9ab97a68b173506|2015-10-09|Thomas Hallgren|Merge pull request #57 from jcflack/bug/master/issue21
+d2c3ffb04e4e4f18372aff1c9a4432c0178be3a1|2015-10-09|Thomas Hallgren|Merge pull request #56 from jcflack/feature/master/conditionalddr
+b952096380c58930ffbe3eafb881c995e4f60201|2015-10-08|Chapman Flack|Assign elementType from typeId for enum types.
+afe51d138eef79b2ebffdb9cff7a8419cf7cb2da|2015-10-08|Chapman Flack|Add testcase with enum parameter and return types.
+427ff5bf6f9aa7b721198f568855db6914f2d55f|2015-10-07|Chapman Flack|Cast away nuisance String.c warnings too.
+c556d7e1960dc2ac321b0bf8fc3fb7614e9d79d9|2015-10-04|Chapman Flack|Eliminate threadlock ops in string conversion.
+aa83efe0232bec5a670c361b710210431d524949|2015-10-04|Chapman Flack|Last method to update: createJavaString(text*).
+cbb27e24f5c9836484867664501386902a92e81f|2015-10-04|Chapman Flack|Fix latent bug in unused method.
+25b81a22302e0f6b7209b8330860324162b28c1c|2015-10-03|Chapman Flack|Make String.c use Java's charset en/decoders.
+ab81bc7d72152017d3391f9dcfe84be20a20d3ab|2015-10-04|Chapman Flack|Test case for issue 21 Unicode handling.
+b6784b60cc12498e94d7a133de7e3444d0cef5a7|2015-10-03|Chapman Flack|Conditional DDR as proposed on pljava-dev.
+69068702107dac599e3f9ce1836cdc873ed237e0|2015-09-29|Chapman Flack|Now can set implementor in annotations.
+3a7f8fe8e61321d7da06cdbe25cad74ef8abf44f|2015-09-28|Chapman Flack|Snippet implicitly requires its implementor-name.
+788ef807442c169d45c2ea232c8a6425949c8279|2015-09-28|Chapman Flack|SQL generator now reports require cycles usefully.
+e434c8d58746483f6a24bf645ff99834e8afc4e9|2015-09-28|Chapman Flack|Now Snippet can carry implementor-name.
+792d0dca432b5fd1649dba56c2980a3037139673|2015-09-28|Chapman Flack|Refactor SQLDeploymentDescriptor to check tags late.
+40bae780a24852eb2910171cd28866e00eaf8682|2015-09-25|Chapman Flack|Starting javadoc tweaks, some lexical definitions.
+9b10e959c4dc4fe135a550c0bfd6407a47d6634a|2015-09-29|Thomas Hallgren|Merge pull request #53 from jcflack/cleanup/master/nativebuild
+9579c491954a5ff401a52d295b77aa8f824861ac|2015-09-28|Thomas Hallgren|Merge pull request #55 from jcflack/bug/master/issue54
+2d5d1f09073c84f775a7b7b0fbdaa7725a72b982|2015-09-27|Chapman Flack|Only ignore the expected exception in method lookup.
+07c11cc89936203ae5d2f9df2e6c96310e8b8c79|2015-09-24|Chapman Flack|Squash long-to-int narrowing warning in Timestamp.
+42bdb13927f92c1776f5309a40c108279c7ffa79|2015-09-24|Chapman Flack|Fix varlena UDT breaking if longer than 32767.
+3e259db9ce88b91b8dc5fd624f24e2f3efe8c495|2015-09-22|Chapman Flack|Squash silly conversion-to-bool warnings.
+1b54d5befdb54ec9cf4e3467bb7231386badd730|2015-09-16|Chapman Flack|Allow -Dnar.cores=1 for non-interleaved warnings.
+93f7c0d50deab94d02dffcf88d0a7fae7594401e|2015-09-16|Chapman Flack|POM style police.
+0b1b13938992425d91a6f5b409a7a132796fdd59|2015-09-16|Chapman Flack|Define away AssertVariableIsOfType when unusable.
+8a8e1003887ab28d6c1b85ecd946c55de3cc797a|2015-09-15|Chapman Flack|Zap a few more conversion (not sign-) warnings.
+ddfecfd25167229f821fd8b95cd8aec8b0528e68|2015-09-14|Chapman Flack|Outwit one conversion (_not_ sign-conversion) warning.
+e92e5041c812a25ac53f9e1fb053187a4a6286a7|2015-09-14|Chapman Flack|Create a profile to suppress sign-conversion warnings.
+b3da45508aa95ab42053625278f4142ab8cfaa48|2015-09-14|Chapman Flack|Catch up with name change for nar plugin.
+44310eb5698243d0fc8b6940d0ea039d74fdfd00|2015-09-21|Thomas Hallgren|Merge pull request #51 from jcflack/javadoc/master/jdk7-anno-bug
+0476e5ae40d4bb3e19eee00a6977f84991757809|2015-09-21|Thomas Hallgren|Merge pull request #50 from jcflack/refactor/master/msvc-build
+c64b502a25d160692bafa1d6df4e5619ccdcb2d9|2015-09-20|Chapman Flack|Note limitation of the workaround in pull #42.
+f62877e93e72be940dde2d888a9e737cc8fa66f9|2015-09-18|Chapman Flack|The nar plugin supposedly KNOWS how to link jvm.
+2581a85534f603f1ed168fa3b65da0cfdf50b9ef|2015-09-17|Chapman Flack|MSVC profile using profile more, properties less.
+7b938f5dea665514c348c67ec5e2fda458ddbf3f|2015-09-08|Thomas Hallgren|Merge pull request #49 from jcflack/feature/master/site-customize
+6e3f575f5f39dad3b082020095799753b3385445|2015-09-05|Chapman Flack|No longer need trajano/wagon-git snapshot version.
+c4a77354a868239b4a1b3a791c259a965032bac4|2015-09-05|Chapman Flack|GitHub review always catches one whitespace nit.
+d1d4435d2d33f35786942942375090e2e4d522f4|2015-09-05|Chapman Flack|Enable site publishing with trajano/wagon-git.
+75cc6639f57be07b31b9df0d0ecc56c052dd562c|2015-08-30|Chapman Flack|Added terse allusions to installing/contributing.
+4848b75eb2b34bbf729b5fdbdfd61f8247f4e813|2015-08-30|Chapman Flack|A proof-of-concept site with Markdown intro page.
+b08eb45b25d87361e79d89ee19b681d83e5c6b4a|2015-08-30|Chapman Flack|Revert to the github.io site for the Project URL.
+e7c9ca0a32efdec0ff51e5eadbc5158f733b1a6c|2015-08-30|Chapman Flack|More POM adjustment to tweak the generated site.
+de8c2d4e4c8dd715b344fb68213f4e6070ec6886|2015-08-28|Chapman Flack|Root POM changes to improve site generation.
+d08eb353df8e6a2cf9b57ee34b56eb25b0f38575|2015-08-17|Thomas Hallgren|Merge pull request #29 from kenolson/bug/master/msvc_build
+c585355db1128bd22338351f267f2242af7e6bcb|2015-08-13|Kenneth Olson|Rename generic properties to remove extraneous msvc prefix.
+dbf2bdcd565a14ce122d8bd863ee9704232ece6c|2014-07-05|Kenneth Olson|Fix to allow building pljava with Microsoft Visual C
+328fc5da35a2504043332b256bddf97b71e04532|2015-07-21|Thomas Hallgren|Merge pull request #45 from jcflack/bug/master/1011181
+5e4cdb7322b45311e37c6d1cdd573c81d068b20d|2015-07-21|Thomas Hallgren|Merge pull request #44 from jcflack/feature/master/techrefsite
+16603f6f50be238944732efd3c2443c935fa3a1d|2015-07-20|Chapman Flack|The rest of "Bugfix 1011181"
+db8131b79a553d2fab8a99bf565048403744cfc6|2015-07-19|Chapman Flack|Minimal package-info breadcrumbs scattered through rest of packages.
+de415df95ef01c4fa285f3874e39da0087cbeb0e|2015-07-19|Chapman Flack|Complete filling in javadoc gaps, at least for public API.
+d350abc91ac434fcb4fb08d5187fc563a9ee121d|2015-07-19|Chapman Flack|Fill a few javadoc gaps in org.postgresql.pljava.
+5fffb2b5c4f8d791b193e182302ba28b4de16266|2015-07-18|Chapman Flack|Get maven to build a basic (all defaults) tech-ref site.
+523d169b73b1071975c83e3f93b39d03e2e6716a|2015-07-15|Thomas Hallgren|Merge pull request #43 from jcflack/bug/master/noargsigs
+a23bf503d04bc38251f64deb2d46e23077d2975c|2015-07-15|Chapman Flack|Address #8 spurious error with zero-arg method sigs.
+db7fd6634d0267a5d311f9e1869598e325e23732|2015-07-15|Thomas Hallgren|Merge pull request #41 from jcflack/bug/master/ddrorder
+909af319c6b8ab92e618b5c2e7b69f20813b4b03|2015-07-15|Thomas Hallgren|Merge pull request #42 from jcflack/workaround/master/javac7
+78ca97382306d6bb72b8c46978e9758b548921cb|2015-07-14|Chapman Flack|Revert change made in bd6f79c because type mapping broke.
+05e3df57f54f4e5e8c6e825639b8fb8a83ba733c|2015-07-14|Chapman Flack|Just noticed this example left the schema name off.
+e5a510326c9a4199117f1ee4cfaec8d3badae650|2015-07-14|Chapman Flack|A small concession to formatting consistency.
+4605e0bc766218c6d0934b14852a06a89d4a2e4b|2015-07-14|Chapman Flack|Workaround the problem reported in #39.
+1b998484feb973c3a9c173304f5bd5ce83908da2|2015-07-14|Chapman Flack|Run deployment descriptors in correct order.
+0e5e1f30644624931b6e7f501266619590f47116|2015-07-14|Thomas Hallgren|Merge pull request #40 from jcflack/bug/master/replaceJar
+cc60d4aa8f0048229e34bc3c630025e711dda8ab|2015-07-13|Chapman Flack|Fix obsoleted query in sqlj.replace_jar.
+5489d14073f02c064583f1d4818c2bcea7fee951|2015-01-31|Thomas Hallgren|Merge pull request #38 from shawjef3/master
+3ae5d07b44d7cbc3ebdaec6e430388e253bcb54d|2015-01-30|Jeff Shaw|Fix compilation error against 9.4 due to a missing function argument.
+396ac4b6e0a515b3bdc0e9e286c44b7ed9c54775|2014-11-21|Thomas Hallgren|Revert "remove reposotiory"
+6be4178c839fd2c0879d29f37c532a6317d4ed03|2014-11-21|Thomas Hallgren|Merge pull request #35 from fbroda/jdk7
+cd44b68dd18a4e85e1b93843fc597580c9455f4d|2014-11-20|Thomas Hallgren|Merge pull request #30 from kenolson/enh/master/releasezip
+7b5f28d79c8bc6d517634273be8f82df6cb242eb|2014-10-23|fbroda|fix 'SETOF SETOF VARCHAR' in autogenerated SQL
+4c99f3812d5d15f123e595b5b8bf81b5603c177f|2014-10-23|fbroda|Merge commit 'bd6f79ced00ccb0f81c55b3cbda99f0646b674bd' of https://github.com/fbroda/pljava into jdk7
+4ba7f590edfe6334758bbcccfbf90a912c5a7aa3|2014-10-23|fbroda|incorporate updates (modified) from branch gdmSISouth-master
+bd6f79ced00ccb0f81c55b3cbda99f0646b674bd|2014-10-23|fbroda|reactivate compilation of module pljava-examples
+e13e6cf611db3bc6e200590ab5ae3443cc7ade4f|2014-10-23|fbroda|incorporate updates (modified) from branch gdmSISouth-master
+954e22d2752d723f0955ee78fb669a28eab86892|2014-10-20|grunjol|remove reposotiory
+138cc2a7d476e6edace6aa29b742c12264849bd6|2014-10-20|grunjol|use newer nar-maven-plugin
+f49cf50f88b2a12d64babab1fd617bd4d8dc9597|2014-08-14|Rakesh Vidyadharan|Updated to Java7 and clang for Mac OS X Mavericks
+41b1a68b0e8144185ef334c47824b453faad70c5|2014-08-14|Rakesh Vidyadharan|Updated to Java7 and clang for Mac OS X Mavericks
+3bb5bca0aec35a102f158811e2810a8435649650|2014-07-05|Kenneth Olson|Package binary release into zip or tar.gz file
+191c2fbefc72d35cf182fbac526a797b2a5a037b|2013-07-04|Thomas Hallgren|Merge pull request #19 from asifnaeem/PG93Fix
+d5c603efa69bf7f2b694c1ce38d80a4fe85ff253|2013-07-04|Asif Naeem|Changes are required because of move of GETSTRUCT() and timeout handling framework changes done in PG 9.3. Along with that I fixes minor issue in DDRProcessor.java that is causing "illegal start of expression" error. Maven did not worked for me to build it and hang endlessly while building c source code (pljava-so). As a workaround I temporarily fixed makefiles to test PG9.3 related fix that seems worked and generated pljava.jar and pljava.so files and their basic sanity seems working fine.
+fbf5aeb45207f7b74ce1482b6a1144c0aaea1cd1|2013-03-03|Thomas Hallgren|Merge pull request #13 from jcflack/bug/master/contravariance
+0c344e903020e819e6cf0c0763e9b4146f2008b7|2013-03-02|J Chapman Flack|Spelling conformity
+e1bad351c796677e71946e36b518761aebb97f21|2013-03-02|J Chapman Flack|Code hygiene
+0f811700fab8f476b2c03152085134f27d4a0636|2013-03-02|J Chapman Flack|Don't type parameters the same way as returns
+301164c85226dbe07c2fde89d1019e7ba66f86c4|2013-03-01|Thomas Hallgren|Merge pull request #10 from jcflack/feature/master/sqlgen
+c51cffa34acd5a228325143ec29563174891a873|2013-03-01|J Chapman Flack|Spelling conformity
+0edc9e5f385c32b27ab6f8a71f1519d8f2c4a244|2013-03-01|J Chapman Flack|Get annotated examples working in pljava-examples
+08fbd7329b15ebc1a86b98866d1401ac26d52055|2013-03-01|J Chapman Flack|Make maven delay copying the service config file
+624d78ca98d80ff2ded215eeca92035da5126bc0|2013-03-01|J Chapman Flack|SQL/JRT 2003: Jar may have > 1 deployment descr
+73bbedbf3070dd415729044d3a6a4b5f1a463c9a|2013-02-28|J Chapman Flack|Declare the processor for DDR-generating annotations
+046775e4c80a91e92cd492cdc7ee843ad00f183a|2013-02-28|J Chapman Flack|Whitespace adjustment
+a2da94d161a4ff12d715c0db841253cb8fad64a5|2013-02-28|J Chapman Flack|Update annotation-driven SQL generation to Java 6.
+d6b64005de263861c47c6202449fe5960fec5310|2013-02-28|J Chapman Flack|Update copyright notices.
+cb0ba317b1f1aaad1ff33d04d0ceeca3032168ee|2013-02-28|J Chapman Flack|Initial relocation of sqlgen sources
+06254413133c28d217a1b4e830975e608de6d56f|2013-02-23|Thomas Hallgren|Code hygiene on PL/Java examples
+ef1d9d0114b66e8be3927dc9446c5b4c0851dc7a|2013-02-23|Thomas Hallgren|Merge branch 'master' of git@github.com:tada/pljava.git
+d6e5c04f030c1bc9bc4fe57560b2f76ffdab46b2|2013-02-23|Thomas Hallgren|Fix for segfault if SETOF RECORD-returning function used without AS
+900194ce4939056c340c9898dc540ca7697973ca|2013-02-22|Thomas Hallgren|Updated dependency from pljava-examples to pljava-api
+4b001c64b1acd5516c4ba8a05fb80cea28a93686|2013-02-22|Thomas Hallgren|Added distribution management to enable deployment to tada.se
+23a34d46d8fe4a1029add393d5defbd156c2922c|2013-02-22|Thomas Hallgren|Commented out special code for 'deploy' goal. It prevents actual deploy
+714e81c2d575e37ba41896e3fc7b107020955445|2013-02-22|Thomas Hallgren|Adds m2e lifecycle exclusion of maven-nar-plugin goals
+7c86eb309b86f1e2a5d75b92f6add3aec4a79164|2013-02-22|Thomas Hallgren|Bump to version 0.0.2-SNAPSHOT.
+0723540034f95791dcaae3eabaae56c462682a34|2013-02-22|Thomas Hallgren|Adds Eclipse IDE artifacts.
+c795b6b21e16a96a04695aec063a20263ca5f3f5|2013-02-22|Thomas Hallgren|Adds the pljava-so module to the parent pom.
+ce0e424b2dec68b9c3c1c0e6c5f74db8d9f1f155|2013-02-22|Thomas Hallgren|Changes the dependency to the maven-nar-plugin to 2.1-pljava-SNAPSHOT
+580c1c5ac85d884c72c3b99a721b677a5e059d8a|2013-02-22|Thomas Hallgren|Changes some pointers using the old pljava-jdbc to be just pljava.
+b5b8e2ac6e8b60146c99a9e5d84de57fd577cadb|2013-02-22|Thomas Hallgren|Removes obsolete include.
+3e28bb9b6778fdbba15833c88d2bc28d6631b591|2013-02-22|Thomas Hallgren|Changes incorrect function call.
+c849e9dee8ba5c63a860e8a0974580e46feea0f9|2013-02-21|Thomas Hallgren|Changes build to use 1.6 source since it no longer compiles with 1.5.
+efbbc1d83e4f45a72ea45eb2afaf3c2a105d7481|2013-02-21|Christian Hammers|Mavenized the C shared object library "pljava.so".
+8c666b0430483d814fd04334646a8e6d0d760bf8|2013-02-21|Thomas Hallgren|Merge pull request #5 from r0ml/fix_enum
+af29f2b4139646f18ac5dd34222cf839dbfa2195|2013-02-13|Robert M. Lefkowitz|fixes bug that prevents setting enums from java procedures
+fc4b78eb2465ff11470676f12c93b046660e393b|2013-01-18|Thomas Hallgren|Update README.md
+22b56c45afe9d83a8860baba41b4d19420b11637|2013-01-18|Thomas Hallgren|Create README.md
+b5e7a7b277b98f95db3c65b5bca1de0174a349f4|2013-01-14|Thomas Hallgren|Update COPYRIGHT
+48b5771a82f8e74c5329a70a17f8f43474211c94|2013-01-14|Thomas Hallgren|Merge pull request #2 from Hellblazer/master
+f167619d323247d807b35802e38bb7473e70615d|2013-01-13|Hal Hildebrand|First pass at refactoring to maven
+30535d01e98f1727f44e865e64296f86d5699abc|2013-01-13|Hal Hildebrand|Add pl/java ant tasks module
+cd233a06ffef18bc816a52364a79b25c8513f473|2013-01-13|Hal Hildebrand|Add pl/java implementation module
+65c860b76e3865defc04be76e6ba6f07176ae4bd|2013-01-13|Hal Hildebrand|Add pl/java examples module
+553861cd2134077c58d82e9a12f93bc829969fff|2013-01-13|Hal Hildebrand|Add pl/java deploy module
+2ac232b2e5b0a647ce00ec325bad2943c71ca0b5|2013-01-13|Hal Hildebrand|Remove checked in .settings.  add .gitignore.
+1cdda261e62e3da57d03077d7c7ca079459aef13|2013-01-13|Hal Hildebrand|Top level pom created, api module created.
+5df26287d51576c9098d6c6c6034878f96549073|2012-06-21|Johann Oskarsson|Bug 1010962: Release tuple descriptor once copied.  Heikki Linnakangas.
+641f02b71cf567ff03cafd23fb3af01f42318ee1|2012-06-20|Johann Oskarsson|Bug 1011206: Use correcd SQL error state when throwing exceptions.
+f37fce62fec67da3621c9cab7368707e6d2e8123|2012-06-20|Johann Oskarsson|Patch 1011183: Use cpio instead of gnu cp.
+fef4c92c1c2c652290a7399a0a8f666df7b7fa6e|2012-05-28|Johann Oskarsson|BUG 1011197: PL/Java builds on POWER 7.
+622d0acaacab028bdef69c9768f15772f9dd9add|2012-03-30|Johann Oskarsson|Bugfix 1011181: PL/Java fails to compile with -Werror=format-security.
+92a17b864d8c672db2b5b1a7c61ac941e827f9bd|2012-03-30|Johann Oskarsson|WIP 1011095: Proposed change to fix loading of security related classes.
+6926ee4d6d97db9203dcd67c43763ff2a0c87649|2011-11-15|Johann Oskarsson|Bug 1011119: Let Postgres' bool --> java.sql.Types.BOOLEAN match Java's java.sql.Types.BOOLEAN --> Postgres' bool.
+d2cf37445341244f2d54c6f75d10244fc2cc1ed8|2011-11-11|Johann Oskarsson|Freenode registration number.
+5dcb23af9a482b9fc8fdf8f8bb3bc755c57914eb|2011-11-01|Johann Oskarsson|Merged in Java 6 (JDBC4) changes.
+ca214a115e6fd74c6eadb2379df4e6a627f73506|2011-09-15|Johann Oskarsson|Marking 1.4.3 release in Makefile.
+16db7872ae8f75b7a54a162db4dad2861fe1380c|2011-09-15|Johann Oskarsson|Feature Request 1011092: Use =? for PG_CONFIG and PGXS.
+7ac57e47a308fa496087b655d5919250b536527e|2011-09-14|Johann Oskarsson|BUG 1011091: Unify calls to GetConfigOption.
+8b6c854b832e196e8314bf7089894f5c68839894|2011-08-02|Johann Oskarsson|Correctly preserve microseconds when reading timestamps.
+0eafcf18310ab16ea495c9f2a256969debfef376|2011-05-07|Johann Oskarsson|Feature Request 1010955: Add PLJAVA_LDFLAGS to the linker stage.
+ce67a838598df2b5ac6e50ad1c7a664c2da249c5|2011-05-02|Kris Jurka|Allow pljava to build against the upcoming 9.1 server release.  The API for custom GUC variables has changed.
+2796702332b0deec680c194d05e7e8e0cda36885|2011-05-02|Johann Oskarsson|Feature Request 1010955:
+35da95bc408f53cac08df508d0b5c0623bdb6c4f|2011-05-02|Johann Oskarsson|Bug 1010970: Fix IBM search path (again).
+63347c1eb9b9959757359c18d406b8b9f55911b7|2011-05-02|Johann Oskarsson|Bug 1010970: Fix IBM search path.
+d83375d068839745f7a5930cddcac07fb7410771|2011-05-02|Johann Oskarsson|Bug 1010970: Add searchpath for IBM Java.
+8f27ffb236f5b029c37916426f9ea3ae890378f9|2011-05-02|Johann Oskarsson|Feature Request 1010955: Fix "endif."
+f2ed51b97c8294c645b667e7dcd434c05a227c91|2011-05-02|Johann Oskarsson|Feature Request 1010955: Add a new default option syntax.
+3ab9f9d32ec5c6f5f405b2b24e382f7fc58e23a9|2011-05-02|Johann Oskarsson|Bug 1011025: PL/Java now compiles with x86_64-w64-minw32.
+ae580beb1fd0c4fa9f3be9bfdfad2708d03b8703|2011-05-02|Johann Oskarsson|Refactoring and documenting SPIConnection.
+7896b4c58ee85cdea56acc61b0ad442a7ad367bf|2011-01-03|Johann Oskarsson|Bugfix: 1010971 SPIConnection.getMetaData() is incorrectly documented
+27b10e37c821a740a6b7d2149e2d1d8922c42d41|2010-12-28|Johann Oskarsson|Feature Request 1010955: Add option to have pljava.so built with the runtime path of libjvm.so
+bf17be62ce17159fe0d5bcbc08543dff594924a6|2010-12-27|Johann Oskarsson|Bugfix 1010660: Be clear about not building with JDK 1.6
+9a120f3d28e8f2a505afc77f3bed0160af276623|2010-12-11|Johann Oskarsson|1.4.2 Release
+9699ff937eb78d5a1fe806280e592c4fc24c61e3|2010-12-11|Johann Oskarsson|Bugfix 1010956: Function returning complex objects with POD arrays cause a segfault
+bb1e6011be1fe896281854c7575d74c65c82695f|2010-12-11|Johann Oskarsson|Bugfix 1010956: Function returning complex objects with POD arrays cause a segfault
+cdc27cf51086e1cfcba03f0a68d13f82a5f115fc|2010-12-11|Johann Oskarsson|Bugfix 1010956: Function returning complex objects with POD arrays cause a segfault
+ba002aba48eda72aaae1579438e9b4510fe46274|2010-12-11|Johann Oskarsson|Bugfix 1010956: Function returning complex objects with POD arrays cause a segfault
+eab21736b87d61023d24aeaf04414d97133cdc30|2010-12-11|Johann Oskarsson|Bugfix 1010956: Function returning complex objects with POD arrays cause a segfault
+1291eff00b54217e2826f6a6eb7f84338117144c|2010-12-10|Johann Oskarsson|Bugfix 1010953: Segfault when assigning an array to ResultSet column
+a660e247319c56428b169e12fc99073dbc6d8d2e|2010-12-09|Johann Oskarsson|1.4.1 Release
+5e6a91c507d6ae21b395d762b2ce55b3d34e3681|2010-12-09|Johann Oskarsson|Bugfix: 1010954
+24c645acacd0165e3ea38050f3974023db7601fe|2010-12-07|Johann Oskarsson|Bugfix #1010712: Memory leak plugged.
+e3e41be231e2a1a5178e17a9a05bd4966b12f027|2010-11-30|Johann Oskarsson|Bugfix #1010189: javac is now called with -g if it's present in pg_config --cflags.
+855b779aee33c3bfade85f61992b46dc0bc01660|2010-11-14|Johann Oskarsson|Reverted Java 6 changes.
+c97829a2c9ecee31f2b06914b89c9e4beac249af|2010-10-13|Johann Oskarsson|Implementing the new Java 6 JDBC interfaces.
+176271f05d01f6e9a2e75213ae08a856532f3e46|2010-10-11|Johann Oskarsson|Fix ambiguity when compiling with Java 6.
+97bdf9e030f5939b5c9175b00a7a0d284f6594d5|2010-10-08|Johann Oskarsson|Implementing the new Java 6 JBDC interfaces.
+08f21f9373b6bd1417dde60a28be1ed32fc6daa9|2010-10-08|Johann Oskarsson|Implementing the new Java 6 JBDC interfaces.
+8d6caf9b7d2fc241a312d10414253075024ef64d|2010-04-16|Kris Jurka|Clean up a warning about byteasend and bytearecv not having a prototype when building against 9.0 as those declarations are now in a new header file.
+9e11ec48db106d10fb0a22089535e2ea26d6ffc3|2010-04-16|Kris Jurka|Update the build system to be able to build against alpha releases that are being put out in the 9.0 series.
+75a789d7b5d10081e50a20047157ec87efaca30b|2010-04-16|Kris Jurka|Naturally my first commit in ages is completely busted.  Typo PGSQL_MAJOR_VAR -> PGSQL_MAJOR_VER.
+6b6d1270c3692f06940e0d55f2cde69bd4bc57f1|2010-04-16|Kris Jurka|Update pljava to build against 9.0devel.  Mostly just changing the conditional compilation to understand the 9.0 version number. GetConfigOption's API has also changed slightly.
+ab87ac5c3b5c0b32db4c55fcddd1f5374eb802d0|2009-06-18|Kris Jurka|Implement Connection.getCatalog.
+f8d9601289a044239a5f863f853000858c8ade48|2009-06-17|Kris Jurka|Add support for building against RC releases with a lowercase rc designation, such as 8.4rc1.  Previously we only supported the uppercase form.
+9cbfb1b96ce0a6ad46d1a2d28f6294b7b937ab4f|2009-02-19|Kris Jurka|If the call to a type output function is the first pljava call in a session, we get a crash.  The first pljava call results in a SPI connection being established and torn down.  The type output function was allocating the result in the SPI memory context which gets destroyed prior to returning the data to the caller.  Allocate the result in the correct context to survive function exit.
+272ed6a0b21b65c043a15c5ff74e723f6dd845fd|2009-02-19|Kris Jurka|Handle passed by value data types by reading and writing directly to the Datum rather than dereferencing it.
+529441e1811e04a097969c25a7dcffd40e5afda6|2009-02-18|Kris Jurka|When creating a variable length data type, the code was directly assigning the varlena header length rather than going through an access macro.  The header format changed for the 8.3 release and this manual coding was not noticed and changed accordingly.  Use SET_VARSIZE to do this correctly.
+f52e17480b55925ce9504dabef52285b8d717376|2009-02-10|Kris Jurka|The previous commit to fix custom variable setup was busted.  The argument order was wrong for integer variable setup.
+9f95dc28cffae46e146bdefd5b8196eff6073fd1|2009-02-09|Kris Jurka|The server's executor/spi.h header has been changed to remove includes that it doesn't need itself.  Before we were relying on these files implicitly being included, so just make that explicit now.
+8d1b9dcb44c2b3896cd5ca87152cc0cf2afa39c9|2009-02-09|Kris Jurka|Make pljava build against the server 8.4 development tree.  Change how custom GUC variables are setup to provide an explicit default.
+f8b5c4d5e5ad235183966795c84873d284fd50d3|2008-10-09|Kris Jurka|Code in a TransactionListener which tried to make a backend call would crash because the Invocation context was not setup.  Some simple backend calls might be safe, but we really don't want any user code calling into the backend when we're at transaction end, so prevent all access.
+0b2b72163183799ee1fb36c798ecc6adec1e6559|2008-06-04|Kris Jurka|When executing a statement, we want to make sure any previous state was cleaned up, so the code was calling close().  This additionally set a closed flag which would throw exceptions later saying that you can't call various methods because the Statement is closed.  It's not actually closed, so split the internal cleanup routine to clear() and make close() something that only a user should call.
+e5a089a0b21bb928fd14b8cc4e85087595f0d377|2008-05-25|Kris Jurka|For a multi-threaded pljava function we need to adjust stack_base_ptr before calling into the backend to avoid stack depth limit exceeded errors.  Previously this was done only on query execution, but we need to do it on iteration of the ResultSet as well.
+37d9e2670e5991c91ed5b30a9f4799b933c9ba90|2008-02-01|Kris Jurka|Release 1.4.0.
+1d9a77a3f826e0b88dfa49a4c03b74d27f51c0ac|2008-02-01|Kris Jurka|Starting with 8.2, the server reference counts some TupleDescs, so we need to let it know when we are done with it.
+edc28317270c5333a42a47571165c6c83387ac4b|2008-02-01|Kris Jurka|For a server built with integer datetimes, conversion from SQL to Java timestamps produced bogus results as the result of overflow. Prior to conversion to milliseconds, cast the difference in PG and Unix epochs to a 64 bit type.
+393d741a2e454a641ab4b2fd3bc94a6c57373904|2008-01-11|Kris Jurka|Recent security releases have altered the API for SetUserId to include an additional parameter indicating if we're in a security definer context.
+4a1a489fdb2ecb2111ac8f8966938db4aa594d7c|2008-01-11|Kris Jurka|To build against release candidates, the version number parser must know about the RC symbol.
+b9de72e35871bd6df3519261e1bb5c5652cb7872|2007-11-16|Kris Jurka|When doing batch execution with batches that have different types, the server crashes because it did not replan the query for the new types.  Save the type information for each batch and compare it with the previous values to see if we need to replan.
+d9b0fedd86a434ce3fec09f879ae93b013204fac|2007-11-15|Kris Jurka|Batch execution of PreparedStatements failed because addBatch was only saving off the parameter values while it ignored the parameter types.  Save both the types and values.
+1ed1f3f1335db0556688241461876e38f55cf0c6|2007-11-15|Kris Jurka|When deploying a jar file with a deployment descriptor, the deployment failed if the default schema already had a classpath set.  A typo was setting the current schema value to the classpath, instead of the default schema.  When trying to set the new classpath this bailed out with "No such schema: <classpath>".
+a82f233e81c525d140e4c72505a47560876f460d|2007-10-11|Kris Jurka|Allow pljava built with JDK < 1.6 to successfully run its tests under a 1.6 JVM by handling unimplemented JDBC4 methods that reflection finds.
+fcd23a8505d50e5860cd8acc2c51ac7e968c725f|2007-09-12|Kris Jurka|In 8.3 DLLIMPORT has been renamed to PGDLLIMPORT and global_timezone has been renamed to session_timezone.
+66b1ddc11b983c4b71ec9a93b5efa6cebe6e9279|2007-09-12|Kris Jurka|8.3's find_coercion_pathway API has reverted to the old pre-8.3 API, so the changes made earlier to support 8.3 builds are no longer correct or needed.
+1cb4369847e7669fa6f5a21b738f5b612e2e5898|2007-08-31|Kris Jurka|Map i486 and i586 $(cpu_host)s to JRE_CPUs of i386.
+16bcfc860f1bbdb92bcc418475877bdc4c72f18f|2007-07-31|Kris Jurka|Allow building with compilers that don't support unnamed struct and union members by providing names for them.
+34728d5e8bfba7d98f885fc72f30384efde06d6c|2007-07-31|Kris Jurka|Ensure arrayCoerce is initialized when used on pre 8.3 servers.
+9a7344c000820f0942bd218a539f06a9b7a7cd44|2007-05-27|Kris Jurka|Had wrong version check here.  We only want SET_VARSIZE for 8.3+.
+977147bae8247e63e95e28865c8142b2828e878e|2007-05-26|Kris Jurka|To build pljava we need pg_config on the path, not pg_ctl.
+e5047766ee5218b980ffbf221fdbe4402b2878b6|2007-05-26|Kris Jurka|Make pljava build against a 8.3dev server.
+5f69758e7b7d5e94332563566c7fed392100703b|2006-09-25|thallgren|Added missing include of xact.h
+6a7eda5c5bf1c4c7aadca07cab656c834b17d6d4|2006-09-25|thallgren|Fixed some issues with Meta-data
+2590c859e8f972a31413764a03f15d2ed835c5da|2006-06-23|thallgren|Fixed stack backtrace on failure to load class
+247ca0a3e9672b388c4be72d26a9e82d2d6d3021|2006-06-18|thallgren|Preparation for 1.3.0 final
+409ce0a626a6475b507b9846f1cdc1a77b6b52c1|2006-06-17|thallgren|Added PG_MODULE_MAGIC declaration required from PosgreSQL 8.2 and up.
+e47e04a4694bb29feb8b2163f811d96013a9c2e0|2006-05-28|thallgren|Fixed bug 1558
+1e818ab60390d2889c33d722ca01403feeac8e33|2006-05-15|thallgren|Prep for 1.3.b2
+7bac3010b1ac6a24cc0059bf542e242b8d32a775|2006-05-15|thallgren|Removed some excess logging
+1d80485f20804feb7b4a97f71eefaa9fbdaa4ffa|2006-05-15|thallgren|Fixed some backward compatibility issues Added explicit coercion capability
+1cfadfca1a26503e4688f0fcc2aa6cd368fb52eb|2006-05-15|thallgren|PG_CONFIG now overridable Fixed bug concerning self referencing when building with GCJ
+7f19d99059992cacda07e591d5e825f6b576200d|2006-05-15|fhrbek|workaround to avoid the "commands commence before first target" error - probably a make bug
+7de0a3b302efe2bf42eebf7c0fe4602455298a85|2006-05-15|fhrbek|enclosed the installation process by a transaction
+f18033edb425aa98d01d18703e9cde3a238e5310|2006-05-14|thallgren|*** empty log message ***
+0d9503fb5db841d6926d9cdb45730d088440dd21|2006-05-14|thallgren|Preparation for 1.3.beta release
+c525927f7fb6d8da0971cc02da594926fb073dc7|2006-05-14|thallgren|add_type_mapping now handles basic as well as composite types.
+dda3f86af49ebf7f4a767416de4e14a68f515095|2006-05-14|thallgren|Fixed glitch causing bytea[] to fail. Added "char"[]
+43a542803026d9c4460b2e8b3be7bdf6b6caeb56|2006-05-13|thallgren|Now accepts both "any" and anyelement types
+156a2b89f9dcd56fb0283a8ac08d6dfc06fc42ed|2006-05-12|thallgren|Fixed bug causing numbers to come out as Strings rather than BigDecimal
+1d46cee95939d9ee999f2e0cbbdca746408e5cb1|2006-05-12|thallgren|Fixed copy/paste mistakes
+bac6a3fe56032a91fcad94efa9f7b52bfb5c3d70|2006-05-12|thallgren|Fix of bug #1556
+b47d579de1f99a53336a5aaf8389cc11e7f67d1a|2006-05-12|thallgren|Implementation of anyarray
+5bf3673046675c81e49e2057f9db7a5cd7926369|2006-05-11|thallgren|Type system refactoring
+c16a32ff00b32ac4f7c2a65b0460d66685be4d7f|2006-05-10|thallgren|Added boolean array type
+9f0decc72477e5c64758e57dbb2c7f690660a398|2006-05-09|thallgren|Added primitive array types
+77bfc3401245fe9be69744f3634050545325961a|2006-05-06|thallgren|Changes needed for PostgreSQL 8.2
+57e4d9048134fedb78b67e664124ebf2ea13422b|2006-05-06|thallgren|More efficient handling of JavaWrapper native pointers
+a4f6c9e3f1c751a78631dd2fa2e187fb3ebccc2e|2006-05-06|thallgren|Rewrite of the type mapping system
+3908d1307e28a771a1c9202cde251847313cb493|2006-04-29|thallgren|*** empty log message ***
+541ca3f3e6f449d2537a4f8f22a7f76cfe9d9054|2006-04-29|thallgren|Improved exception handling
+99d5c2e0ba455760519ae62decfafe1fd95e828d|2006-04-29|thallgren|*** empty log message ***
+377dae249b6b174cbbfb2d030519032f80a219a9|2006-04-29|thallgren|Fixed typo
+599817968df01b36cc1aa8324a2000af85e6afdf|2006-04-11|thallgren|Fixed warning about signedness on char argument
+a6f7c34c1353ceb06077787a80a59671cc9bee35|2006-04-05|thallgren|Added missing return clause in Function_inUse.
+25fd6df0e1787a748ebf5000c76c01fbdc72e789|2006-04-05|thallgren|Fixed bug causing incorrect representation of Time when DST is in effect.
+b15fd67c98180d20697b39b7a793c66cf3f9440d|2006-03-31|thallgren|Fix for bug #1547 in the other direction.
+89794e35cce0795a77ba7b6f52823389f3644364|2006-03-31|thallgren|Added missing 64-bit cast of huge constant, this time using INT64CONST macro
+abf81abf1b9f84bfd367be83d5e1cfa3cedec88d|2006-03-31|thallgren|Added missing 64-bit cast of huge constant
+8d57da8d8ada4aadf83983f32fa7603515f4167e|2006-03-31|thallgren|Fix for bug #1547
+40dc72a588372831959be8c0c9649f42c48b75a9|2006-03-29|thallgren|*** empty log message ***
+549ad9d221d0edc940f6952528d21327c2edea80|2006-03-29|thallgren|*** empty log message ***
+a01089916e56217fdca1f2975737fa25c8856c9c|2006-03-29|thallgren|*** empty log message ***
+1ea2f3e8df7386454154416f19f334ec0f5e42ec|2006-03-29|thallgren|*** empty log message ***
+c711fc49f323e72c73ace0503b0d7562b4dc126f|2006-03-29|thallgren|Recursion resilient temporary context for SRF functions
+459235a38f8bd03de1b9ecc59dedfed8e53b26d9|2006-03-29|thallgren|Using a temporary context for SRF functions
+b9d9b16ae299f981ff3fe6ac81b0b4507ad4ea51|2006-03-28|thallgren|*** empty log message ***
+dbb212c83479276e68d7dca4122fb6ad10fb2c82|2006-03-26|thallgren|Added missing stack base change for prepare.
+efa76a6b7645e410731c10cec532ef6e6ea9f3f1|2006-03-23|thallgren|Testcase covering bug #1317
+223b602aaac947d616ede8aab2147ebf87a2a5a9|2006-03-23|thallgren|Minor performance improvement due to less created Java TupleDesc objects.
+01f2027cd72c1abf4811bfc3b6e9ad5a2da2f204|2006-03-22|thallgren|Fixed memory leak that occured during recursive calls to function returning sets
+cf07f62f168268640de458a712f4cd46ef918dc9|2006-03-22|thallgren|Fixed bug #1317
+84b1776d964c4e68e97fe7fc3f37cc2d127f2be4|2006-03-22|thallgren|Fixed bug #1542
+e715cc637947bbf3ee21215c20467801a238e26a|2006-03-22|thallgren|Removed some experimental code that shouldn't have been checked in
+47322a4b8bddd85a259df1ea441517b54bd1a702|2006-03-22|thallgren|*** empty log message ***
+e7fced2df49e53ceaa3f566fe87623ed978ec64d|2006-03-21|thallgren|Fixed some memory leaks
+fa487ffb1e6490c8f322859256d92e57ed5fc90c|2006-03-21|thallgren|Fixed some memory leaks
+7d1c28b08a85773f14845f24bfdd96564b7f6846|2006-03-06|thallgren|Changed minor number in version.
+463f70a0687c5fb9030839ef659db249e49e2c96|2006-03-02|thallgren|*** empty log message ***
+d0dbeede239d00dec920f3c50d95809acc17900d|2006-02-28|thallgren|Fixed broken source_tarball target Refactored some Java 5 dependent code
+7e12939a51ee6fdd22baa764cdb97675718e1a00|2006-02-26|thallgren|Function cache cleared when manipulating jars or classpath from SQL.
+797b9d6c493e3574bc6b8575f5b310584ad0695c|2006-02-26|thallgren|*** empty log message ***
+6da33c5c74aabce64a91f16e31f4183d8681f1ed|2006-02-26|thallgren|*** empty log message ***
+d23804a7e1154de58181a8aa48bfbbb2c8adf68b|2006-02-26|thallgren|Added column jarManifest to sqlj.jar_repository and logic that makes sure the manifest ends up there when a jar is installed or replaced.
+b76c37b40d0ea99ae2faf71b14119db37a339239|2006-02-26|thallgren|fixed typo
+74ac440d5a49a43035d28a696dd29f3c3b9958af|2006-02-26|thallgren|Changed function handlers to use 'pljava' instead of 'libpljava'
+7ee6cedf3119bd8e7527f51e5bb2f4e122a1d891|2006-02-26|thallgren|Added install and uninstall
+d58ddaef69a0e6fe9a3017f2b9a0e178a96651cf|2006-02-26|thallgren|Added our own link commands .
+901a73eb59fd0ccdee609d5280eb54e48aeb7180|2006-02-26|thallgren|Fixed bug #1420 and #1423
+671eadf7f13a7996af31f1936946bf6677ecdc73|2006-02-12|thallgren|Working draft of scalar UDT's
+e0222e36a3d559db68b05d94d25ad27fb10fec9d|2006-02-11|thallgren|Prototype support for scalar UDT's Changed copyright
+8afd33ccb8a2a56e92dee9c9ced81185ff0bb34d|2006-01-25|thallgren|Fixed bug #1506. Jar owner in the sqlj.jar_repository table changed type from oid to name.
+36c8d930bab3637f02e0b3a8d73bd4e056eab7af|2006-01-25|thallgren|Refactored getMetaData so it's available to all single row result sets.
+840d9baf3e991205c93780b4fc391684464d35b5|2006-01-24|thallgren|Fixed support for parameters of type RECORD.
+42db47456984bb7bfc06c891855b579f0c01e9e6|2006-01-24|thallgren|*** empty log message ***
+4e2fa5f86f6098954d8f07efaaacb7c1009c0723|2006-01-23|thallgren|Added GCJ conditional around use of option -Xrs
+86b4cf3f047b5c6e37a07912e70c72c8c1931f44|2006-01-23|thallgren|Removed extranious semicolons
+b14c654dbcd4f2c02148a4ddda8d22e2fdd67e8d|2006-01-23|thallgren|*** empty log message ***
+2b1437ae3784bbf1b3903d2814b78159c427303c|2006-01-23|thallgren|Fix for bug #1440
+cb6b5c84c2a171dc0036a18fbfecf9f0bcbfffe5|2006-01-23|thallgren|Added test for SETOF RECORD
+71ea9479bfa81a4af6555ec19463079c7177262f|2006-01-22|thallgren|Ensure that the full 64bit of the Ptr2Long union is zeroed out prior to pointer assignment.
+33c496d43e53b75dae8269cd8c684e2a15472934|2005-11-20|thallgren|Changes for 1.2.0 release
+2ce5d732c12993947cd8c51cf2ef0e520f77a234|2005-11-20|thallgren|Fixed signed/unsigned warning
+12e503bbb4a9365e29a760dd94d31b016d8f5be4|2005-11-20|thallgren|Fixed signed/unsigned problem.
+25ba9028f3ac91982ab66d55b452d408460c6d7a|2005-11-20|thallgren|Fixed signed/unsigned warnings
+9620319666ce0e914b85632bc533f7cf12b85cc1|2005-11-20|thallgren|Fixed signed/unsigned warnings
+67a423adc3a9ec869791679ab0f2c0f4558a9320|2005-11-19|thallgren|Added missing include of pljava/SPI.h
+c3eaa54c281f6121927aaa298a2972fbada12f1a|2005-11-19|thallgren|Documentation changes for PL/Java 1.2
+472130f61890d4748df16b103acf7cfabf7ebba3|2005-11-19|thallgren|Removed JavaHandle and complex MemoryContext stuff that was no longer needed.
+a2dbc15fd221f08d7c43cb1f5962212cec7f33eb|2005-11-14|fhrbek|Added getSchemaName method (supported from PG version 8.1 and higher)
+f988f0e8e7657b339e0aebe3c7f586f016910dba|2005-11-14|fhrbek|Added getSchema method (supported from PG version 8.1 and higher)
+9af2bfca3310aff88c089758a9343f1ded31e40a|2005-11-14|fhrbek|Added getSchameName method (supported from PG version 8.1 and higher)
+a2aefc32c8726070d80225f90d2c5c0785c79995|2005-11-14|fhrbek|Added getSchame method (supported from PG version 8.1 and higher)
+a8b3a91608cce93c8c5e92fb43f5b38b0cf83d39|2005-11-13|thallgren|*** empty log message ***
+3ab90e581b0ccdd80555fc15256741298ab510f4|2005-11-13|thallgren|Implemented savepoint listeners. Better transaction listeners.
+d12016a991b090667ec73e6678471aedb95253a5|2005-10-29|thallgren|Fixed typo
+69598aa9c1517366b8a92177b39968ce4fb0ade7|2005-10-28|thallgren|Refactoring and cleaning up.
+8b19541cd498881ff6027aadf883f4c842fd9ffb|2005-10-26|thallgren|Reinstated Exception traces when log level >= DEBUG1 Merged Invocation and CallContext Cleanup and refactoring
+a98f49788f36a9a8f32f26f38bd2b8e419f163af|2005-10-21|thallgren|Fixed issue with overloaded methods.
+22935a9b70c68f5df82860aa40d9df5b5bd09c5d|2005-10-21|thallgren|Fixed monitor glitch apparent on SMP systems.
+3ae2f9831ae3e829b0cea3cbf6d188fbc8efcf2c|2005-10-21|thallgren|*** empty log message ***
+c95cfe22ff182bc3b9fe1e03236073d88ae54db8|2005-10-21|thallgren|*** empty log message ***
+02b8f2124972519989eb16a4e97e5540cd2849ad|2005-10-21|thallgren|Java exception can no longer elog.
+0ba3459478cc625c6c5e4f38aa7f0dc65883f034|2005-10-21|thallgren|*** empty log message ***
+95c5cbff03722a0a9a67086b3951c4ecc6e8c9ef|2005-10-21|thallgren|Fixed exception related error.
+1864bfbb2e78bfe2da0e7ab92e17bf25e3136f6c|2005-10-20|thallgren|Fixed bug causing crash after fence rewrite when returning tuples.
+259b433410a74b2caaae3360b23b415e1bcfee84|2005-10-20|thallgren|Fixed portal clean-up.
+44ea02c2df5c60b8861482034ce4c358220e6878|2005-10-19|thallgren|Fixed typo
+66da9ecfca3f2e53cbed3811c9a011226ff1677d|2005-10-19|thallgren|Changes needed in order to compile with 8.0.x
+6d4f7630e9a67c510fbd9e169acfcd55d60f11ee|2005-10-19|thallgren|Fixed so that LargeObject functionality is initialized on startup.
+1c5f9d1b19aa9f682fff4ac28e7451d5dc61178e|2005-10-19|thallgren|Fixed needed code to accomodate API change for LargeObjects
+4e75a069c3e943fc34a1fc1ace6145963d51b663|2005-10-19|thallgren|Rewrite of fence mechanism
+50aca65b0a4712750323f69e7def31d6ea0601e1|2005-10-16|thallgren|INDEX_MAX_KEYS now determined using GUC variable max_index_keys Dropped support for CYGWIN since 7.x no longer is supported
+233632b2bd5fc5a467318379ac6a9b7aea993fc3|2005-10-16|thallgren|Dropped support for versions prior to 8.0. Fixed bug causing stack check failur when backend was called from thread other than main Fixed stability issue related to GC and MemoryContexts
+e7125ce1454f8335833ae8260dcf455e4aadadbc|2005-09-28|thallgren|Fixed bug that caused crash when initializing using incorrect pljava.classpath
+bbe17b6c18d2b9049389f5c484e1df4b29dc42a9|2005-09-28|thallgren|fixed typo in filename
+f055273548ee3ce13eabeb5ed666fb746ee28307|2005-09-22|thallgren|Changes needed in order to build with 8.1beta2
+b241bc1efaae379e438f7d94ca5e1794e50e86f2|2005-09-08|thallgren|Removed some code that was never called.
+87422b0a02e45a324e19d3965ab6c4e345c13693|2005-09-08|thallgren|*** empty log message ***
+68f65e2c4354b8908ce453ca88ace3da66ff633e|2005-04-14|thallgren|*** empty log message ***
+30990a42eac9f47ac849596559e254eeffcc4512|2005-04-14|thallgren|*** empty log message ***
+48a440804db9d17124ea2655cebebae70f19f440|2005-04-14|thallgren|*** empty log message ***
+01936b02dd91dba611d27e4760be906f90322912|2005-04-14|thallgren|*** empty log message ***
+29a13b11de34f5d6f545e279f2531e74b1a17414|2005-04-14|thallgren|Backport of things missing in PostgreSQL 7.4
+498b9275e406e997df1d1774eada4ae00769eef0|2005-04-14|thallgren|Backport of things missing in PostgreSQL 7.4
+f18f3f97d5a8ffef26d91bbe99fb0a0f24ed6fc8|2005-04-14|thallgren|Backport of things missing in PostgreSQL 7.4
+aee94d7d401c2b03d8b4952d0338816ccbcbb88d|2005-04-14|thallgren|Backport of things missing in PostgreSQL 7.4
+74b6a80a3e5843778e28e4b4fa2651636e750f27|2005-04-14|thallgren|Backport of things missing in PostgreSQL 7.4
+5f254e6cca5e17ea7b32c41a0c1741191c4ca4be|2005-04-13|thallgren|Bump of version number from 1.1.0b1 to 1.1.0
+79512b2c020a2e5507069a561f4a8ab7d4d6dbe0|2005-04-13|thallgren|Bump of version number from 1.1.0b1 to 1.1.0
+d84a67ea8440ee45264e62297f47d4fd31ea538d|2005-04-13|thallgren|Avoid segfault when TupleDesc cannot be determined
+a2742efc15fc73f6314ed257b8c2827a8edf1fd1|2005-04-13|thallgren|Better handling of RECORD return types.
+0c83d50e004c871cb8dff69f69f1fc98db28d0a5|2005-04-12|thallgren|Changes needed to accomodate OUT parameters in 8.1
+8d973b7284e9f437c1a76247ed573168dc672767|2005-04-10|thallgren|Changes needed to compile on OS2
+11fcc31e9401b4a96230cf959d2450d4caa6b850|2005-03-30|thallgren|Fixed bug causing primitive arrays to fail.
+bb85b2680f3b45255538b273452967bcfec3889a|2005-03-30|thallgren|Coersion for getXXX now applies to updateXXX as well
+3844b63a13f6ee5ab20accd70e464a7cd0298fe0|2005-03-30|thallgren|Improved caching of class.
+6b8ebb39b7339d8146c67e09dd46b91fef9110c9|2005-03-30|thallgren|More forgiving getXXX methods on ResultSet with respect to types. Made use of Oid more strict. The Oid class is used instead of int. Moved TypeMap functionality into the Oid class.
+2e56e945a1c7c186053da37651faa18d8b744564|2005-03-28|thallgren|Removed stray local variable
+ad1df28d39c42b6f57686829a761def6b59c5242|2005-03-28|thallgren|Added missing FlushErrorState after CopyError
+1b1e31b3255ba8c605ff65825cc2248b7ab096a3|2005-03-27|thallgren|Better exception handling
+d9913a308b7c7b246ac1dbccfb8df3e684f59859|2005-03-27|thallgren|Made getContents resilient to ByteBuffer with no array support
+90f4f26f8ee1c78186aab2a40871d0094d77914b|2005-03-27|thallgren|Added test for binary columns
+ba20b1e81e64ac1bc934a7bcf1bd6c45c258ee1c|2005-03-26|thallgren|Fixed typo
+2b90695c0bcde5e0c4841c6068421e65384c25c5|2005-03-26|thallgren|Fixed typo
+f7d6259c51bd468ca58e4f6999ed9650bd573ac4|2005-03-26|thallgren|Added BlobValue coersion to the bytea type.
+b826cef5277dfe1e733bc3d335ec6d2e18abcaa4|2005-03-20|thallgren|Fixed bug #1231
+7c121a80162349a15c9dfb11586657064651752c|2005-03-18|fhrbek|From now getWarning throws an exception on a closed statement, according to JDBC specification
+a1c04e339f83a6e7c82bbf9327041bf9c29d7de5|2005-03-18|fhrbek|Fixed misspelled "Retrieved"
+12c3fe9a490ee219bda196f546093d80e0f927da|2005-03-17|thallgren|Fix for bug #1228
+71865f54cfa29d21998049fbd2a8d51fe3d23678|2005-03-17|thallgren|Changes needed for PostgreSQL 8.1.x
+9cb1e302d393ea17f049e0e242768f514411d820|2005-03-17|thallgren|Fixed ArrayIndexOutOfBounds exception reported by Petr Michalek
+11877f99154eb8970fe3f7a14af38fa3f4fefba3|2005-03-16|fhrbek|Added test of transaction recovery using an anonymous savepoint
+349b5ed1b4679eb525f163a17f8d042d47b85e03|2005-03-14|thallgren|Fixed bug# 1218
+0e34314ffcda8841686cc2548ad189b3f614608b|2005-03-14|thallgren|Fixed bug# 1216
+56777d0892eb2d4c45c2974d86ca855221323678|2005-03-14|thallgren|Fixed bug# 1216
+8e08468b57c0d935bf1af816ddb6a2747e198044|2005-03-14|thallgren|Added install_jar and replace_jar using images as a complement to URLs
+afb661881c9045711ca29bb094d715df3d0520fd|2005-03-13|thallgren|Fixed bug #1215
+2694700c74da1f87c44474908045e038eb2e1dc0|2005-03-13|thallgren|Runtime detection of integer-datetimes
+3df5272f87fb8bec75d26eb5c8cf51fd195819b2|2005-03-13|thallgren|Added include of fcntl.h
+4c0a11a8bc127297f633475e9e70f1a4e4f58660|2005-03-13|thallgren|Runtime detection of integer-datetimes
+f9e13f503ee50b13ebd3de756c99a37337254950|2005-03-12|thallgren|Changed MemoryContext management for multi-call functions
+65eff585a998863b02f67a67091347612a5a9338|2005-03-12|thallgren|Changed MemoryContext management for multi-call functions
+30a87eeb3adf6c2ffb13aa7d763319f033c575fc|2005-03-12|thallgren|Changed MemoryContext management for multi-call functions
+14aa0e5467f06357d08582314e0a97b5ae38a3bb|2005-03-10|thallgren|Correced misspelled HAVE_INT64_Time definition
+e1cc18059dcbd2d9f487734fa92e66604377b0c4|2005-03-08|fhrbek|Added executeSelect function
+0d2b89d42e5f307ab31c5e540b76168ed3161859|2005-03-08|fhrbek|Added ResultSetTest
+b37293a508f5c05aed8dbaf9694307c5fc2aba86|2005-03-08|fhrbek|Removed tricky way of getting column count; now we have ResultSetMetaData for this purpose.
+674edbbb60b492878267290e9bee75016243215f|2005-03-08|fhrbek|For a convenient testing SQL SELECT commands; suitable for ResultSet testing.
+51e0f3d78d24935200d7074e8eab48ad4f70e526|2005-03-08|thallgren|Fixed bug #1206
+51ae941351c39b7e736b65c176987bf368d0df91|2005-03-07|fhrbek|Fixed some comments
+0442f04e8f7305ee0626911c76a0d6b346b9ea00|2005-03-07|fhrbek|Fixed misspelt "search"
+ddf6a8783636711181c708406dedf186fefdc09d|2005-03-06|fhrbek|Changed the schema search logic: schema is null => search in all schemas (even those that are not in current search path)
+bec002e623b94ae2db793d4ea993c6ca0fe7b39f|2005-03-05|thallgren|*** empty log message ***
+dd6c8cc60502b174d6146cd19fea3acb87141acf|2005-03-05|thallgren|Added Java trademark info to all docs.
+55fc656cdbb99e289f71a11fdfdb162b0305f35b|2005-03-03|fhrbek|Changed the logic of *schema* and *schemaPattern* handling: - if schema is specified, search in this schema - if schema is "", search in 'public' schema - if schema is null, serach in current search_path schemas *)
+393e03c01bd95cda9ebd4a85d8f1d24ea5e9e81e|2005-02-25|thallgren|Added comments about GCJ limitations for security. Removed obsolete import.
+10ac66d497df50561f8a50a274f767bbeb51a116|2005-02-24|thallgren|Improved SecurityManager
+8845e1778b00a6c824f0e5143ea1d3f3f1a8dae7|2005-02-24|thallgren|GCJ bug #20193
+593a005f50b046b42bd17f4455bfaa9f17e30b42|2005-02-24|thallgren|GCJ still can't handle SecurityManagers
+d4c1785123345932df5addc4bdddfd5f8d9a603e|2005-02-24|thallgren|Removed some obsolete #ifdef GCJ
+2456c826e6535634f609dfdb383e0b46334bf298|2005-02-21|thallgren|Fixed typo
+8c59e028f9a2b7268c313c6c9c86d369fc3bea8e|2005-02-21|thallgren|Added #ifndef GCJ conditional around SecurityManager setting.
+ad72381836f43092d5ca620315e1687c52d9ed53|2005-02-21|thallgren|Fixed typo
+8bf121b8f35ac071a8f6b8136be3beb809d2118a|2005-02-21|thallgren|Fixed glitch that made GCJ compilation fail.
+84e391ec7903a1cef3f7bf250b7e3f895e70e535|2005-02-21|thallgren|Fixed COPYRIGHT year and version number for javadoc.
+12622ccfdbb0d51b0f2178f79b1c4d4ac1ede186|2005-02-21|thallgren|Bumped version number to 1.1.0b1
+0a3bf19445af9bd34ec881e475c2bac8cdb69462|2005-02-21|thallgren|Added an example of method returning ResultSet and updated the docs.
+3c1456bf7ea82df5b22951aabbf805837750ce3b|2005-02-20|thallgren|Removed "ISO C90 forbids mixed declarations and code" warning
+98caaa6d88ec563f878d0c72589573a23d50eef0|2005-02-20|fhrbek|Fixed problem of unset JAVA_HOME
+738a857e57c63b657c6e0075304d44421a3051ae|2005-02-20|fhrbek|Added tests for ResultSetMetaData (headers for MetaData tests)
+b59566503aa4f67ae299ff71e99623b15e27dd41|2005-02-20|fhrbek|Implementation of ResultSetMetaData
+b2008b0654544a08d834d8ac5bc365b6eaeac3ee|2005-02-20|fhrbek|Splitted to an abstract layer AbstractResultSetMetaData and its implementation SyntheticResultSetMetaData
+7b6d6a4ebd24caf533611b77c443cbf7e4791ac8|2005-02-20|fhrbek|Abstract layer for ResultSetMetaData
+ebb607bd20ef1f52a3d768a97a54b98be763f7cb|2005-02-20|fhrbek|Added getOid method (needed for ResultSetMetaData)
+3efcf8361523c104d763da6ef0c4830bd85bf36e|2005-02-19|fhrbek|Fixed: example.jar => examples.jar
+14b9cb849be70b5b7ffa7f62df6fb6869c6cd962|2005-02-19|fhrbek|Made column names case insensitive (stored as upper case, queried insensitively)
+c673e69f488b81fd0d083443160d3ef5d7df8acf|2005-02-19|thallgren|*** empty log message ***
+8d8282fa34372b01007d1ccb817e4016f434828a|2005-02-18|fhrbek|Added ResultSetMetaData support (for SyntheticResultSet only)
+0b3be6f4bbac89a30f2eec4a3d973f28a2ed7553|2005-02-18|thallgren|*** empty log message ***
+4b874119df25d69e8d5b84aa2bc20ffc58b05ebc|2005-02-18|thallgren|Added the ability to return a ResultSet Added object pooling capabilities
+81eb848b9ab153d7e1439b42d8ec54cd45cec364|2005-02-18|thallgren|*** keyword substitution change ***
+e15735888e76f6e987cb2e01b44737f1d1077341|2005-02-17|fhrbek|Added a thorough test of DatabaseMetaData features.
+aa939a6e31cad3df08689fac7e75d1967b6a25f8|2005-02-17|fhrbek|Fixed several int X short mismatches. Changed byte[][] to Object[] for new version of SyntheticResultSet
+8915bad15563de347c89bbac66d03f8ac6274008|2005-02-17|fhrbek|Changed tuple buffer from byte[][] to Object[], so that the objects would not need to be reconstructed from byte[]. The constructor now checks if inserted objects correspond with appropriate ResulSetField structure.
+f98602c6df35ad86e15b5a6e8743c1934f06c973|2005-02-17|fhrbek|Added initialization of new field m_class which is used in SyntheticResultSet
+c81d586ac4826ed71aaa386da66351016fb4bff2|2005-02-17|fhrbek|Made better DatabaseMetaData testing functions.
+cc838dbb3a4c0643dd164c0a9478876c0bdd8703|2005-02-17|thallgren|*** empty log message ***
+9132775475568b6848d94b1938d22082c6f999e1|2005-02-15|fhrbek|Fixed usage text (-jar deploy.jar => org.postgresql.pljava.test.Tester)
+11f416d58c8d3bad55286d8a2a39d7c17cdbccf3|2005-02-13|thallgren|Filips DatabaseMetaData additions
+039db412fa91a23b67ceb8d90d30bc540fef7c5d|2005-02-11|thallgren|Restrict replace_jar and remove_jar to jar owner or superuser
+04e025f82ae2f88c20633fee8dd24c07035b5eef|2005-02-11|thallgren|*** empty log message ***
+9cda52cb655fad7aaedd0a4d2b210c17c1c075e4|2005-02-10|thallgren|Added language javaU with an untrusted call handler
+b12065f853bdfd7b05b5724f8fd35285f7560610|2005-02-10|thallgren|*** empty log message ***
+59b7de9db576674c4ff6cc0dab7ace8411ae7ab3|2005-02-09|thallgren|Cached schema loaders now cleared when jars are loaded or removed and after set_classpath.
+13b904567e5fc043c0ae813cc1de945d3d82a7b2|2005-02-09|thallgren|Added SecurityManagers for trusted and untrusted versions
+7695c4442e975a049f40ba1828df37b5097c366f|2005-02-07|thallgren|Makefile changes for 1.0.1
+597300cbeab01990bcca58ccc295178ae722382c|2005-02-06|thallgren|*** empty log message ***
+6bf0f3a9e3421ae6a8e44eee501b7e35ffc84a70|2005-02-06|thallgren|Additional security constraints
+23d88c4c83f3d8a5cecf7ee04cede7899d705871|2005-02-05|thallgren|Filips additions and ability to execute a statement as the session user.
+516d806b5b7936fdeb0823d7518237c347492ab6|2005-02-05|thallgren|*** keyword substitution change ***
+a6116038097ea247de9189b4cbbcb3e906e318e3|2005-01-23|thallgren|*** empty log message ***
+f43bf3ca69fb8bcdc504e57868a7abdf5af32735|2005-01-23|thallgren|*** empty log message ***
+81dc33d17d0214260b369149f18c0dab781a97c4|2005-01-23|thallgren|*** empty log message ***
+cc4ab2caab79c95c3f18325a3a501fa27f44673e|2005-01-23|thallgren|Changed banner text.
+edd8b578d602c9ee136ba678d94b8fa543b0975c|2005-01-23|thallgren|Added first incarnation of SQL function/trigger generator based on annotations.
+924feedb49b81366222a2eb19cbc362158ab2811|2005-01-23|thallgren|*** empty log message ***
+f71cdd721b3a2b4a32fdd17674378aac3fca46af|2005-01-10|thallgren|*** empty log message ***
+2ba65131f87ac53f6539dbdb25719f764948332f|2005-01-03|thallgren|*** empty log message ***
+cebbd7203eeeff1c94c642812fe173f70db0d8a0|2005-01-03|thallgren|Improved caching and closing of prepared statements.
+e926df4529f6746060744dee2625e631000b2752|2005-01-01|thallgren|Fixed bug in hash key calculation
+40f14975d563860cf9e007419eac4682216f8663|2004-12-16|thallgren|*** empty log message ***
+3fc6a3b0e4878da5530fbd6d2835261c5cc5975d|2004-12-06|thallgren|*** empty log message ***
+074f5c0c91abe35ed2b03583135a5ec7ecffa40b|2004-12-04|thallgren|*** empty log message ***
+ddb8c6c42a78987081e34893300988162dfe3b9d|2004-12-03|thallgren|*** empty log message ***
+3e12331cdf40f3aac4220cedc6433f7cec33e679|2004-12-02|thallgren|*** empty log message ***
+264c017aadb36939204373a207921c1328ae6cbf|2004-12-02|thallgren|*** empty log message ***
+7691f0b7da2e9d4f21fc4c356b24ccbe36804d0d|2004-12-02|thallgren|*** empty log message ***
+4bd60b3380079a82236bcdf89ae73d367124c93b|2004-12-01|thallgren|*** empty log message ***
+6a8e449273d45df1637c2c3a51d6ba175dd0f249|2004-12-01|thallgren|*** empty log message ***
+b7e8353e3b606357cab1b1867694cae574ad9ac6|2004-12-01|thallgren|*** empty log message ***
+6a65b3c5e9c954f8ffb63d7496d4ff0e88df6a01|2004-12-01|thallgren|*** empty log message ***
+d1032c45a37f2fb8876ea13cf96596ef121ae34d|2004-12-01|thallgren|*** empty log message ***
+455bbbf2188163108414e1ffb38d63c088a37604|2004-12-01|thallgren|*** empty log message ***
+1c1bbe3e550f0a090bcd3c7d252298b1a860b29a|2004-11-30|thallgren|*** empty log message ***
+f506ca4110b89cbf0b1f10a53daebadeca3127d4|2004-11-30|thallgren|*** empty log message ***
+f723988f0f147f313102e69bbecf9a4a4a933ec4|2004-11-30|thallgren|*** empty log message ***
+bc154e253df963ebacbb9b260050642fb7bf0667|2004-11-27|thallgren|Added support for LargeObjects
+1a623108ef3f253df0fdeda40f93f8299c5bfcf7|2004-11-25|thallgren|*** empty log message ***
+0caff863543cdf1a638bb2198b7b574957ff72f9|2004-11-25|thallgren|*** empty log message ***
+d9e97a4030b0f3ed1b300ff73de1ec671e94e261|2004-11-25|thallgren|*** empty log message ***
+9fa18f41cac26d7ecea0f1ff2018e746ee16a46d|2004-11-25|thallgren|*** empty log message ***
+aebcc9bf3c8c1517562a17f60d7e0d9d1ae697e6|2004-11-25|thallgren|*** empty log message ***
+f2d354c168402b1088c1444f602624239cd669ef|2004-11-23|thallgren|*** empty log message ***
+46f9967c3129352f463f519a3b545914b01e3d80|2004-11-15|thallgren|*** empty log message ***
+a25a5559efd2ea7e9c2c10206c3627af710f2a78|2004-11-14|thallgren|*** empty log message ***
+88e4c283328b5890bad649b491d670e46d0f689e|2004-11-12|thallgren|Added class resource handling and example of use.
+37d6e4ab1a570858cee9abae56e3e44e28ae68db|2004-11-12|thallgren|*** empty log message ***
+f9e55cd223d7abedbc9e6374a042bee765ff4eed|2004-10-31|thallgren|*** empty log message ***
+b084d51ac8b663b3d24d4245447fdf169c269822|2004-10-30|thallgren|*** empty log message ***
+1f0b8361c6f02a77f65e69ad9f376c9e223e80cc|2004-10-30|thallgren|*** empty log message ***
+a9f3489900ba3571b91af99e8e779ba6f6878f8f|2004-10-30|thallgren|Changes needed between PostgreSQL 8.0.0beta2 and beta3.
+62c8defc80141af4363a32b87a780e11dd952701|2004-09-28|thallgren|*** empty log message ***
+d8f9b29a8c7efa96ddc395bc2edd39debb422d55|2004-09-27|thallgren|Added caching of plans
+50361ab78da3d07a54cf19a997b86d111fef783a|2004-09-24|thallgren|*** empty log message ***
+d2b0b20b0c467270bad5ac95f49c52ba37ce221a|2004-09-24|thallgren|*** empty log message ***
+851e94244d2114dde6e46696126381d062ea4ca6|2004-09-23|thallgren|*** empty log message ***
+4271d61680456e448b0becc190ef8e895cf9b763|2004-09-23|thallgren|*** empty log message ***
+f0b8b4fc27f73de6ac15271e51721bbc2632a41e|2004-09-23|thallgren|*** empty log message ***
+f63aacf7a055b66886e5daa23268fddc55359c4c|2004-09-23|thallgren|*** empty log message ***
+ef5983303bd8b1f08e40dfdb894de4f2433c84cb|2004-09-22|thallgren|*** empty log message ***
+7b30a45a49252caa4a82bb8dd5ef539d212e3695|2004-09-22|thallgren|*** empty log message ***
+579b318de8a3feb7248c172d4a475690f1109bbe|2004-09-22|thallgren|*** empty log message ***
+68e38a65ed52315b728ed2de9f6294a634f6443b|2004-09-20|thallgren|Fixed some gcjh compiler problems
+5c117607e2fc29b220f3420efdeec6641c5993a5|2004-09-20|thallgren|Removed word formatting
+854f0e9f069dbd957c61d87a99a8ae8e8bdecb50|2004-09-20|thallgren|Fixed bug occuring sporadically on re-entry.
+1e33d1a73d766916d87b9231a6840884dd25118e|2004-09-13|thallgren|*** empty log message ***
+5e63369834c1a875de88b3afec4537f50439793c|2004-09-02|thallgren|*** empty log message ***
+6fdcf40a6aa078ebfb5a7f5dc850d709b4e31d7a|2004-09-02|thallgren|Added maven_bundle make target
+71911b2afc813ebd4c0093b922a5df9947d19957|2004-09-01|thallgren|Better interface/implementation separation.
+d426c834636d369bde5782932c840946a3de22b6|2004-08-21|thallgren|*** empty log message ***
+df96432ebda7370f5d34b1ca7b0ea453391880c5|2004-08-18|thallgren|Added test_all target
+d5d4c3b9b037b730a91499477875d53d985f96ce|2004-08-17|thallgren|Win32 makefile fixes
+466aa1ffbf64f077d20de942b56d7d112a13b097|2004-08-17|thallgren|*** empty log message ***
+38ac2e9978a447d2323e3cedd98e9c4bedff0e4f|2004-08-17|thallgren|Build structure changes
+a6dbb1262d4591c032b066f9b3ddbb4a9fdf6933|2004-08-17|thallgren|Build structure changes
+a2e2db456356ef09a4d1545692a6cb0dae1d386b|2004-08-17|thallgren|Build structure changes
+12e1035f7372e8c3e4db4b7c590b9441ee2bd4fc|2004-08-17|thallgren|Build structure changes
+80689e5385d4465daccdcc0c50f357af40121978|2004-08-17|thallgren|Build structure changes
+81ae5acf4f937f5be2ce8af3fe882e6c641ef7a8|2004-08-17|thallgren|Build structure changes
+a944ea4575e5bdf874385ec2ab091ced5f323ee8|2004-08-16|thallgren|*** empty log message ***
+56edac6ca6928a9bc07ea64d9d81af754a8b70a1|2004-08-16|thallgren|Fix of bug 915 and 916
+7e0f3eeffd4d357717ad7c3b52c80a3878c60247|2004-08-13|thallgren|Fix bug #912
+c8d62a487d4f9a21e82f5b6b2bcd550f2a2f1b13|2004-08-12|thallgren|*** empty log message ***
+1e950369680fab5d8f289d5715b512211eae5762|2004-08-12|thallgren|*** empty log message ***
+14e5a6b9ed598d0aeb1fefbcc6c4000b65c35af6|2004-08-12|thallgren|7.4 compatibility
+72ef52b745e531978c29c5394d5683829852a58e|2004-08-11|thallgren|Fix for bug #907 and #908
+5874df21a3048b3200ee765dc0e68f971ce30b16|2004-08-10|thallgren|*** empty log message ***
+79203b6ab35be48826a20575340020a951c331cd|2004-08-10|thallgren|*** empty log message ***
+8ede3180dbedcca59871fdb7fafaff8bc85896f6|2004-08-08|thallgren|Change of license text
+43825970b0c70ac3a543da400c8a57c915657187|2004-08-08|thallgren|try/catch changes
+2e7108a48972f2ab154133515217180d6edfbf02|2004-07-30|thallgren|Change of license text
+4638071979c633d98b443ee3b89d2116b2416df1|2004-07-16|thallgren|*** empty log message ***
+7d9eed3b0de8a2069561a9d50e4428236f6b4d1d|2004-07-04|thallgren|*** empty log message ***
+b7323eaed1e3b344e9a2f9589c8763b45f17fc97|2004-06-10|thallgren|GCJ improvements
+5a7f32cf763947675ede46708783ebe27008291a|2004-06-09|thallgren|*** empty log message ***
+b43c08d5056400b2dbe3ccf3151278871585837a|2004-05-28|thallgren|*** empty log message ***
+fa8fa984340dae35dd96f489674c4bb81b446a9f|2004-05-27|thallgren|*** empty log message ***
+518d5d1b2edaceee19dcc211390107d2c61b280e|2004-05-27|thallgren|*** empty log message ***
+975f9752b907c20d807c28ab553c05c84922a05f|2004-05-27|thallgren|*** empty log message ***
+8567c724d747f4add1d2c14531038233d1f9fdca|2004-05-27|thallgren|HeapTupleHeader needed for complex types in 7.5
+45f9549f8c6def9b6dcf0d7795129f3a99b3c025|2004-05-26|thallgren|Experimental test target
+e754f27f253126f74e1cef4198c8f9465aef0205|2004-05-25|thallgren|Improved JNI linking. No loadLibrary necessary now.
+5d9cfa2ee17586b748016a57a586255f11cb0bea|2004-05-24|thallgren|Added version logic to makefile system
+5cb2598d35bab28f098c2a51cbe6299f964fe13e|2004-05-24|thallgren|Static linkage support
+5d84fa34b4628d47372ed7f60a246eea45ed9d7d|2004-05-07|thallgren|*** empty log message ***
+9781a18b57b53ca6d6f9055a46ed2adc079f5e1f|2004-05-06|thallgren|Makefile improvements for cygwin build
+81c7d75aa49aae7b8907b9b39a053afac4d7d894|2004-05-05|thallgren|Fixes to some problems reported by Filip Hrbek
+73e836f60c41bd4ac5580dffdda98ade4560713b|2004-05-05|thallgren|Makefile improvements
+380a6e5b153c9ba803cde1076d434e05256bb104|2004-05-04|thallgren|*** empty log message ***
+9a2e03b1212f2470698bf8daacdc4a797155a4a5|2004-04-29|thallgren|*** empty log message ***
+0a5bbf3921125dfacfb754911bc4f72974cd953a|2004-04-27|thallgren|*** empty log message ***
+52dea5b84b47ff1c51ef7c2840ab72e695397fb4|2004-04-25|thallgren|*** empty log message ***
+d275bcac6ab3ee7c861094c0f64e08b23af55c88|2004-03-24|thallgren|*** empty log message ***
+c5362cedfda26ef7e26a90ffa81d3718c3e98978|2004-03-15|thallgren|*** empty log message ***
+dbc1e021353f44a1fd2c4ee1c697727e23a53d31|2004-03-15|thallgren|*** empty log message ***
+5d2d2124a03d6f86f915d32719169add3a239c5e|2004-03-15|thallgren|*** empty log message ***
+9ebc82e733b872dc054168dafaad82d1863cf6d6|2004-02-08|thallgren|*** empty log message ***
+6ad53e618724accee6e28e05350af47c2caddceb|2004-02-07|thallgren|*** empty log message ***
+94e23ba02b55e8008a935fcf3e397db0adb4671b|2004-02-07|thallgren|*** empty log message ***
+3894ca6ffebf0b43e623a3e40ce1d34483b2ffaa|2004-02-05|thallgren|Added better signal handling
+7eb12e190b668debd1064949255ec761b917952b|2004-02-05|thallgren|*** empty log message ***
+e4491f4d78cf9ec46d8bba521644acc837b157d9|2004-02-05|thallgren|*** empty log message ***
+45d28fdedbe54df801bf73e4f9a140cc49b24d86|2004-02-03|thallgren|Added -port option
+79fdc7f0b4af6f38f8e0ae4ade79615bee2c84f2|2004-02-03|thallgren|Changed all places where code and declartions where mixed
+23eab25e35a02203041af8e58fd3a1006a1d00ed|2004-02-03|thallgren|Named an anonymous struct in the Ptr2Long union
+c9204602e3b5b05e1b0a26206ecc1c517fcc7de7|2004-01-30|thallgren|*** empty log message ***
+d6d2ebd40973bd0cb2083a4f6b8a596cc7bd1c59|2004-01-29|thallgren|*** empty log message ***
+34884238c1b51dbc62ce867ab611a65e5c6fcfca|2004-01-27|thallgren|*** empty log message ***
+7449a77840724a20b56a97a36bd4f7d2cc399070|2004-01-27|thallgren|*** empty log message ***
+3dd95f86c27732ff0becb8352be4cc3d8647c19a|2004-01-27|thallgren|*** empty log message ***
+e2905c405da7d978e86b4821b3ce3ebd0f704c6c|2004-01-27|thallgren|*** empty log message ***
+14ac117e397241d541fea216ec6a6b29fd9cd207|2004-01-27|thallgren|*** empty log message ***
+d68da0139c618bd8bd88d9cbfeeb035f728900d6|2004-01-27|thallgren|*** empty log message ***
+22c691bfdbda0fbbc800da26c9e83cc7c4d39876|2004-01-26|thallgren|*** empty log message ***
+c01536cb19276bbd604522369a4594364915966e|2004-01-26|thallgren|*** empty log message ***
+361d00dab101d8ce76d243853be6316a0acd87cc|2004-01-22|thallgren|*** empty log message ***
+fe470ad3e8690f15e1fa45cbfabc8536503691d7|2004-01-22|thallgren|*** empty log message ***
+a5aca9e8a76c284905604cf07aab05fbbd0af16c|2004-01-22|thallgren|*** empty log message ***
+e738cc8a9a1e0c846b366599ac09e44d28de7c03|2004-01-22|thallgren|General clean-up of threading and fence mechanisms.
+67eea979bcd4575f285c30c581fd0d674c13c1fa|2004-01-21|thallgren|*** empty log message ***
+da8ab8285bdc023711a8fd2ba616ef0b35c79bbc|2004-01-21|thallgren|*** empty log message ***
+5e4131738cd095b7ff6367d64f809f6cec6a7ba7|2004-01-20|thallgren|*** empty log message ***
+9cf090e8757ca2e63eca04e15829fe64be36e823|2004-01-17|thallgren|*** empty log message ***
+4bed5f83f60a0df51bcab6c81fffa914a2ba04fe|2004-01-17|thallgren|*** empty log message ***
+6eb21943877a9d95f096ab944ba02c3c1d8e0e5b|2004-01-17|thallgren|*** empty log message ***
+d5110b025ab45466ac64b3a14848fca970939e8d|2004-01-17|thallgren|*** empty log message ***
+6a594eacf5f0e4e672eae389c98a0737550ee122|2004-01-16|thallgren|*** empty log message ***
+7aef47912c42803ef300daf6740244ce9b7788ba|2004-01-16|thallgren|*** empty log message ***
+1ddf848447a2e820a2db120de82100c2ef689836|2004-01-16|thallgren|*** empty log message ***
+86793a2f4e9dbc17c1d8ab866cb2ec3861a6637d|2004-01-16|thallgren|*** empty log message ***
+d034827dba9947e68485351e3f891a6afa92aabf|2004-01-15|thallgren|*** empty log message ***
+2f26c1a61f0f29a8f61753db5819780917aabaa3|2004-01-15|thallgren|*** empty log message ***
+d275d0a14daa591974a8892e31ba34253235787a|2004-01-14|thallgren|*** empty log message ***
+2682e8d90c2e8f7dd8c4288f9e9e4093a8c732e4|2004-01-14|thallgren|Not functional yet
+f8dd8d74bc9cb562440054064834a2a014d39d79|2004-01-14|thallgren|Clean up of Triggers so that they now use ResultSet.
+416aab8e8267a6472445d64232a684820d720cdb|2004-01-14|thallgren|Added TriggerResultSet and interface for TriggerData.
+4153beb178832bfb9c71d656a0b293b49eae72ea|2004-01-14|thallgren|*** empty log message ***
+d917e46c0ebf7f4888ff8e9cffb2af9a866077fe|2004-01-12|thallgren|Added stuff needed for ExecutionPlan management.
+ccede4119d1e86113c8e96794ad4740668e69280|2004-01-12|thallgren|Added classes to handle SPI cursors and complex set parameters.
+85e576830a861b9dc5e4707816325f69042a4d87|2004-01-07|thallgren|Initial revision
+d2285d74ac4da8e803676845e24fbfd1f6c4c9d4|2004-01-07|thallgren|Initial revision
+5e0acddcb73671d5060eb58174111cc7a0712cba|2000-02-09|chap|Added plug for bug votes on the jar file specification bug.
+66dd83ead3478ff05f1551f775908bf72a448ffb|2000-02-09|chap|There can be reasons to explicitly include directories in jars, and to extract them even if they are empty, so JarX and Build now permit that.
+3c83363c037c27272ef188eeb631f92c46ea9c3a|2000-01-31|chap|Corrected a type and two RFC links.
+93353fb816804e3b800d5c7104833bd69d174bcf|2000-01-29|chap|Using the ZipFile enumeration in extract(String) was a crock.  The enumeration comes back in hashed order, the resulting seek time is atrocious, and on a large enough jar, the oh-so-reliable ZipFile would eventually just barf.  Now we open the file twice, the second time as a ZipInputStream.  It's more reliable and faster, though it does introduce assumptions about the file being a regular file, still there when we try to open it the second time, etc. Sure would be nice if ZipFile worked better.
+92cd3f7247dcdc2f1d7d76b2b187de09fb4b4432|2000-01-29|chap|Initial commit.

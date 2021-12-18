@@ -1,0 +1,4 @@
+Id_db,File,System,Version,Package,Release,Class,ExcessiveInterlangCommunication,Too much clustring,Too much Scattering,UnusedMethodDeclaration,UnusedMethodImplementation,UnusedParameter,AssumingSafeReturnValue,ExcessiveObjects,NotHandlingExceptions,NotCachingObjects,NotSecuringLibraries,HardCodingLibraries,NotUsingRelativePath,MemoryManagementMismatch,LocalReferencesAbuse,FilePath
+1,ffi.c,jna,Snap_ 8,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,C:/DetectionNewVersion27-02/new-downloads/jna_snapshots/jna_8\libffi\ia64\ffi.c
+2,ffitest.c,jna,Snap_ 8,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,C:/DetectionNewVersion27-02/new-downloads/jna_snapshots/jna_8\libffi\ffitest.c
+3,ffi.c,jna,Snap_ 8,nan,,nan,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,C:/DetectionNewVersion27-02/new-downloads/jna_snapshots/jna_8\libffi\mips\ffi.c

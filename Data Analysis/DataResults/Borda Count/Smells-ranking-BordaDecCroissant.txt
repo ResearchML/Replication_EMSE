@@ -1,0 +1,39 @@
+15 candidates
+15 ranks
+====================
+Using candidates as base points:
+candidates
+NotHandlingExceptions  =  2261
+AssumingSafeReturnValue  =  2137
+LocalReferences  =  2063
+MemoryManagement  =  2052
+ExcessiveCommunication  =  2040
+Clustering  =  1876
+SecuringLibraries  =  1358
+Scattering  =  1342
+ExcessiveObjects  =  1211
+UnusedImplementation  =  964
+CachingObjects  =  812
+HardCodingLibraries  =  746
+RelativePath  =  632
+UnusedDeclaration  =  588
+UnusedParameters  =  438
+====================
+Using ranks as base points:
+ranks
+NotHandlingExceptions  =  2261
+AssumingSafeReturnValue  =  2137
+LocalReferences  =  2063
+MemoryManagement  =  2052
+ExcessiveCommunication  =  2040
+Clustering  =  1876
+SecuringLibraries  =  1358
+Scattering  =  1342
+ExcessiveObjects  =  1211
+UnusedImplementation  =  964
+CachingObjects  =  812
+HardCodingLibraries  =  746
+RelativePath  =  632
+UnusedDeclaration  =  588
+UnusedParameters  =  438
+====================
