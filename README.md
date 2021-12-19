@@ -1,7 +1,5 @@
 "# SurveyMLSSmells" 
 
-"# SurveyMLSSmells" 
-
 Replication Utilities 
 
 This repository includes the steps and information needed to replicate our study.
