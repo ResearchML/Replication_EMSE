@@ -1,5 +1,7 @@
 "# SurveyMLSSmells" 
 
+"# SurveyMLSSmells" 
+
 Replication Utilities 
 
 This repository includes the steps and information needed to replicate our study.
@@ -10,7 +12,7 @@ This repository includes the steps and information needed to replicate our study
 
 This project aims to assess the perception of the defined design smells from the developers' perspective. We also aim to investigate developers' perception of the severity of the multi-language design smells and their impacts on software quality attributes.
 
- Detection of multi-language design smells occurrences
+1- Detection of multi-language design smells occurrences
 Location: Folder Detection Approach
 
 Approach: Detection Approach
@@ -41,7 +43,7 @@ Acknowledgments
 Loosely inspired by the SAD tool in Ptidej
 
 
-Data Collection (Snapshots, logs, and developers’ information).
+2- Data Collection (Snapshots, logs, and developers’ information).
 Location: Folder Data Collection
 Scripts: Contains the script used to clone the projects, collect the logs and developers information, and map the results with the smell occurrences
 Results: Contains the results of the logs and developers information, and mapping of the results with the smell occurrences.
@@ -61,7 +63,7 @@ Results in Folders:
 “Snapshots_information” contains the logs related to the subject systems.
 “Surveys”: Contains the surveys used.
 
-Data Analysis
+3- Data Analysis
 Approach: Combination of python script and manual analysis for the coding process
 src: Contains the scripts used for the data analysis (Folder MLS-survey)
 Results: Contains the results of the quantitative results, figures, and the statistical tests applied to answer our research questions
